@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <KebabTweaks.SettingsCategory>HSK kebab tweaks</KebabTweaks.SettingsCategory>
+  <KebabTweaks.RequiresRestartTooltip>Enabling/disabling this patch applies only after a game restart — marked yellow when not yet applied.</KebabTweaks.RequiresRestartTooltip>
+  <KebabTweaks.SupersededStandaloneTooltip>This feature is silent-skipped because the old standalone mod/patch is still enabled. Disable that mod in the mod list and restart.</KebabTweaks.SupersededStandaloneTooltip>
+  <KebabTweaks.ResetAll>Full reset of all settings</KebabTweaks.ResetAll>
+  <KebabTweaks.ResetAllConfirm>Reset all HSK kebab tweaks settings to their default values?</KebabTweaks.ResetAllConfirm>
+  <KebabTweaks.ResetFeature>Reset</KebabTweaks.ResetFeature>
+  <KebabTweaks.ResetFeatureConfirm>Reset settings for {FEATURE} to defaults?</KebabTweaks.ResetFeatureConfirm>
+  <KebabTweaks.EnableLoggingConfirmTitle>Enable logging?</KebabTweaks.EnableLoggingConfirmTitle>
+  <KebabTweaks.EnableLoggingConfirm>Verbose logging writes diagnostic messages to Player.log. Only enable it when you need to troubleshoot this feature.\n\nDo not enable logging if you do not know what you are doing.</KebabTweaks.EnableLoggingConfirm>
+  <KebabTweaks.KebabSwitches.Header>Notifications</KebabTweaks.KebabSwitches.Header>
+  <KebabTweaks.Tab.Notifications>Notifications</KebabTweaks.Tab.Notifications>
+  <KebabTweaks.Tab.Patches>Patches</KebabTweaks.Tab.Patches>
+  <KebabTweaks.Tab.Fixes>Fixes</KebabTweaks.Tab.Fixes>
+
+  <KebabTweaks.Patch.CatCrazyTime>Cat Crazy Time Fix</KebabTweaks.Patch.CatCrazyTime>
+  <KebabTweaks.Patch.CatCrazyTime.Tooltip>Fixes CrazyTime toil load/resume issues for cats.</KebabTweaks.Patch.CatCrazyTime.Tooltip>
+
+  <KebabTweaks.Patch.CatFloorSleep>Cat Floor Sleep Fix</KebabTweaks.Patch.CatFloorSleep>
+  <KebabTweaks.Patch.CatFloorSleep.Tooltip>Fixes domestic cat floor LayDown reservation conflicts.</KebabTweaks.Patch.CatFloorSleep.Tooltip>
+
+  <KebabTweaks.Patch.ArmorRacksAssignFix>Armor Racks Assign Fix</KebabTweaks.Patch.ArmorRacksAssignFix>
+  <KebabTweaks.Patch.ArmorRacksAssignFix.Tooltip>Fixes Armor Racks Set Owner / assign when a colonist is in cryptosleep or another container (pawn.Map is null).</KebabTweaks.Patch.ArmorRacksAssignFix.Tooltip>
+
+  <KebabTweaks.Patch.CeRunForCoverDestFix>CE Run For Cover Dest Fix</KebabTweaks.Patch.CeRunForCoverDestFix>
+  <KebabTweaks.Patch.CeRunForCoverDestFix.Tooltip>Fixes Combat Extended RunForCover destination reservation cleanup.</KebabTweaks.Patch.CeRunForCoverDestFix.Tooltip>
+
+  <KebabTweaks.Patch.CeProjectileNullSoundFix>CE Projectile Null Sound Fix</KebabTweaks.Patch.CeProjectileNullSoundFix>
+  <KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>Skips Combat Extended projectile sound when the launcher or sound def is missing.</KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>
+
+  <KebabTweaks.Patch.FishTableTypeListFix>Fish Table Type List Fix</KebabTweaks.Patch.FishTableTypeListFix>
+  <KebabTweaks.Patch.FishTableTypeListFix.Tooltip>Guards Performance Fish ListerThings type-list corruption.</KebabTweaks.Patch.FishTableTypeListFix.Tooltip>
+
+  <KebabTweaks.Patch.GetActiveRitualsFix>Get Active Rituals Fix</KebabTweaks.Patch.GetActiveRitualsFix>
+  <KebabTweaks.Patch.GetActiveRitualsFix.Tooltip>Returns a fresh list from IdeoManager.GetActiveRituals.</KebabTweaks.Patch.GetActiveRitualsFix.Tooltip>
+
+  <KebabTweaks.Patch.GrowerCutTrees>Grower Cut Trees</KebabTweaks.Patch.GrowerCutTrees>
+  <KebabTweaks.Patch.GrowerCutTrees.Tooltip>Adds farmer sub-work for cutting trees in growing zones before sowing.</KebabTweaks.Patch.GrowerCutTrees.Tooltip>
+
+  <KebabTweaks.Patch.IdleErrorWanderFix>Idle Error Wander Fix</KebabTweaks.Patch.IdleErrorWanderFix>
+  <KebabTweaks.Patch.IdleErrorWanderFix.Tooltip>Fixes IdleError wait-job errors when lord wander fails.</KebabTweaks.Patch.IdleErrorWanderFix.Tooltip>
+
+  <KebabTweaks.Patch.AllowToolHaulUrgentlyNreFix>Allow Tool Haul Urgently NRE Fix</KebabTweaks.Patch.AllowToolHaulUrgentlyNreFix>
+  <KebabTweaks.Patch.AllowToolHaulUrgentlyNreFix.Tooltip>Guards Allow Tool HaulUrgentlyCacheHandler when map designationManager is null during HugsLib FixedUpdate.</KebabTweaks.Patch.AllowToolHaulUrgentlyNreFix.Tooltip>
+
+  <KebabTweaks.Patch.DubsAnalyzerBeginUpdateFix>Dubs Analyzer BeginUpdate Fix</KebabTweaks.Patch.DubsAnalyzerBeginUpdateFix>
+  <KebabTweaks.Patch.DubsAnalyzerBeginUpdateFix.Tooltip>Closes a stale Dubs Performance Analyzer update cycle before BeginUpdate logs CRITICAL (often when opening the analyzer UI).</KebabTweaks.Patch.DubsAnalyzerBeginUpdateFix.Tooltip>
+
+  <KebabTweaks.Patch.DebugLogSplitterDragFix>Debug Log Splitter Drag Fix</KebabTweaks.Patch.DebugLogSplitterDragFix>
+  <KebabTweaks.Patch.DebugLogSplitterDragFix.Tooltip>Clears a stuck Debug Log stack-trace splitter drag after Alt+Tab if the left mouse button is no longer held.</KebabTweaks.Patch.DebugLogSplitterDragFix.Tooltip>
+
+  <KebabTweaks.Patch.LowTpsPawnDump>Low TPS Pawn Dump</KebabTweaks.Patch.LowTpsPawnDump>
+  <KebabTweaks.Patch.LowTpsPawnDump.Tooltip>Logs pawn jobs when the HSK on-screen TPS counter drops below a threshold.</KebabTweaks.Patch.LowTpsPawnDump.Tooltip>
+
+  <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown</KebabTweaks.Patch.IdleWorkSearchCooldown>
+  <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>After a colonist finds no work, delays the next full JobGiver_Work scan for the configured tick count (0–100000). Minimum interval after a failed scan; vanilla wander timing (~125–200 ticks) still applies. Reduces TPS loss from idle pawns repeatedly scanning all work priorities.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
+
+  <KebabTweaks.Patch.PtgMedicalCare>PTG Medical Care Fix</KebabTweaks.Patch.PtgMedicalCare>
+  <KebabTweaks.Patch.PtgMedicalCare.Tooltip>Fixes MedicalCare header IndexOutOfRange with extended medicine.</KebabTweaks.Patch.PtgMedicalCare.Tooltip>
+
+  <KebabTweaks.Patch.SeedsPleaseSowFix>SeedsPlease Sow Fix</KebabTweaks.Patch.SeedsPleaseSowFix>
+  <KebabTweaks.Patch.SeedsPleaseSowFix.Tooltip>Fixes SeedsPlease TargetB NRE and SowWithSeeds toil clamp.</KebabTweaks.Patch.SeedsPleaseSowFix.Tooltip>
+
+  <KebabTweaks.Patch.TakeFromMending>Take From Mending Fix</KebabTweaks.Patch.TakeFromMending>
+  <KebabTweaks.Patch.TakeFromMending.Tooltip>Fixes the Take from button for MendAndRecycle / bills.</KebabTweaks.Patch.TakeFromMending.Tooltip>
+
+  <KebabTweaks.Patch.TradeCaravanLordFix>Trade Caravan Lord Fix</KebabTweaks.Patch.TradeCaravanLordFix>
+  <KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>Fixes TradeWithColony NRE / FindTrader / stamp hygiene.</KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>
+
+  <KebabTweaks.Patch.ApparelPolicyLoad>Apparel Policy Load</KebabTweaks.Patch.ApparelPolicyLoad>
+  <KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>When loading a saved apparel policy via Save Storage Settings, create a new policy named after the save file instead of overwriting the selected one.</KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>
+
+  <KebabTweaks.Patch.BillRenamePrefill>Bill Rename Prefill</KebabTweaks.Patch.BillRenamePrefill>
+  <KebabTweaks.Patch.BillRenamePrefill.Tooltip>Prefills Better Workbench Management bill rename with the current label and selects all text.</KebabTweaks.Patch.BillRenamePrefill.Tooltip>
+
+  <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log</KebabTweaks.Patch.RecipeProductDropLostLog>
+  <KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>Tracks items lost to «could not drop recipe product» in KebabTweaks/RecipeProductDropLost.log.</KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>
+
+  <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>Storage AllowedToAccept Fix</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>
+  <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>Guards StorageSettings.AllowedToAccept when filter or parent is null.</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>
+
+  <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>Hospitality Guest Apparel Optimize Fix</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>
+  <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>Fixes Hospitality guest apparel optimize NRE on invalid apparel records.</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>
+
+  <KebabTweaks.Patch.NeanderthalChiefLeaderFix>Neanderthal Chief Leader Fix</KebabTweaks.Patch.NeanderthalChiefLeaderFix>
+  <KebabTweaks.Patch.NeanderthalChiefLeaderFix.Tooltip>Removes inherited CE Melee skill floors from Neanderthal tribal chiefs and guards worldgen when leader generation returns null.</KebabTweaks.Patch.NeanderthalChiefLeaderFix.Tooltip>
+
+  <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
+  <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Stops Map Preview false accuracy Errors when the HSK 1.6 Alpha vanilla RNG baseline drifts, and keeps preview SkipIterations in sync with the measured value.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
+
+  <KebabTweaks.Patch.UnifiedXmlPathFix>Unified Xml Path Fix</KebabTweaks.Patch.UnifiedXmlPathFix>
+  <KebabTweaks.Patch.UnifiedXmlPathFix.Tooltip>Rewrites Unified Xml Export relative ./Mods paths onto GenFilePaths.ModsFolderPath when started via HSK Launcher.</KebabTweaks.Patch.UnifiedXmlPathFix.Tooltip>
+
+  <KebabTweaks.Patch.MainMenuBgFitFix>Main Menu Background Fit Fix</KebabTweaks.Patch.MainMenuBgFitFix>
+  <KebabTweaks.Patch.MainMenuBgFitFix.Tooltip>Fixes RimThemesLite animated main menu background clipping when UI Scale is greater than 1.</KebabTweaks.Patch.MainMenuBgFitFix.Tooltip>
+
+  <KebabTweaks.Patch.RimatomicsGuidancePanelFix>Rimatomics Guidance Panel Fix</KebabTweaks.Patch.RimatomicsGuidancePanelFix>
+  <KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>Fixes the Rimatomics research panel when a project has no unlock icons (Guidance System), so the panel draws steps and buttons and stops BeginScrollView/EndScrollView errors.</KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>
+
+  <KebabSwitches.EnableLogging>Enable logging</KebabSwitches.EnableLogging>
+  <KebabSwitches.ScreenMessagesHeader>Messages (upper-left screen feed)</KebabSwitches.ScreenMessagesHeader>
+  <KebabSwitches.Ignore.FilledTheMap>Ignore "Map filled"</KebabSwitches.Ignore.FilledTheMap>
+  <KebabSwitches.Ignore.GaveBirth>Ignore "Colonist gave birth"</KebabSwitches.Ignore.GaveBirth>
+  <KebabSwitches.Ignore.AnimalIsPregnant>Ignore "Animal is pregnant"</KebabSwitches.Ignore.AnimalIsPregnant>
+  <KebabSwitches.Ignore.MiscarriedStarvation>Ignore "Miscarriage from starvation"</KebabSwitches.Ignore.MiscarriedStarvation>
+  <KebabSwitches.Ignore.MiscarriedPoorHealth>Ignore "Miscarriage from poor health"</KebabSwitches.Ignore.MiscarriedPoorHealth>
+  <KebabSwitches.Ignore.SeasonBegun>Ignore "New season began"</KebabSwitches.Ignore.SeasonBegun>
+  <KebabSwitches.Ignore.BillComplete>Ignore "Bill complete"</KebabSwitches.Ignore.BillComplete>
+  <KebabSwitches.Ignore.FullyHealed>Ignore "Colonist fully healed"</KebabSwitches.Ignore.FullyHealed>
+  <KebabSwitches.Ignore.SocialFight>Ignore "Social fight"</KebabSwitches.Ignore.SocialFight>
+  <KebabSwitches.Ignore.NewBondRelation>Ignore "New bond formed"</KebabSwitches.Ignore.NewBondRelation>
+  <KebabSwitches.Ignore.NewBondRelationNewName>Ignore "New bond formed (with name)"</KebabSwitches.Ignore.NewBondRelationNewName>
+  <KebabSwitches.Ignore.FoodPoisoning>Ignore "Food poisoning"</KebabSwitches.Ignore.FoodPoisoning>
+  <KebabSwitches.Ignore.RoamerLeaving>Ignore "Animal roaming away"</KebabSwitches.Ignore.RoamerLeaving>
+  <KebabSwitches.Ignore.HiveReproduced>Ignore "A bug hive has reproduced itself."</KebabSwitches.Ignore.HiveReproduced>
+  <KebabSwitches.Ignore.TraderCaravanLeaving>Ignore "Trade caravan leaving"</KebabSwitches.Ignore.TraderCaravanLeaving>
+  <KebabSwitches.Ignore.TraderCaravanDismissed>Ignore "Trade caravan dismissed"</KebabSwitches.Ignore.TraderCaravanDismissed>
+  <KebabSwitches.Ignore.CompSpawnerSpawnedItem>Ignore "Item produced"</KebabSwitches.Ignore.CompSpawnerSpawnedItem>
+  <KebabSwitches.Ignore.PlantDiedOfCold>Ignore "Plant died of cold"</KebabSwitches.Ignore.PlantDiedOfCold>
+  <KebabSwitches.Ignore.PlantDiedOfRotUnharvested>Ignore "Plant died from age"</KebabSwitches.Ignore.PlantDiedOfRotUnharvested>
+  <KebabSwitches.Ignore.PlantDiedOfRotLight>Ignore "Plant died in light"</KebabSwitches.Ignore.PlantDiedOfRotLight>
+  <KebabSwitches.Ignore.PlantDiedOfRot>Ignore "Plant rotted"</KebabSwitches.Ignore.PlantDiedOfRot>
+  <KebabSwitches.Ignore.PlantDiedOfPoison>Ignore "Plant died of poison"</KebabSwitches.Ignore.PlantDiedOfPoison>
+  <KebabSwitches.Ignore.PlantDiedOfBlight>Ignore "Plant died of blight"</KebabSwitches.Ignore.PlantDiedOfBlight>
+  <KebabSwitches.Ignore.PlantDiedOfPollution>Ignore "Plant died of pollution"</KebabSwitches.Ignore.PlantDiedOfPollution>
+  <KebabSwitches.Ignore.PlantDiedOfNoPollution>Ignore "Plant died without pollution"</KebabSwitches.Ignore.PlantDiedOfNoPollution>
+  <KebabSwitches.Ignore.PlantDiedOfRotPollutedTerrain>Ignore "Plant rotted on polluted soil"</KebabSwitches.Ignore.PlantDiedOfRotPollutedTerrain>
+  <KebabSwitches.Ignore.MinifiedTreeDied>Ignore "An extracted tree just died."</KebabSwitches.Ignore.MinifiedTreeDied>
+  <KebabSwitches.Ignore.RottedAwayInStorage>Ignore "Item rotted in storage"</KebabSwitches.Ignore.RottedAwayInStorage>
+  <KebabSwitches.Ignore.DeterioratedAway>Ignore "Item deteriorated in storage"</KebabSwitches.Ignore.DeterioratedAway>
+  <KebabSwitches.Ignore.WornApparelDeterioratedAway>Ignore "Worn apparel deteriorated away"</KebabSwitches.Ignore.WornApparelDeterioratedAway>
+  <KebabSwitches.LettersHeader>Notifications (right-side envelope feed)</KebabSwitches.LettersHeader>
+  <KebabSwitches.AlertsHeader>Alerts (right-side HUD list)</KebabSwitches.AlertsHeader>
+  <KebabSwitches.IgnoreAlert>Ignore "{QUOTE}"</KebabSwitches.IgnoreAlert>
+  <KebabSwitches.IgnoreLetter>Ignore "{QUOTE}"</KebabSwitches.IgnoreLetter>
+  <KebabSwitches.SurgeryFailedLetterQuote>Surgery failed</KebabSwitches.SurgeryFailedLetterQuote>
+  <KebabSwitches.LetterQuote.BladelinkWeaponBondedLabel>Bladelink weapon bond</KebabSwitches.LetterQuote.BladelinkWeaponBondedLabel>
+  <KebabSwitches.LetterQuote.CraftedLegendaryLabel>Legendary crafted item</KebabSwitches.LetterQuote.CraftedLegendaryLabel>
+  <KebabSwitches.LetterQuote.CraftedMasterworkLabel>Masterwork crafted item</KebabSwitches.LetterQuote.CraftedMasterworkLabel>
+  <KebabSwitches.LetterQuote.FriendlyTrapSprungLabel>Friendly trap sprung</KebabSwitches.LetterQuote.FriendlyTrapSprungLabel>
+  <KebabSwitches.LetterQuote.HealthComplicationsLabel>Health complication during treatment</KebabSwitches.LetterQuote.HealthComplicationsLabel>
+  <KebabSwitches.LetterQuote.HediffFromRandomHediffGiverLabel>Random health condition</KebabSwitches.LetterQuote.HediffFromRandomHediffGiverLabel>
+  <KebabSwitches.LetterQuote.JoinOfferLabel>Join offer</KebabSwitches.LetterQuote.JoinOfferLabel>
+  <KebabSwitches.LetterQuote.AcceptedProposal>Marriage is on!</KebabSwitches.LetterQuote.AcceptedProposal>
+  <KebabSwitches.LetterQuote.Affair>Affair</KebabSwitches.LetterQuote.Affair>
+  <KebabSwitches.LetterQuote.AgentRevealed>Agent</KebabSwitches.LetterQuote.AgentRevealed>
+  <KebabSwitches.LetterQuote.AICoreOffer>Persona Core Offer</KebabSwitches.LetterQuote.AICoreOffer>
+  <KebabSwitches.LetterQuote.AllCaravanColonistsDied>Caravan destroyed</KebabSwitches.LetterQuote.AllCaravanColonistsDied>
+  <KebabSwitches.LetterQuote.AmbushInExistingMap>Ambush</KebabSwitches.LetterQuote.AmbushInExistingMap>
+  <KebabSwitches.LetterQuote.AncientShrineWarning>Ancient danger</KebabSwitches.LetterQuote.AncientShrineWarning>
+  <KebabSwitches.LetterQuote.AnimalInsanityMultiple>Animals going mad</KebabSwitches.LetterQuote.AnimalInsanityMultiple>
+  <KebabSwitches.LetterQuote.AnimalInsanitySingle>Animal going mad</KebabSwitches.LetterQuote.AnimalInsanitySingle>
+  <KebabSwitches.LetterQuote.AnimalManhunterRevenge>Animal revenge</KebabSwitches.LetterQuote.AnimalManhunterRevenge>
+  <KebabSwitches.LetterQuote.AnimalSelfTame>Animal self-tamed</KebabSwitches.LetterQuote.AnimalSelfTame>
+  <KebabSwitches.LetterQuote.AreaRevealed>Area revealed</KebabSwitches.LetterQuote.AreaRevealed>
+  <KebabSwitches.LetterQuote.BeaversArrived>Beavers!</KebabSwitches.LetterQuote.BeaversArrived>
+  <KebabSwitches.LetterQuote.Birthday>Birthday</KebabSwitches.LetterQuote.Birthday>
+  <KebabSwitches.LetterQuote.Breakup>Breakup</KebabSwitches.LetterQuote.Breakup>
+  <KebabSwitches.LetterQuote.CaravanEnteredEnemyBase>Attack begun</KebabSwitches.LetterQuote.CaravanEnteredEnemyBase>
+  <KebabSwitches.LetterQuote.CaravanEnteredMap>Caravan arrived on map</KebabSwitches.LetterQuote.CaravanEnteredMap>
+  <KebabSwitches.LetterQuote.CaravanRequest>Caravan request</KebabSwitches.LetterQuote.CaravanRequest>
+  <KebabSwitches.LetterQuote.CaravansBattlefieldVictory>Caravan battle won</KebabSwitches.LetterQuote.CaravansBattlefieldVictory>
+  <KebabSwitches.LetterQuote.CargoPodCrash>Cargo pods</KebabSwitches.LetterQuote.CargoPodCrash>
+  <KebabSwitches.LetterQuote.CropBlight>Crop blight</KebabSwitches.LetterQuote.CropBlight>
+  <KebabSwitches.LetterQuote.DeepScannerFoundLump>Scanned underground</KebabSwitches.LetterQuote.DeepScannerFoundLump>
+  <KebabSwitches.LetterQuote.DefeatAllEnemiesQuestCompleted>Quest completed</KebabSwitches.LetterQuote.DefeatAllEnemiesQuestCompleted>
+  <KebabSwitches.LetterQuote.DrugBinge>Drug binge</KebabSwitches.LetterQuote.DrugBinge>
+  <KebabSwitches.LetterQuote.FactionBaseDefeated>Base destroyed</KebabSwitches.LetterQuote.FactionBaseDefeated>
+  <KebabSwitches.LetterQuote.FactionBaseProximity>Faction base proximity</KebabSwitches.LetterQuote.FactionBaseProximity>
+  <KebabSwitches.LetterQuote.FarmAnimalsWanderIn>Farm animals joined</KebabSwitches.LetterQuote.FarmAnimalsWanderIn>
+  <KebabSwitches.LetterQuote.FirstSummerWarning>Summer</KebabSwitches.LetterQuote.FirstSummerWarning>
+  <KebabSwitches.LetterQuote.FoundPreciousLump>Distant resource scanned</KebabSwitches.LetterQuote.FoundPreciousLump>
+  <KebabSwitches.LetterQuote.GroupVisitorsArrive>Visitors</KebabSwitches.LetterQuote.GroupVisitorsArrive>
+  <KebabSwitches.LetterQuote.HibernateComplete>Reactor ready</KebabSwitches.LetterQuote.HibernateComplete>
+  <KebabSwitches.LetterQuote.ManhunterPackArrived>Manhunter pack</KebabSwitches.LetterQuote.ManhunterPackArrived>
+  <KebabSwitches.LetterQuote.MechClusterArrived>Mechanoids arrived</KebabSwitches.LetterQuote.MechClusterArrived>
+  <KebabSwitches.LetterQuote.RecruitSuccess>New recruit</KebabSwitches.LetterQuote.RecruitSuccess>
+  <KebabSwitches.LetterQuote.MiracleHeal>Miracle</KebabSwitches.LetterQuote.MiracleHeal>
+  <KebabSwitches.LetterQuote.NewDisease>Disease</KebabSwitches.LetterQuote.NewDisease>
+  <KebabSwitches.LetterQuote.NewLovers>New lovers</KebabSwitches.LetterQuote.NewLovers>
+  <KebabSwitches.LetterQuote.NewlyAddicted>New addiction</KebabSwitches.LetterQuote.NewlyAddicted>
+  <KebabSwitches.LetterQuote.NoticedRelatedPawns>Relationship</KebabSwitches.LetterQuote.NoticedRelatedPawns>
+  <KebabSwitches.LetterQuote.PawnLeaving>Colonist leaving</KebabSwitches.LetterQuote.PawnLeaving>
+  <KebabSwitches.LetterQuote.PawnsArrive>People arrived</KebabSwitches.LetterQuote.PawnsArrive>
+  <KebabSwitches.LetterQuote.PawnsArriveAndJoin>People join</KebabSwitches.LetterQuote.PawnsArriveAndJoin>
+  <KebabSwitches.LetterQuote.PawnsKidnapped>Colonists kidnapped</KebabSwitches.LetterQuote.PawnsKidnapped>
+  <KebabSwitches.LetterQuote.PawnsLeaving>Colonists leaving</KebabSwitches.LetterQuote.PawnsLeaving>
+  <KebabSwitches.LetterQuote.PawnsLostBecauseMapClosed_Caravan>Caravan lost</KebabSwitches.LetterQuote.PawnsLostBecauseMapClosed_Caravan>
+  <KebabSwitches.LetterQuote.PawnsLostBecauseMapClosed_Home>Inhabitants abandoned</KebabSwitches.LetterQuote.PawnsLostBecauseMapClosed_Home>
+  <KebabSwitches.LetterQuote.PeaceTalks_Backfire>Peace talks backfire</KebabSwitches.LetterQuote.PeaceTalks_Backfire>
+  <KebabSwitches.LetterQuote.PeaceTalks_Disaster>Peace talks disaster</KebabSwitches.LetterQuote.PeaceTalks_Disaster>
+  <KebabSwitches.LetterQuote.PeaceTalks_Success>Peace talks success</KebabSwitches.LetterQuote.PeaceTalks_Success>
+  <KebabSwitches.LetterQuote.PeaceTalks_TalksFlounder>Peace talks flounder</KebabSwitches.LetterQuote.PeaceTalks_TalksFlounder>
+  <KebabSwitches.LetterQuote.PeaceTalks_Triumph>Peace talks triumph</KebabSwitches.LetterQuote.PeaceTalks_Triumph>
+  <KebabSwitches.LetterQuote.PredatorHuntingColonist>Predator hunting colonist</KebabSwitches.LetterQuote.PredatorHuntingColonist>
+  <KebabSwitches.LetterQuote.PrisonBreak>Prison break</KebabSwitches.LetterQuote.PrisonBreak>
+  <KebabSwitches.LetterQuote.PsychicDroneLevelIncreased>Drone intensifies</KebabSwitches.LetterQuote.PsychicDroneLevelIncreased>
+  <KebabSwitches.LetterQuote.QuestAskerCaptured>Quest failed</KebabSwitches.LetterQuote.QuestAskerCaptured>
+  <KebabSwitches.LetterQuote.QuestAskerDied>Quest failed</KebabSwitches.LetterQuote.QuestAskerDied>
+  <KebabSwitches.LetterQuote.QuestAskerFactionHostile>Quest failed</KebabSwitches.LetterQuote.QuestAskerFactionHostile>
+  <KebabSwitches.LetterQuote.QuestDropPodsArrived>Pods arrived</KebabSwitches.LetterQuote.QuestDropPodsArrived>
+  <KebabSwitches.LetterQuote.QuestItemsAddedToCaravanInventory>Quest items added to caravan</KebabSwitches.LetterQuote.QuestItemsAddedToCaravanInventory>
+  <KebabSwitches.LetterQuote.RefugeeJoins>Refugee joins</KebabSwitches.LetterQuote.RefugeeJoins>
+  <KebabSwitches.LetterQuote.RefugeePodCrash>Transport pod crash</KebabSwitches.LetterQuote.RefugeePodCrash>
+  <KebabSwitches.LetterQuote.RejectedProposal>Rejected proposal</KebabSwitches.LetterQuote.RejectedProposal>
+  <KebabSwitches.LetterQuote.RelationsChange_Ally>Faction became ally</KebabSwitches.LetterQuote.RelationsChange_Ally>
+  <KebabSwitches.LetterQuote.RelationsChange_Hostile>Faction became hostile</KebabSwitches.LetterQuote.RelationsChange_Hostile>
+  <KebabSwitches.LetterQuote.RelationsChange_NeutralFromAlly>Ally became neutral</KebabSwitches.LetterQuote.RelationsChange_NeutralFromAlly>
+  <KebabSwitches.LetterQuote.RelationsChange_NeutralFromHostile>Enemy became neutral</KebabSwitches.LetterQuote.RelationsChange_NeutralFromHostile>
+  <KebabSwitches.LetterQuote.RescueeJoins>Rescuee joins</KebabSwitches.LetterQuote.RescueeJoins>
+  <KebabSwitches.LetterQuote.RescueQuestFinished>Rescuee joins</KebabSwitches.LetterQuote.RescueQuestFinished>
+  <KebabSwitches.LetterQuote.RoofCollapsed>Roof collapse</KebabSwitches.LetterQuote.RoofCollapsed>
+  <KebabSwitches.LetterQuote.ShortCircuit>Zzztt...</KebabSwitches.LetterQuote.ShortCircuit>
+  <KebabSwitches.LetterQuote.SingleVisitorArrives>Visitor</KebabSwitches.LetterQuote.SingleVisitorArrives>
+  <KebabSwitches.LetterQuote.SiteCountdownStarted>Caravan detected</KebabSwitches.LetterQuote.SiteCountdownStarted>
+  <KebabSwitches.LetterQuote.SiteNoLongerHostile>Quest no longer available</KebabSwitches.LetterQuote.SiteNoLongerHostile>
+  <KebabSwitches.LetterQuote.SiteNoLongerHostileMulti>Quests no longer available</KebabSwitches.LetterQuote.SiteNoLongerHostileMulti>
+  <KebabSwitches.LetterQuote.SpeechCancelled>Speech cancelled</KebabSwitches.LetterQuote.SpeechCancelled>
+  <KebabSwitches.LetterQuote.SuffixBondedAnimalDied>Bonded animal died</KebabSwitches.LetterQuote.SuffixBondedAnimalDied>
+  <KebabSwitches.LetterQuote.ThrumboPasses>Rare thrumbos on map</KebabSwitches.LetterQuote.ThrumboPasses>
+  <KebabSwitches.LetterQuote.TraderCaravanArrival>Trade caravan arrived</KebabSwitches.LetterQuote.TraderCaravanArrival>
+  <KebabSwitches.LetterQuote.TraitDisease>Trait disease</KebabSwitches.LetterQuote.TraitDisease>
+  <KebabSwitches.LetterQuote.TransportPodsLandedInEnemyBase>Attack begun</KebabSwitches.LetterQuote.TransportPodsLandedInEnemyBase>
+  <KebabSwitches.LetterQuote.UnrecruitablePawnCaptured>Unwavering prisoner</KebabSwitches.LetterQuote.UnrecruitablePawnCaptured>
+  <KebabSwitches.LetterQuote.VisitorsGaveGift>Visitors gave gift</KebabSwitches.LetterQuote.VisitorsGaveGift>
+  <KebabSwitches.LetterQuote.WandererJoins>Wanderer joins</KebabSwitches.LetterQuote.WandererJoins>
+  <KebabSwitches.LetterQuote.LeaderChangedLabel>Faction leader changed</KebabSwitches.LetterQuote.LeaderChangedLabel>
+  <KebabSwitches.LetterQuote.LeadersDeathLabel>Faction leader died</KebabSwitches.LetterQuote.LeadersDeathLabel>
+  <KebabSwitches.LetterQuote.QuestCompletedLabel>Quest completed</KebabSwitches.LetterQuote.QuestCompletedLabel>
+  <KebabSwitches.LetterQuote.QuestConcludedLabel>Quest concluded</KebabSwitches.LetterQuote.QuestConcludedLabel>
+  <KebabSwitches.LetterQuote.QuestFailedLabel>Quest failed</KebabSwitches.LetterQuote.QuestFailedLabel>
+  <KebabSwitches.LetterQuote.TechprintAppliedLabel>Techprint applied</KebabSwitches.LetterQuote.TechprintAppliedLabel>
+  <KebabSwitches.LetterQuote.ColonistPregnancyLaborLabel>in labor!</KebabSwitches.LetterQuote.ColonistPregnancyLaborLabel>
+  <KebabSwitches.LetterQuote.Adopted>adopted</KebabSwitches.LetterQuote.Adopted>
+  <KebabSwitches.LetterQuote.ArchonexusStructureResearched>studied</KebabSwitches.LetterQuote.ArchonexusStructureResearched>
+  <KebabSwitches.LetterQuote.ArchonexusWealthReached>Quest '' available</KebabSwitches.LetterQuote.ArchonexusWealthReached>
+  <KebabSwitches.LetterQuote.ArchotechStructuresAbandoned>Archotech structures abandoned</KebabSwitches.LetterQuote.ArchotechStructuresAbandoned>
+  <KebabSwitches.LetterQuote.BecameAdult>became an adult</KebabSwitches.LetterQuote.BecameAdult>
+  <KebabSwitches.LetterQuote.BecameChild>became a child</KebabSwitches.LetterQuote.BecameChild>
+  <KebabSwitches.LetterQuote.BestowingCeremonyExpired>Bestowing ceremony expired</KebabSwitches.LetterQuote.BestowingCeremonyExpired>
+  <KebabSwitches.LetterQuote.BestowingCeremonyTitleUpdated>'s title changed</KebabSwitches.LetterQuote.BestowingCeremonyTitleUpdated>
+  <KebabSwitches.LetterQuote.BossgroupArrived>arrived</KebabSwitches.LetterQuote.BossgroupArrived>
+  <KebabSwitches.LetterQuote.BossgroupCallerUnlocked>Summon possible</KebabSwitches.LetterQuote.BossgroupCallerUnlocked>
+  <KebabSwitches.LetterQuote.BossgroupSummoned>summoned</KebabSwitches.LetterQuote.BossgroupSummoned>
+  <KebabSwitches.LetterQuote.CommsConsoleSpawned>Summon available</KebabSwitches.LetterQuote.CommsConsoleSpawned>
+  <KebabSwitches.LetterQuote.ConnectedTreeDestroyed>Connected destroyed</KebabSwitches.LetterQuote.ConnectedTreeDestroyed>
+  <KebabSwitches.LetterQuote.ConvertIdeoAttempt_Success>Conversion</KebabSwitches.LetterQuote.ConvertIdeoAttempt_Success>
+  <KebabSwitches.LetterQuote.EnslavementSuccess>Enslaved</KebabSwitches.LetterQuote.EnslavementSuccess>
+  <KebabSwitches.LetterQuote.EntityDiscovery>New research available</KebabSwitches.LetterQuote.EntityDiscovery>
+  <KebabSwitches.LetterQuote.GainedRoyalTitle>title gained:</KebabSwitches.LetterQuote.GainedRoyalTitle>
+  <KebabSwitches.LetterQuote.GenesImplanted>Genes reimplanted</KebabSwitches.LetterQuote.GenesImplanted>
+  <KebabSwitches.LetterQuote.GrandSlaveEscape>Grand slave escape</KebabSwitches.LetterQuote.GrandSlaveEscape>
+  <KebabSwitches.LetterQuote.GrandSlaveRebellion>Grand slave rebellion</KebabSwitches.LetterQuote.GrandSlaveRebellion>
+  <KebabSwitches.LetterQuote.InvoluntaryDeathrest>Involuntary deathrest</KebabSwitches.LetterQuote.InvoluntaryDeathrest>
+  <KebabSwitches.LetterQuote.LastHackerLost>Last hacker lost</KebabSwitches.LetterQuote.LastHackerLost>
+  <KebabSwitches.LetterQuote.LocalSlaveEscape>Local slave escape</KebabSwitches.LetterQuote.LocalSlaveEscape>
+  <KebabSwitches.LetterQuote.LocalSlaveRebellion>Local slave rebellion</KebabSwitches.LetterQuote.LocalSlaveRebellion>
+  <KebabSwitches.LetterQuote.LostRoyalTitle>title lost:</KebabSwitches.LetterQuote.LostRoyalTitle>
+  <KebabSwitches.LetterQuote.MechanitorCasketFound>Mechanitor casket found</KebabSwitches.LetterQuote.MechanitorCasketFound>
+  <KebabSwitches.LetterQuote.MechanitorCasketOpened>'s mechlink available</KebabSwitches.LetterQuote.MechanitorCasketOpened>
+  <KebabSwitches.LetterQuote.MechlinkAvailable>Mechlink available</KebabSwitches.LetterQuote.MechlinkAvailable>
+  <KebabSwitches.LetterQuote.MechlinkInstalled>Mechlink installed</KebabSwitches.LetterQuote.MechlinkInstalled>
+  <KebabSwitches.LetterQuote.MechsFeral>Mech(s) gone feral</KebabSwitches.LetterQuote.MechsFeral>
+  <KebabSwitches.LetterQuote.NewPrimaryIdeo>Primary ideoligion changed</KebabSwitches.LetterQuote.NewPrimaryIdeo>
+  <KebabSwitches.LetterQuote.PawnConnected>connection</KebabSwitches.LetterQuote.PawnConnected>
+  <KebabSwitches.LetterQuote.PsylinkLevelGained>Psylink gained</KebabSwitches.LetterQuote.PsylinkLevelGained>
+  <KebabSwitches.LetterQuote.RandomDecree>issues decree</KebabSwitches.LetterQuote.RandomDecree>
+  <KebabSwitches.LetterQuote.ReformIdeo>Reform ideoligion</KebabSwitches.LetterQuote.ReformIdeo>
+  <KebabSwitches.LetterQuote.RegenerationComa>Regeneration coma</KebabSwitches.LetterQuote.RegenerationComa>
+  <KebabSwitches.LetterQuote.RelicDestroyed>Relic destroyed</KebabSwitches.LetterQuote.RelicDestroyed>
+  <KebabSwitches.LetterQuote.RelicFound>Relic found</KebabSwitches.LetterQuote.RelicFound>
+  <KebabSwitches.LetterQuote.RelicLost>Relic lost</KebabSwitches.LetterQuote.RelicLost>
+  <KebabSwitches.LetterQuote.RelicsCollected>Relics collected</KebabSwitches.LetterQuote.RelicsCollected>
+  <KebabSwitches.LetterQuote.RewardsForNewTitle>Title rewards</KebabSwitches.LetterQuote.RewardsForNewTitle>
+  <KebabSwitches.LetterQuote.RoleActive>role activated</KebabSwitches.LetterQuote.RoleActive>
+  <KebabSwitches.LetterQuote.RoleActiveDesc>The number of s in your colony has reached . You can now ...</KebabSwitches.LetterQuote.RoleActiveDesc>
+  <KebabSwitches.LetterQuote.RoleInactive>role deactivated</KebabSwitches.LetterQuote.RoleInactive>
+  <KebabSwitches.LetterQuote.RoleInactiveDesc>Number of s in your colony fell to . role is no longer ac...</KebabSwitches.LetterQuote.RoleInactiveDesc>
+  <KebabSwitches.LetterQuote.RoleLost>'s role lost</KebabSwitches.LetterQuote.RoleLost>
+  <KebabSwitches.LetterQuote.SanguophageWaitingToReimplant>Xenogerm implantation</KebabSwitches.LetterQuote.SanguophageWaitingToReimplant>
+  <KebabSwitches.LetterQuote.ShamblerAnimalsArrived>shamblers</KebabSwitches.LetterQuote.ShamblerAnimalsArrived>
+  <KebabSwitches.LetterQuote.ShamblerArrived>Shambler approaches</KebabSwitches.LetterQuote.ShamblerArrived>
+  <KebabSwitches.LetterQuote.ShamblerSwarmArrived>Shamblers approach</KebabSwitches.LetterQuote.ShamblerSwarmArrived>
+  <KebabSwitches.LetterQuote.ShuttleCrashed>Shuttle crashed</KebabSwitches.LetterQuote.ShuttleCrashed>
+  <KebabSwitches.LetterQuote.SingleSlaveEscape>Slave escape</KebabSwitches.LetterQuote.SingleSlaveEscape>
+  <KebabSwitches.LetterQuote.SingleSlaveRebellion>Slave rebellion</KebabSwitches.LetterQuote.SingleSlaveRebellion>
+  <KebabSwitches.LetterQuote.SpacedroneIncoming>Spacedrone incoming</KebabSwitches.LetterQuote.SpacedroneIncoming>
+  <KebabSwitches.LetterQuote.SurpriseReinforcements>Surprise reinforcements!</KebabSwitches.LetterQuote.SurpriseReinforcements>
+  <KebabSwitches.LetterQuote.ThirdTrimester>'s baby prep</KebabSwitches.LetterQuote.ThirdTrimester>
+  <KebabSwitches.LetterQuote.TributeCollectorArrival>Royal tribute collector</KebabSwitches.LetterQuote.TributeCollectorArrival>
+  <KebabSwitches.LetterQuote.WandererJoinsAbasia>Transport pod crash:</KebabSwitches.LetterQuote.WandererJoinsAbasia>
+  <KebabSwitches.LetterQuote.XenogermOrderedImplanted>Xenogerm implantation ordered</KebabSwitches.LetterQuote.XenogermOrderedImplanted>
+  <KebabSwitches.LetterQuote.LawViolationDetectedLabel>Lawbreaker:</KebabSwitches.LetterQuote.LawViolationDetectedLabel>
+  <KebabSwitches.LetterQuote.PsychicBondCreatedLovinLabel>Psychic bond</KebabSwitches.LetterQuote.PsychicBondCreatedLovinLabel>
+  <KebabSwitches.LetterQuote.TitleHeirLostLabel>Heir lost</KebabSwitches.LetterQuote.TitleHeirLostLabel>
+  <KebabSwitches.LetterQuote.ChimerasAttackingLabel>Chimeras attacking</KebabSwitches.LetterQuote.ChimerasAttackingLabel>
+  <KebabSwitches.LetterQuote.GrayFleshDiscoveredLabel>Gray flesh</KebabSwitches.LetterQuote.GrayFleshDiscoveredLabel>
+  <KebabSwitches.LetterQuote.CorpseDisappeared>Corpse disappearance</KebabSwitches.LetterQuote.CorpseDisappeared>
+  <KebabSwitches.LetterQuote.CorpseReappeared>Corpse appearance</KebabSwitches.LetterQuote.CorpseReappeared>
+  <KebabSwitches.LetterQuote.DeathPallEnded>Death pall clearing</KebabSwitches.LetterQuote.DeathPallEnded>
+  <KebabSwitches.LetterQuote.DreadmeldWarning>Squirming sounds</KebabSwitches.LetterQuote.DreadmeldWarning>
+  <KebabSwitches.LetterQuote.EscapingFromHoldingPlatform>Entity escape</KebabSwitches.LetterQuote.EscapingFromHoldingPlatform>
+  <KebabSwitches.LetterQuote.FleshmassHeartDestroyed>Fleshmass heart defeated</KebabSwitches.LetterQuote.FleshmassHeartDestroyed>
+  <KebabSwitches.LetterQuote.FleshTentacleAttack>Flesh tentacle attack</KebabSwitches.LetterQuote.FleshTentacleAttack>
+  <KebabSwitches.LetterQuote.FloorEtchingRamblings>Floor etchings</KebabSwitches.LetterQuote.FloorEtchingRamblings>
+  <KebabSwitches.LetterQuote.FloorEtchings>Floor etchings</KebabSwitches.LetterQuote.FloorEtchings>
+  <KebabSwitches.LetterQuote.GateClosing>Pit gate closing</KebabSwitches.LetterQuote.GateClosing>
+  <KebabSwitches.LetterQuote.GateEntered>Fleshbeast lair</KebabSwitches.LetterQuote.GateEntered>
+  <KebabSwitches.LetterQuote.GoldenCubeComa>Cube coma:</KebabSwitches.LetterQuote.GoldenCubeComa>
+  <KebabSwitches.LetterQuote.GrayPallDescending>Gray pall</KebabSwitches.LetterQuote.GrayPallDescending>
+  <KebabSwitches.LetterQuote.LabyrinthExit>Colonists returned</KebabSwitches.LetterQuote.LabyrinthExit>
+  <KebabSwitches.LetterQuote.LinkingRitualCompleted>Linking ritual completed</KebabSwitches.LetterQuote.LinkingRitualCompleted>
+  <KebabSwitches.LetterQuote.ObeliskDiscovered>Warped obelisk</KebabSwitches.LetterQuote.ObeliskDiscovered>
+  <KebabSwitches.LetterQuote.PawnHypnotized>hypnotized</KebabSwitches.LetterQuote.PawnHypnotized>
+  <KebabSwitches.LetterQuote.RevenantEmergence>Revenant emergence</KebabSwitches.LetterQuote.RevenantEmergence>
+  <KebabSwitches.LetterQuote.RevenantKilled>Revenant killed</KebabSwitches.LetterQuote.RevenantKilled>
+  <KebabSwitches.LetterQuote.RevenantRevealed>Revenant attack</KebabSwitches.LetterQuote.RevenantRevealed>
+  <KebabSwitches.LetterQuote.RevenantSmearDiscovered>Revenant smear discovered</KebabSwitches.LetterQuote.RevenantSmearDiscovered>
+  <KebabSwitches.LetterQuote.SightstealerHowl>Sightstealer shrieks</KebabSwitches.LetterQuote.SightstealerHowl>
+  <KebabSwitches.LetterQuote.SightstealerHowlBig>Sightstealer howling</KebabSwitches.LetterQuote.SightstealerHowlBig>
+  <KebabSwitches.LetterQuote.SightstealerRevealed>Sightstealer revealed</KebabSwitches.LetterQuote.SightstealerRevealed>
+  <KebabSwitches.LetterQuote.UndercaveCollapsing>Undercave unstable</KebabSwitches.LetterQuote.UndercaveCollapsing>
+  <KebabSwitches.LetterQuote.MetalhorrorReawakeningLabel>Metalhorrors awakening</KebabSwitches.LetterQuote.MetalhorrorReawakeningLabel>
+  <KebabSwitches.LetterQuote.RevenantFleshChunkLabel>Revenant flesh chunk</KebabSwitches.LetterQuote.RevenantFleshChunkLabel>
+  <KebabSwitches.LetterQuote.RevenantSeenLabel>Revenant seen</KebabSwitches.LetterQuote.RevenantSeenLabel>
+  <KebabSwitches.LetterQuote.SurgicallyInspectedLabel>Surgical inspection results</KebabSwitches.LetterQuote.SurgicallyInspectedLabel>
+  <KebabSwitches.LetterQuote.UnnaturalHealingLabel>Unnatural healing</KebabSwitches.LetterQuote.UnnaturalHealingLabel>
+
+
+  <CatCrazyTimePatch.EnableLogging>Enable logging</CatCrazyTimePatch.EnableLogging>
+  <CatCrazyTimePatch.EnableLoggingTooltip>Log CrazyTime toil-count resume and curToilIndex clamps to Player.log (prefix [CatCrazyTimePatch]).</CatCrazyTimePatch.EnableLoggingTooltip>
+
+  <CatFloorSleepPatch.EnableLogging>Enable logging</CatFloorSleepPatch.EnableLogging>
+  <CatFloorSleepPatch.EnableLoggingTooltip>Log floor sleep-cell reassignments and recoveries to Player.log (prefix [CatFloorSleepPatch]).</CatFloorSleepPatch.EnableLoggingTooltip>
+
+  <GrowerCutTreesPatch.EnableLogging>Enable logging</GrowerCutTreesPatch.EnableLogging>
+
+  <LowTpsPawnDump.EnableLogging>Enable logging</LowTpsPawnDump.EnableLogging>
+  <LowTpsPawnDump.EnableLoggingTooltip>When enabled, writes pawn state blocks to Player.log when on-screen TPS falls below the threshold.</LowTpsPawnDump.EnableLoggingTooltip>
+  <LowTpsPawnDump.ColonistsOnly>Colonists only</LowTpsPawnDump.ColonistsOnly>
+  <LowTpsPawnDump.ColonistsOnlyTooltip>Dump only player colonists (pawn.IsColonist). Skips animals, guests, and wildlife.</LowTpsPawnDump.ColonistsOnlyTooltip>
+  <LowTpsPawnDump.SkipWhenPaused>Skip when paused</LowTpsPawnDump.SkipWhenPaused>
+  <LowTpsPawnDump.SkipWhenPausedTooltip>Do not dump while the game is paused or expected TPS is 0.</LowTpsPawnDump.SkipWhenPausedTooltip>
+  <LowTpsPawnDump.LogStartupMessage>Log mod startup message</LowTpsPawnDump.LogStartupMessage>
+  <LowTpsPawnDump.LogStartupMessageTooltip>Write a short [LowTpsPawnDump] Loaded line to Player.log when the feature initializes.</LowTpsPawnDump.LogStartupMessageTooltip>
+  <LowTpsPawnDump.TpsThreshold>TPS threshold (same counter as on-screen N)</LowTpsPawnDump.TpsThreshold>
+  <LowTpsPawnDump.LogCooldownSeconds>Log cooldown (seconds)</LowTpsPawnDump.LogCooldownSeconds>
+
+  <IdleWorkSearchCooldown.EnableLogging>Enable logging</IdleWorkSearchCooldown.EnableLogging>
+  <IdleWorkSearchCooldown.EnableLoggingTooltip>Log when a full work scan is skipped because the idle work-search cooldown is active.</IdleWorkSearchCooldown.EnableLoggingTooltip>
+  <IdleWorkSearchCooldown.CooldownTicks>Work-search cooldown (in ticks)</IdleWorkSearchCooldown.CooldownTicks>
+
+  <TakeFromMendingPatch.EnableLogging>Enable logging</TakeFromMendingPatch.EnableLogging>
+  <TakeFromMendingPatch.EnableLoggingTooltip>Log detailed ingredient-search decisions to Player.log (prefix [TakeFromMendingPatch]).</TakeFromMendingPatch.EnableLoggingTooltip>
+  <TakeFromMendingPatch.ShowMaintenanceMessages>Log maintenance messages</TakeFromMendingPatch.ShowMaintenanceMessages>
+  <TakeFromMendingPatch.ShowMaintenanceMessagesTooltip>Log routine maintenance actions such as pruning stale bill-data keys from ExtraBillData.</TakeFromMendingPatch.ShowMaintenanceMessagesTooltip>
+
+  <TradeCaravanLordFixPatch.EnableLogging>Enable logging</TradeCaravanLordFixPatch.EnableLogging>
+  <TradeCaravanLordFixPatch.EnableLoggingTooltip>Write detailed diagnostics to Player.log (prefix [TradeCaravanLordFixPatch]).</TradeCaravanLordFixPatch.EnableLoggingTooltip>
+
+</LanguageData>

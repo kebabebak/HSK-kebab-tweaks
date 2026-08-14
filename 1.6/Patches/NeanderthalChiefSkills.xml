@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- CE injects Melee skill floors onto Tribal_ChiefMelee / TribalChiefBase;
+       Neanderthal chiefs inherit them and fail worldgen leader generation. -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="Tribal_ChiefMelee_Neanderthal"]/skills</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/PawnKindDef[defName="Tribal_ChiefMelee_Neanderthal"]/skills</xpath>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="Tribal_ChiefRanged_Neanderthal"]/skills</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/PawnKindDef[defName="Tribal_ChiefRanged_Neanderthal"]/skills</xpath>
+    </match>
+  </Operation>
+
+</Patch>

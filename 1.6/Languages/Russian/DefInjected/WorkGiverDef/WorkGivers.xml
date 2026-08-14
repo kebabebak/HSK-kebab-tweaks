@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: fell trees -->
+  <GrowerCutPlants.label>рубить деревья</GrowerCutPlants.label>
+  <!-- EN: felling -->
+  <GrowerCutPlants.gerund>срубить</GrowerCutPlants.gerund>
+  <!-- EN: fell -->
+  <GrowerCutPlants.verb>рубить</GrowerCutPlants.verb>
+
+</LanguageData>
