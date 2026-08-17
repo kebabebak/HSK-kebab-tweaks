@@ -84,8 +84,8 @@
   <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>Hospitality Guest Apparel Optimize Fix</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>
   <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>Исправляет NRE optimize guest apparel Hospitality при битых записях одежды.</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>
 
-  <KebabTweaks.Patch.NeanderthalChiefLeaderFix>Neanderthal Chief Leader Fix</KebabTweaks.Patch.NeanderthalChiefLeaderFix>
-  <KebabTweaks.Patch.NeanderthalChiefLeaderFix.Tooltip>Снимает унаследованные CE skill floors Melee у неандертальских вождей и защищает worldgen при null leader.</KebabTweaks.Patch.NeanderthalChiefLeaderFix.Tooltip>
+  <KebabTweaks.Patch.TribalLeaderFix>Tribal Leader Fix</KebabTweaks.Patch.TribalLeaderFix>
+  <KebabTweaks.Patch.TribalLeaderFix.Tooltip>При создании мира у племенных фракций (особенно неандертальцев) может не появиться вождь — фракция ломается. Фикс не даёт требованиям Combat Extended к ближнему бою блокировать неандертальских вождей, не сажает пацифистские истории жизни на боевых вождей и повторяет создание вождя, если игра его всё равно не сделала.</KebabTweaks.Patch.TribalLeaderFix.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Убирает ложные Error точности Map Preview при плавающем vanilla RNG baseline HSK 1.6 Alpha и синхронизирует SkipIterations превью с измеренным значением.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
