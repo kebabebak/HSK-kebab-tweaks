@@ -87,6 +87,9 @@
   <KebabTweaks.Patch.TribalLeaderFix>Tribal Leader Fix</KebabTweaks.Patch.TribalLeaderFix>
   <KebabTweaks.Patch.TribalLeaderFix.Tooltip>When creating a world, tribal factions (especially Neanderthal tribes) can fail to spawn a leader and then break. The fix stops Combat Extended melee requirements from blocking Neanderthal chiefs, keeps non-violent life stories off warrior chiefs, and tries again if the game still did not create a leader.</KebabTweaks.Patch.TribalLeaderFix.Tooltip>
 
+  <KebabTweaks.Patch.CraftStuffFix>Craft Stuff Fix</KebabTweaks.Patch.CraftStuffFix>
+  <KebabTweaks.Patch.CraftStuffFix.Tooltip>When a recipe needs both the material the item is made from and extra ingredients, the game can treat an extra ingredient as that material. The fix always uses a material the item can actually be made from.</KebabTweaks.Patch.CraftStuffFix.Tooltip>
+
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Stops Map Preview false accuracy Errors when the HSK 1.6 Alpha vanilla RNG baseline drifts, and keeps preview SkipIterations in sync with the measured value.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
 
