@@ -64,7 +64,7 @@
   <KebabTweaks.Patch.SeedsPleaseSowFix.Tooltip>Исправляет NRE TargetB в SeedsPlease и clamp toil SowWithSeeds.</KebabTweaks.Patch.SeedsPleaseSowFix.Tooltip>
 
   <KebabTweaks.Patch.TakeFromMending>Take From Mending Fix</KebabTweaks.Patch.TakeFromMending>
-  <KebabTweaks.Patch.TakeFromMending.Tooltip>Исправляет кнопку Take from для MendAndRecycle / счетов.</KebabTweaks.Patch.TakeFromMending.Tooltip>
+  <KebabTweaks.Patch.TakeFromMending.Tooltip>Исправляет кнопку Take from для MendAndRecycle / заданий.</KebabTweaks.Patch.TakeFromMending.Tooltip>
 
   <KebabTweaks.Patch.TradeCaravanLordFix>Trade Caravan Lord Fix</KebabTweaks.Patch.TradeCaravanLordFix>
   <KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>Исправляет NRE TradeWithColony / FindTrader / гигиену stamp.</KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>
@@ -80,6 +80,10 @@
 
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>Storage AllowedToAccept Fix</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>Защищает StorageSettings.AllowedToAccept при null filter/parent.</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>
+
+  <KebabTweaks.Patch.SaveSettingsLoadFix>Save Settings Load Fix</KebabTweaks.Patch.SaveSettingsLoadFix>
+  <KebabTweaks.Patch.SaveSettingsLoadFix.Tooltip>При загрузке сохранённого списка заданий через Save Storage Settings пешка может взять материалы у станка — и они пропадают, вместо того чтобы началась работа. В устаревшем файле часть рецептов может уже не существовать. Фикс оставляет загруженные задания рабочими у станка, пропускает исчезнувшие рецепты и предупреждает, если могли быть загружены не все настройки.</KebabTweaks.Patch.SaveSettingsLoadFix.Tooltip>
+  <KebabTweaks.SaveSettingsLoad.PartialLoadWarning>Часть записей из этого файла пропущена. Могли быть загружены не все настройки.</KebabTweaks.SaveSettingsLoad.PartialLoadWarning>
 
   <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>Hospitality Guest Apparel Optimize Fix</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>
   <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>Исправляет NRE optimize guest apparel Hospitality при битых записях одежды.</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>
@@ -358,7 +362,7 @@
   <TakeFromMendingPatch.EnableLogging>Включить логирование</TakeFromMendingPatch.EnableLogging>
   <TakeFromMendingPatch.EnableLoggingTooltip>Записывать в Player.log подробности поиска ингредиентов (префикс [TakeFromMendingPatch]).</TakeFromMendingPatch.EnableLoggingTooltip>
   <TakeFromMendingPatch.ShowMaintenanceMessages>Логировать служебные сообщения</TakeFromMendingPatch.ShowMaintenanceMessages>
-  <TakeFromMendingPatch.ShowMaintenanceMessagesTooltip>Записывать в Player.log служебные действия, например очистку устаревших ключей счетов в ExtraBillData.</TakeFromMendingPatch.ShowMaintenanceMessagesTooltip>
+  <TakeFromMendingPatch.ShowMaintenanceMessagesTooltip>Записывать в Player.log служебные действия, например очистку устаревших ключей заданий в ExtraBillData.</TakeFromMendingPatch.ShowMaintenanceMessagesTooltip>
 
   <TradeCaravanLordFixPatch.EnableLogging>Включить логирование</TradeCaravanLordFixPatch.EnableLogging>
   <TradeCaravanLordFixPatch.EnableLoggingTooltip>Писать подробную диагностику в Player.log (префикс [TradeCaravanLordFixPatch]).</TradeCaravanLordFixPatch.EnableLoggingTooltip>

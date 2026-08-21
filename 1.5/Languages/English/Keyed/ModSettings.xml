@@ -81,6 +81,10 @@
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>Storage AllowedToAccept Fix</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>Guards StorageSettings.AllowedToAccept when filter or parent is null.</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>
 
+  <KebabTweaks.Patch.SaveSettingsLoadFix>Save Settings Load Fix</KebabTweaks.Patch.SaveSettingsLoadFix>
+  <KebabTweaks.Patch.SaveSettingsLoadFix.Tooltip>When you load a saved bill list with Save Storage Settings, colonists can pick up materials at the workbench and those items vanish instead of starting the craft. Outdated files can also skip recipes that no longer exist. The fix keeps loaded bills working at the bench, skips missing recipes, and warns if not all settings may have been loaded.</KebabTweaks.Patch.SaveSettingsLoadFix.Tooltip>
+  <KebabTweaks.SaveSettingsLoad.PartialLoadWarning>Some entries from this file were skipped. Not all settings may have been loaded.</KebabTweaks.SaveSettingsLoad.PartialLoadWarning>
+
   <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>Hospitality Guest Apparel Optimize Fix</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>
   <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>Fixes Hospitality guest apparel optimize NRE on invalid apparel records.</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>
 
