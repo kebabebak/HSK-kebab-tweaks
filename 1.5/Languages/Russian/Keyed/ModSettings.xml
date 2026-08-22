@@ -106,6 +106,13 @@
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix>Rimatomics Guidance Panel Fix</KebabTweaks.Patch.RimatomicsGuidancePanelFix>
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>Исправляет панель исследований Rimatomics для проектов без иконок разблокировок (Guidance System): рисуются шаги и кнопки, прекращается спам BeginScrollView/EndScrollView.</KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>
 
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Позволяет грузчикам (в том числе грузовому дрону) завершать загрузку ферментера, даже если они могут нести больше, чем нужно заданию. Если включено «Переносить только норму задания», лишнее остаётся в складе, откуда его взяли. Если выключено — лишнее остаётся на земле у ферментера. Без фикса грузчик подходит, ничего не делает и пробует снова.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>Включить логирование</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>Писать в Player.log ограничения забора при загрузке ферментера, очистку очереди остатков и обрезку положенного количества (префикс [UfFillExtraIngredientsFix]).</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickup>Переносить только норму задания</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickup>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>Грузчик берёт только столько, сколько нужно заданию ферментера. Лишнее остаётся в складе, откуда его взяли. Выключите, чтобы по-прежнему брать полные стаки: после загрузки остаток ляжет на землю у ферментера.</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>
+
   <KebabSwitches.EnableLogging>Включить логирование</KebabSwitches.EnableLogging>
   <KebabSwitches.ScreenMessagesHeader>Сообщения (лента слева вверху)</KebabSwitches.ScreenMessagesHeader>
   <KebabSwitches.Ignore.FilledTheMap>Игнорировать «Карта заполнена»</KebabSwitches.Ignore.FilledTheMap>

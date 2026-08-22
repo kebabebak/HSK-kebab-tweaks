@@ -2,13 +2,31 @@
 <ModMetaData>
   <packageId>kebabebak.hsk.kebab.tweaks</packageId>
   <name>HSK kebab tweaks</name>
-  <modVersion>1.4</modVersion>
+  <modVersion>1.5</modVersion>
   <author>kebabebak</author>
   <supportedVersions>
     <li>1.5</li>
     <li>1.6</li>
   </supportedVersions>
-  <description>A bundle of features/patches/fixes from kebabebak for RimWorld HSK.</description>
+  <description>Full support for the latest version of HSK 1.6 Alpha.
+  
+  A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
+  - Each feature can be turned off in mod settings
+  - Mute leftover messages, letters, and alerts you do not want
+  - Fixes for common HSK crashes and broken jobs
+  - Farmers cut trees in growing zones before sowing
+  - Idle colonists look for work less often, so the game stays smoother
+  and other...
+  
+  Полная поддержка последней версии HSK 1.6 Alpha.
+  
+  Сборник функций/патчей/исправлений от kebabebak для RimWorld HSK:
+  - Каждую функцию можно отключить в настройках мода
+  - Отключение ненужных сообщений, писем и оповещений
+  - Исправлены распространенные сбои HSK и неработающие задания
+  - Фермеры вырубают деревья в зонах выращивания перед посевом
+  - Колонисты в режиме ожидания реже ищут работу, что обеспечивает более плавную работу игры
+и другие...</description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>

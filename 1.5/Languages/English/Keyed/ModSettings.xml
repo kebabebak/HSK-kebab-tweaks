@@ -106,6 +106,13 @@
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix>Rimatomics Guidance Panel Fix</KebabTweaks.Patch.RimatomicsGuidancePanelFix>
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>Fixes the Rimatomics research panel when a project has no unlock icons (Guidance System), so the panel draws steps and buttons and stops BeginScrollView/EndScrollView errors.</KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>
 
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Lets haulers (including cargo drones) finish fermenter fills when they can carry more than the bill needs. With Carry only the bill amount on, extra stays in the stockpile it was taken from. With it off, extra is left on the ground by the fermenter. Without the fix the hauler walks up, does nothing, and tries again.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>Enable logging</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>Write fermenter fill pickup clamps, leftover queue prunes, and placed-count trims to Player.log (prefix [UfFillExtraIngredientsFix]).</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickup>Carry only the bill amount</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickup>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>The hauler picks up only as much as the fermenter bill needs. Extra stays in the stockpile it was taken from. Turn this off to keep taking full stacks; leftovers then stay on the ground by the fermenter after fill.</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>
+
   <KebabSwitches.EnableLogging>Enable logging</KebabSwitches.EnableLogging>
   <KebabSwitches.ScreenMessagesHeader>Messages (upper-left screen feed)</KebabSwitches.ScreenMessagesHeader>
   <KebabSwitches.Ignore.FilledTheMap>Ignore "Map filled"</KebabSwitches.Ignore.FilledTheMap>
