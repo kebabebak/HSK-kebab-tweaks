@@ -2,7 +2,7 @@
 <ModMetaData>
   <packageId>kebabebak.hsk.kebab.tweaks</packageId>
   <name>HSK kebab tweaks</name>
-  <modVersion>1.5</modVersion>
+  <modVersion>1.6</modVersion>
   <author>kebabebak</author>
   <supportedVersions>
     <li>1.5</li>
@@ -26,7 +26,9 @@
   - Исправлены распространенные сбои HSK и неработающие задания
   - Фермеры вырубают деревья в зонах выращивания перед посевом
   - Колонисты в режиме ожидания реже ищут работу, что обеспечивает более плавную работу игры
-и другие...</description>
+  и другие...
+  
+  https://github.com/kebabebak/HSK-kebab-tweaks</description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
@@ -73,6 +75,7 @@
     <li>name.krypt.rimworld.unifiedxmlexport</li>
     <li>Ludeon.RimWorld.Odyssey</li>
     <li>Dubwise.Rimatomics</li>
+    <li>zacharyfoster.minerals</li>
   </loadAfter>
   <incompatibleWith>
     <li>kebabebak.HSKKebabSwitches</li>

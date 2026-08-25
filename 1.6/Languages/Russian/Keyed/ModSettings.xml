@@ -69,6 +69,11 @@
   <KebabTweaks.Patch.TradeCaravanLordFix>Trade Caravan Lord Fix</KebabTweaks.Patch.TradeCaravanLordFix>
   <KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>Исправляет NRE TradeWithColony / FindTrader / гигиену stamp.</KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>
 
+  <KebabTweaks.Patch.CompressibleOverlapFix>Overlapping Save Objects Fix</KebabTweaks.Patch.CompressibleOverlapFix>
+  <KebabTweaks.Patch.CompressibleOverlapFix.Tooltip>Если несколько окаменелостей, камней или похожих объектов занимают одну клетку, при каждом сохранении в лог пишется ошибка. На новых картах такие объекты больше не ставятся друг на друга. В уже созданном поселении лишние переносятся на свободную клетку рядом или удаляются, если места нет.</KebabTweaks.Patch.CompressibleOverlapFix.Tooltip>
+  <KebabTweaks.Patch.CompressibleOverlapFix.EnableLogging>Включить логирование</KebabTweaks.Patch.CompressibleOverlapFix.EnableLogging>
+  <KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>Писать в Player.log, сколько пересекающихся объектов перенесено или удалено (префикс [CompressibleOverlapFix]).</KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>
+
   <KebabTweaks.Patch.ApparelPolicyLoad>Apparel Policy Load</KebabTweaks.Patch.ApparelPolicyLoad>
   <KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>При загрузке сохранённой политики одежды через Save Storage Settings создаёт новую политику с именем файла вместо перезаписи выбранной.</KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>
 
@@ -93,6 +98,9 @@
 
   <KebabTweaks.Patch.CraftStuffFix>Craft Stuff Fix</KebabTweaks.Patch.CraftStuffFix>
   <KebabTweaks.Patch.CraftStuffFix.Tooltip>Если в рецепте нужен и материал изделия, и дополнительные ингредиенты, игра может взять дополнительный ингредиент как материал. Фикс всегда берёт материал, из которого изделие вообще можно сделать.</KebabTweaks.Patch.CraftStuffFix.Tooltip>
+
+  <KebabTweaks.Patch.StartingPawnChildAgeFix>Starting Pawn Child Age Fix</KebabTweaks.Patch.StartingPawnChildAgeFix>
+  <KebabTweaks.Patch.StartingPawnChildAgeFix.Tooltip>Если на экране стартовых колонистов переключить взрослого на ребёнка, игра может не подобрать возраст и показать ошибку. Типы поселенцев заданы как взрослые, поэтому детский возраст не принимается. Фикс выбирает допустимый детский возраст, чтобы колониста можно было создать.</KebabTweaks.Patch.StartingPawnChildAgeFix.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Убирает ложные Error точности Map Preview при плавающем vanilla RNG baseline HSK 1.6 Alpha и синхронизирует SkipIterations превью с измеренным значением.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
