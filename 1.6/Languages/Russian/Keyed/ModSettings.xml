@@ -114,6 +114,12 @@
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix>Rimatomics Guidance Panel Fix</KebabTweaks.Patch.RimatomicsGuidancePanelFix>
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>Исправляет панель исследований Rimatomics для проектов без иконок разблокировок (Guidance System): рисуются шаги и кнопки, прекращается спам BeginScrollView/EndScrollView.</KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>
 
+  <KebabTweaks.Patch.BurnWeaponBillFix>Burn Weapon Bill Fix</KebabTweaks.Patch.BurnWeaponBillFix>
+  <KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>Задания «сжечь оружие», «сжечь одежду» и «сжечь наркотики» на горне, крематории, костре или яме для сжигания могут висеть без работы, даже если вещи на складе и радиус поиска задан. Фильтр эти вещи всё равно показывает. Красное число ингредиентов рядом с объёмом работ считает складские материалы и не учитывает оружие; из‑за него задание не считается пустым. Фикс даёт колонистам, которые уже работают на этих постройках, брать задания на сжигание.</KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>
+
+  <KebabTweaks.Patch.BreachAxeWorkAmountFix>Breach Axe Work Amount Fix</KebabTweaks.Patch.BreachAxeWorkAmountFix>
+  <KebabTweaks.Patch.BreachAxeWorkAmountFix.Tooltip>У задания «изготовить штурмовой топор» объём работ может быть 1, поэтому ковка заканчивается почти сразу. У оружия пропало обычное время ковки. Фикс возвращает нормальный объём работ для этого задания.</KebabTweaks.Patch.BreachAxeWorkAmountFix.Tooltip>
+
   <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Позволяет грузчикам (в том числе грузовому дрону) завершать загрузку ферментера, даже если они могут нести больше, чем нужно заданию. Если включено «Переносить только норму задания», лишнее остаётся в складе, откуда его взяли. Если выключено — лишнее остаётся на земле у ферментера. Без фикса грузчик подходит, ничего не делает и пробует снова.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>Включить логирование</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>
