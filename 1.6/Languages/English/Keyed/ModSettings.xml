@@ -14,6 +14,12 @@
   <KebabTweaks.Tab.Notifications>Notifications</KebabTweaks.Tab.Notifications>
   <KebabTweaks.Tab.Patches>Patches</KebabTweaks.Tab.Patches>
   <KebabTweaks.Tab.Fixes>Fixes</KebabTweaks.Tab.Fixes>
+  <KebabTweaks.ObsoleteFixes>Obsolete</KebabTweaks.ObsoleteFixes>
+  <KebabTweaks.EnableObsoleteFixesConfirmTitle>Enable obsolete fixes?</KebabTweaks.EnableObsoleteFixesConfirmTitle>
+  <KebabTweaks.EnableObsoleteFixesConfirm>Are you sure? Enabling obsolete fixes is strongly not recommended.\n\nDo not turn this section on unless you know what you are doing.</KebabTweaks.EnableObsoleteFixesConfirm>
+  <KebabTweaks.DoNotResetObsoleteFixesOnReload>Do not reset on reload</KebabTweaks.DoNotResetObsoleteFixesOnReload>
+  <KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>Do not turn off obsolete fixes after the game restarts. Without this, they turn off when the game starts.</KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>
+  <KebabTweaks.RelevancePercentTooltip>The relevance percentage shows how useful this fix still is / how many of its problems were not already closed in the current Hardcore SK build.\n\nThe lower the percentage, the more likely the problem cannot be reproduced in the scenario described earlier. No value means 100%. If the fix is not in the Obsolete section, turning it on is safe.</KebabTweaks.RelevancePercentTooltip>
 
   <KebabTweaks.Patch.CatCrazyTime>Cat Crazy Time Fix</KebabTweaks.Patch.CatCrazyTime>
   <KebabTweaks.Patch.CatCrazyTime.Tooltip>Fixes CrazyTime toil load/resume issues for cats.</KebabTweaks.Patch.CatCrazyTime.Tooltip>

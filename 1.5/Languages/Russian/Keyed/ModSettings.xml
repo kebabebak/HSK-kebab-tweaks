@@ -14,6 +14,12 @@
   <KebabTweaks.Tab.Notifications>Уведомления</KebabTweaks.Tab.Notifications>
   <KebabTweaks.Tab.Patches>Патчи</KebabTweaks.Tab.Patches>
   <KebabTweaks.Tab.Fixes>Фиксы</KebabTweaks.Tab.Fixes>
+  <KebabTweaks.ObsoleteFixes>Устаревшие</KebabTweaks.ObsoleteFixes>
+  <KebabTweaks.EnableObsoleteFixesConfirmTitle>Включить устаревшие фиксы?</KebabTweaks.EnableObsoleteFixesConfirmTitle>
+  <KebabTweaks.EnableObsoleteFixesConfirm>Вы уверены? Настоятельно не рекомендуется включать устаревшие фиксы.\n\nНе включайте этот раздел, если не знаете, что делаете.</KebabTweaks.EnableObsoleteFixesConfirm>
+  <KebabTweaks.DoNotResetObsoleteFixesOnReload>Не сбрасывать при перезагрузке</KebabTweaks.DoNotResetObsoleteFixesOnReload>
+  <KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>Не отключать устаревшие фиксы после перезапуска игры. Без этого при старте игры они выключаются.</KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>
+  <KebabTweaks.RelevancePercentTooltip>Процент актуальности — это значение показывает насколько полезен фикс / сколько в фиксе решено проблем, которые не были закрыты в текущей сборке Hardcore SK.\n\nЧем меньше процент, тем больше шансов что проблему не получится воспроизвести по ранее описанному сценарию. Отсутствие значения подразумевает 100%. Если фикс не в разделе устаревших, то его включение безопасно.</KebabTweaks.RelevancePercentTooltip>
 
   <KebabTweaks.Patch.CatCrazyTime>Cat Crazy Time Fix</KebabTweaks.Patch.CatCrazyTime>
   <KebabTweaks.Patch.CatCrazyTime.Tooltip>Исправляет проблемы загрузки/возобновления toil CrazyTime у кошек.</KebabTweaks.Patch.CatCrazyTime.Tooltip>
@@ -72,7 +78,7 @@
   <KebabTweaks.Patch.CompressibleOverlapFix>Overlapping Save Objects Fix</KebabTweaks.Patch.CompressibleOverlapFix>
   <KebabTweaks.Patch.CompressibleOverlapFix.Tooltip>Если несколько окаменелостей, камней или похожих объектов занимают одну клетку, при каждом сохранении в лог пишется ошибка. На новых картах такие объекты больше не ставятся друг на друга. В уже созданном поселении лишние переносятся на свободную клетку рядом или удаляются, если места нет.</KebabTweaks.Patch.CompressibleOverlapFix.Tooltip>
   <KebabTweaks.Patch.CompressibleOverlapFix.EnableLogging>Включить логирование</KebabTweaks.Patch.CompressibleOverlapFix.EnableLogging>
-  <KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>Писать в Player.log, сколько пересекающихся объектов перенесено или удалено (префикс [CompressibleOverlapFix]).</KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>
+  <KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>Записывать в Player.log, сколько пересекающихся объектов перенесено или удалено (префикс [CompressibleOverlapFix]).</KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>
 
   <KebabTweaks.Patch.ApparelPolicyLoad>Apparel Policy Load</KebabTweaks.Patch.ApparelPolicyLoad>
   <KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>При загрузке сохранённой политики одежды через Save Storage Settings создаёт новую политику с именем файла вместо перезаписи выбранной.</KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>
@@ -117,7 +123,7 @@
   <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Позволяет грузчикам (в том числе грузовому дрону) завершать загрузку ферментера, даже если они могут нести больше, чем нужно заданию. Если включено «Переносить только норму задания», лишнее остаётся в складе, откуда его взяли. Если выключено — лишнее остаётся на земле у ферментера. Без фикса грузчик подходит, ничего не делает и пробует снова.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>Включить логирование</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>
-  <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>Писать в Player.log ограничения забора при загрузке ферментера, очистку очереди остатков и обрезку положенного количества (префикс [UfFillExtraIngredientsFix]).</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>Записывать в Player.log ограничения забора при загрузке ферментера, очистку очереди остатков и обрезку положенного количества (префикс [UfFillExtraIngredientsFix]).</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickup>Переносить только норму задания</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickup>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>Грузчик берёт только столько, сколько нужно заданию ферментера. Лишнее остаётся в складе, откуда его взяли. Выключите, чтобы по-прежнему брать полные стаки: после загрузки остаток ляжет на землю у ферментера.</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>
 
@@ -352,7 +358,7 @@
 
 
   <CatCrazyTimePatch.EnableLogging>Включить логирование</CatCrazyTimePatch.EnableLogging>
-  <CatCrazyTimePatch.EnableLoggingTooltip>Писать в Player.log возобновление CrazyTime и сжатие curToilIndex (префикс [CatCrazyTimePatch]).</CatCrazyTimePatch.EnableLoggingTooltip>
+  <CatCrazyTimePatch.EnableLoggingTooltip>Записывать в Player.log возобновление CrazyTime и сжатие curToilIndex (префикс [CatCrazyTimePatch]).</CatCrazyTimePatch.EnableLoggingTooltip>
 
   <CatFloorSleepPatch.EnableLogging>Включить логирование</CatFloorSleepPatch.EnableLogging>
   <CatFloorSleepPatch.EnableLoggingTooltip>Записывать в Player.log переназначение клеток сна и восстановление после ошибок (префикс [CatFloorSleepPatch]).</CatFloorSleepPatch.EnableLoggingTooltip>
@@ -364,14 +370,14 @@
   <LowTpsPawnDump.ColonistsOnly>Только колонисты</LowTpsPawnDump.ColonistsOnly>
   <LowTpsPawnDump.ColonistsOnlyTooltip>Дампить только колонистов игрока (pawn.IsColonist). Без животных, гостей и диких пешек.</LowTpsPawnDump.ColonistsOnlyTooltip>
   <LowTpsPawnDump.SkipWhenPaused>Пропускать на паузе</LowTpsPawnDump.SkipWhenPaused>
-  <LowTpsPawnDump.SkipWhenPausedTooltip>Не писать дамп на паузе или когда ожидаемый TPS равен 0.</LowTpsPawnDump.SkipWhenPausedTooltip>
+  <LowTpsPawnDump.SkipWhenPausedTooltip>Не записывать дамп на паузе или когда ожидаемый TPS равен 0.</LowTpsPawnDump.SkipWhenPausedTooltip>
   <LowTpsPawnDump.LogStartupMessage>Сообщение о загрузке мода</LowTpsPawnDump.LogStartupMessage>
-  <LowTpsPawnDump.LogStartupMessageTooltip>Писать строку [LowTpsPawnDump] Loaded в Player.log при инициализации фичи.</LowTpsPawnDump.LogStartupMessageTooltip>
+  <LowTpsPawnDump.LogStartupMessageTooltip>Записывать строку [LowTpsPawnDump] Loaded в Player.log при инициализации фичи.</LowTpsPawnDump.LogStartupMessageTooltip>
   <LowTpsPawnDump.TpsThreshold>Порог TPS (тот же счётчик, что N на экране)</LowTpsPawnDump.TpsThreshold>
   <LowTpsPawnDump.LogCooldownSeconds>Пауза между логами (сек)</LowTpsPawnDump.LogCooldownSeconds>
 
   <IdleWorkSearchCooldown.EnableLogging>Включить логирование</IdleWorkSearchCooldown.EnableLogging>
-  <IdleWorkSearchCooldown.EnableLoggingTooltip>Писать в лог, когда полный поиск работы пропущен из‑за активного cooldown idle work search.</IdleWorkSearchCooldown.EnableLoggingTooltip>
+  <IdleWorkSearchCooldown.EnableLoggingTooltip>Записывать в лог, когда полный поиск работы пропущен из‑за активного cooldown idle work search.</IdleWorkSearchCooldown.EnableLoggingTooltip>
   <IdleWorkSearchCooldown.CooldownTicks>Задержка поиска работы (в тиках)</IdleWorkSearchCooldown.CooldownTicks>
 
   <TakeFromMendingPatch.EnableLogging>Включить логирование</TakeFromMendingPatch.EnableLogging>
@@ -380,6 +386,6 @@
   <TakeFromMendingPatch.ShowMaintenanceMessagesTooltip>Записывать в Player.log служебные действия, например очистку устаревших ключей заданий в ExtraBillData.</TakeFromMendingPatch.ShowMaintenanceMessagesTooltip>
 
   <TradeCaravanLordFixPatch.EnableLogging>Включить логирование</TradeCaravanLordFixPatch.EnableLogging>
-  <TradeCaravanLordFixPatch.EnableLoggingTooltip>Писать подробную диагностику в Player.log (префикс [TradeCaravanLordFixPatch]).</TradeCaravanLordFixPatch.EnableLoggingTooltip>
+  <TradeCaravanLordFixPatch.EnableLoggingTooltip>Записывать подробную диагностику в Player.log (префикс [TradeCaravanLordFixPatch]).</TradeCaravanLordFixPatch.EnableLoggingTooltip>
 
 </LanguageData>
