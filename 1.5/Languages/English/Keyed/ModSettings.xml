@@ -146,6 +146,7 @@
   <KebabSwitches.Ignore.TraderCaravanLeaving>Ignore "Trade caravan leaving"</KebabSwitches.Ignore.TraderCaravanLeaving>
   <KebabSwitches.Ignore.TraderCaravanDismissed>Ignore "Trade caravan dismissed"</KebabSwitches.Ignore.TraderCaravanDismissed>
   <KebabSwitches.Ignore.CompSpawnerSpawnedItem>Ignore "Item produced"</KebabSwitches.Ignore.CompSpawnerSpawnedItem>
+  <KebabSwitches.Ignore.FishCaughtInTrap>Ignore "Fish caught in trap"</KebabSwitches.Ignore.FishCaughtInTrap>
   <KebabSwitches.Ignore.PlantDiedOfCold>Ignore "Plant died of cold"</KebabSwitches.Ignore.PlantDiedOfCold>
   <KebabSwitches.Ignore.PlantDiedOfRotUnharvested>Ignore "Plant died from age"</KebabSwitches.Ignore.PlantDiedOfRotUnharvested>
   <KebabSwitches.Ignore.PlantDiedOfRotLight>Ignore "Plant died in light"</KebabSwitches.Ignore.PlantDiedOfRotLight>

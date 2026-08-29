@@ -152,6 +152,7 @@
   <KebabSwitches.Ignore.TraderCaravanLeaving>Ignore "Trade caravan leaving"</KebabSwitches.Ignore.TraderCaravanLeaving>
   <KebabSwitches.Ignore.TraderCaravanDismissed>Ignore "Trade caravan dismissed"</KebabSwitches.Ignore.TraderCaravanDismissed>
   <KebabSwitches.Ignore.CompSpawnerSpawnedItem>Ignore "Item produced"</KebabSwitches.Ignore.CompSpawnerSpawnedItem>
+  <KebabSwitches.Ignore.FishCaughtInTrap>Ignore "Fish caught in trap"</KebabSwitches.Ignore.FishCaughtInTrap>
   <KebabSwitches.Ignore.PlantDiedOfCold>Ignore "Plant died of cold"</KebabSwitches.Ignore.PlantDiedOfCold>
   <KebabSwitches.Ignore.PlantDiedOfRotUnharvested>Ignore "Plant died from age"</KebabSwitches.Ignore.PlantDiedOfRotUnharvested>
   <KebabSwitches.Ignore.PlantDiedOfRotLight>Ignore "Plant died in light"</KebabSwitches.Ignore.PlantDiedOfRotLight>
@@ -161,6 +162,7 @@
   <KebabSwitches.Ignore.PlantDiedOfPollution>Ignore "Plant died of pollution"</KebabSwitches.Ignore.PlantDiedOfPollution>
   <KebabSwitches.Ignore.PlantDiedOfNoPollution>Ignore "Plant died without pollution"</KebabSwitches.Ignore.PlantDiedOfNoPollution>
   <KebabSwitches.Ignore.PlantDiedOfRotPollutedTerrain>Ignore "Plant rotted on polluted soil"</KebabSwitches.Ignore.PlantDiedOfRotPollutedTerrain>
+  <KebabSwitches.Ignore.PlantDiedOfVacuum>Ignore "Plant died in vacuum"</KebabSwitches.Ignore.PlantDiedOfVacuum>
   <KebabSwitches.Ignore.MinifiedTreeDied>Ignore "An extracted tree just died."</KebabSwitches.Ignore.MinifiedTreeDied>
   <KebabSwitches.Ignore.RottedAwayInStorage>Ignore "Item rotted in storage"</KebabSwitches.Ignore.RottedAwayInStorage>
   <KebabSwitches.Ignore.DeterioratedAway>Ignore "Item deteriorated in storage"</KebabSwitches.Ignore.DeterioratedAway>

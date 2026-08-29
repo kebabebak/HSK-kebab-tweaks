@@ -152,6 +152,7 @@
   <KebabSwitches.Ignore.TraderCaravanLeaving>Игнорировать «Торговый караван уходит»</KebabSwitches.Ignore.TraderCaravanLeaving>
   <KebabSwitches.Ignore.TraderCaravanDismissed>Игнорировать «Торговый караван отпущен»</KebabSwitches.Ignore.TraderCaravanDismissed>
   <KebabSwitches.Ignore.CompSpawnerSpawnedItem>Игнорировать «Произведён предмет»</KebabSwitches.Ignore.CompSpawnerSpawnedItem>
+  <KebabSwitches.Ignore.FishCaughtInTrap>Игнорировать «Рыба поймана в ловушку»</KebabSwitches.Ignore.FishCaughtInTrap>
   <KebabSwitches.Ignore.PlantDiedOfCold>Игнорировать «Растение погибло от холода»</KebabSwitches.Ignore.PlantDiedOfCold>
   <KebabSwitches.Ignore.PlantDiedOfRotUnharvested>Игнорировать «Растение погибло от старости»</KebabSwitches.Ignore.PlantDiedOfRotUnharvested>
   <KebabSwitches.Ignore.PlantDiedOfRotLight>Игнорировать «Растение погибло на свету»</KebabSwitches.Ignore.PlantDiedOfRotLight>
@@ -161,6 +162,7 @@
   <KebabSwitches.Ignore.PlantDiedOfPollution>Игнорировать «Растение погибло от загрязнения»</KebabSwitches.Ignore.PlantDiedOfPollution>
   <KebabSwitches.Ignore.PlantDiedOfNoPollution>Игнорировать «Растение погибло без загрязнения»</KebabSwitches.Ignore.PlantDiedOfNoPollution>
   <KebabSwitches.Ignore.PlantDiedOfRotPollutedTerrain>Игнорировать «Растение сгнило на загрязнённой почве»</KebabSwitches.Ignore.PlantDiedOfRotPollutedTerrain>
+  <KebabSwitches.Ignore.PlantDiedOfVacuum>Игнорировать «Растение погибло в вакууме»</KebabSwitches.Ignore.PlantDiedOfVacuum>
   <KebabSwitches.Ignore.MinifiedTreeDied>Игнорировать "Извлечённое дерево погибло."</KebabSwitches.Ignore.MinifiedTreeDied>
   <KebabSwitches.Ignore.RottedAwayInStorage>Игнорировать «Предмет сгнил на складе»</KebabSwitches.Ignore.RottedAwayInStorage>
   <KebabSwitches.Ignore.DeterioratedAway>Игнорировать «Предмет пришёл в негодность на складе»</KebabSwitches.Ignore.DeterioratedAway>
