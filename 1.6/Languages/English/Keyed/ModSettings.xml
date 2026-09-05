@@ -36,6 +36,9 @@
   <KebabTweaks.Patch.CeProjectileNullSoundFix>CE Projectile Null Sound Fix</KebabTweaks.Patch.CeProjectileNullSoundFix>
   <KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>Skips Combat Extended projectile sound when the launcher or sound def is missing.</KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>
 
+  <KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix>CE Extended Loadout Medicine Label Fix</KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix>
+  <KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix.Tooltip>At game start Combat Extended Extended Loadout can show an error while naming medicine loadouts, and those loadouts are not created. This fix names them without that error.</KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix.Tooltip>
+
   <KebabTweaks.Patch.FishTableTypeListFix>Fish Table Type List Fix</KebabTweaks.Patch.FishTableTypeListFix>
   <KebabTweaks.Patch.FishTableTypeListFix.Tooltip>Guards Performance Fish ListerThings type-list corruption.</KebabTweaks.Patch.FishTableTypeListFix.Tooltip>
 
@@ -89,6 +92,9 @@
   <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log</KebabTweaks.Patch.RecipeProductDropLostLog>
   <KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>Tracks items lost to «could not drop recipe product» in KebabTweaks/RecipeProductDropLost.log.</KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>
 
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default</KebabTweaks.Patch.NumbersLoadDefaultFallback>
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>In the Numbers tab, Presets → Load default view restores the column layout from game start when you have not saved a default for that pawn type. After you use Set current view as default, that saved layout is used instead.</KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>
+
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>Storage AllowedToAccept Fix</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>Guards StorageSettings.AllowedToAccept when filter or parent is null.</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>
 
@@ -125,6 +131,9 @@
 
   <KebabTweaks.Patch.BreachAxeWorkAmountFix>Breach Axe Work Amount Fix</KebabTweaks.Patch.BreachAxeWorkAmountFix>
   <KebabTweaks.Patch.BreachAxeWorkAmountFix.Tooltip>Crafting a breach axe can show work amount 1, so the job finishes almost instantly. The weapon stats lost the usual smithing time. The fix restores a normal work amount for that job.</KebabTweaks.Patch.BreachAxeWorkAmountFix.Tooltip>
+
+  <KebabTweaks.Patch.RawFungusBillFix>Raw Fungus Bill Fix</KebabTweaks.Patch.RawFungusBillFix>
+  <KebabTweaks.Patch.RawFungusBillFix.Tooltip>Bills that ask for fungi (Extract yeast, mushroom meals) ignore the generic fungi item even when the right-hand list shows a warehouse count for it. Other kinds of fungi still work. The fix treats generic fungi as the same fungi group those bills use.</KebabTweaks.Patch.RawFungusBillFix.Tooltip>
 
   <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Lets haulers (including cargo drones) finish fermenter fills when they can carry more than the bill needs. With Carry only the bill amount on, extra stays in the stockpile it was taken from. With it off, extra is left on the ground by the fermenter. Without the fix the hauler walks up, does nothing, and tries again.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>

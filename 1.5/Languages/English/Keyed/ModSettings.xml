@@ -36,6 +36,9 @@
   <KebabTweaks.Patch.CeProjectileNullSoundFix>CE Projectile Null Sound Fix</KebabTweaks.Patch.CeProjectileNullSoundFix>
   <KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>Skips Combat Extended projectile sound when the launcher or sound def is missing.</KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>
 
+  <KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix>CE Extended Loadout Medicine Label Fix</KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix>
+  <KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix.Tooltip>At game start Combat Extended Extended Loadout can show an error while naming medicine loadouts, and those loadouts are not created. This fix names them without that error.</KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix.Tooltip>
+
   <KebabTweaks.Patch.FishTableTypeListFix>Fish Table Type List Fix</KebabTweaks.Patch.FishTableTypeListFix>
   <KebabTweaks.Patch.FishTableTypeListFix.Tooltip>Guards Performance Fish ListerThings type-list corruption.</KebabTweaks.Patch.FishTableTypeListFix.Tooltip>
 
@@ -88,6 +91,9 @@
 
   <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log</KebabTweaks.Patch.RecipeProductDropLostLog>
   <KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>Tracks items lost to «could not drop recipe product» in KebabTweaks/RecipeProductDropLost.log.</KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>
+
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default</KebabTweaks.Patch.NumbersLoadDefaultFallback>
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>In the Numbers tab, Presets → Load default view restores the column layout from game start when you have not saved a default for that pawn type. After you use Set current view as default, that saved layout is used instead.</KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>
 
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>Storage AllowedToAccept Fix</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>Guards StorageSettings.AllowedToAccept when filter or parent is null.</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>

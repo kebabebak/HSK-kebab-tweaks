@@ -36,6 +36,9 @@
   <KebabTweaks.Patch.CeProjectileNullSoundFix>CE Projectile Null Sound Fix</KebabTweaks.Patch.CeProjectileNullSoundFix>
   <KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>Пропускает звук снаряда CE, если launcher или sound def отсутствует.</KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>
 
+  <KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix>CE Extended Loadout Medicine Label Fix</KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix>
+  <KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix.Tooltip>При запуске Combat Extended Extended Loadout может показать ошибку, задавая названия медицинских наборов, и наборы не создаются. Фикс задаёт названия без этой ошибки.</KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix.Tooltip>
+
   <KebabTweaks.Patch.FishTableTypeListFix>Fish Table Type List Fix</KebabTweaks.Patch.FishTableTypeListFix>
   <KebabTweaks.Patch.FishTableTypeListFix.Tooltip>Защита от порчи type-list Performance Fish ListerThings.</KebabTweaks.Patch.FishTableTypeListFix.Tooltip>
 
@@ -89,6 +92,9 @@
   <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log</KebabTweaks.Patch.RecipeProductDropLostLog>
   <KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>Ведёт учёт пропавших предметов при «could not drop recipe product» в KebabTweaks/RecipeProductDropLost.log.</KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>
 
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default</KebabTweaks.Patch.NumbersLoadDefaultFallback>
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>Во вкладке «Цифры» пункт «Шаблоны» → «Загрузить шаблон по умолчанию» восстанавливает набор колонок со старта игры, если для этого типа пешек ещё нет сохранённого шаблона по умолчанию. Если уже выбран «Установить текущий шаблон по умолчанию», загружается он.</KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>
+
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>Storage AllowedToAccept Fix</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>Защищает StorageSettings.AllowedToAccept при null filter/parent.</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>
 
@@ -125,6 +131,9 @@
 
   <KebabTweaks.Patch.BreachAxeWorkAmountFix>Breach Axe Work Amount Fix</KebabTweaks.Patch.BreachAxeWorkAmountFix>
   <KebabTweaks.Patch.BreachAxeWorkAmountFix.Tooltip>У задания «изготовить штурмовой топор» объём работ может быть 1, поэтому ковка заканчивается почти сразу. У оружия пропало обычное время ковки. Фикс возвращает нормальный объём работ для этого задания.</KebabTweaks.Patch.BreachAxeWorkAmountFix.Tooltip>
+
+  <KebabTweaks.Patch.RawFungusBillFix>Raw Fungus Bill Fix</KebabTweaks.Patch.RawFungusBillFix>
+  <KebabTweaks.Patch.RawFungusBillFix.Tooltip>Задания, которым нужны грибы («Получить дрожжи», грибные блюда), не берут обычные «Грибы», даже если справа в списке виден складской счёт. Другие виды грибов по-прежнему подходят. Фикс относит обычные грибы к той же группе, что и эти задания.</KebabTweaks.Patch.RawFungusBillFix.Tooltip>
 
   <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Позволяет грузчикам (в том числе грузовому дрону) завершать загрузку ферментера, даже если они могут нести больше, чем нужно заданию. Если включено «Переносить только норму задания», лишнее остаётся в складе, откуда его взяли. Если выключено — лишнее остаётся на земле у ферментера. Без фикса грузчик подходит, ничего не делает и пробует снова.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>

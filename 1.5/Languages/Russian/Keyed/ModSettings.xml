@@ -36,6 +36,9 @@
   <KebabTweaks.Patch.CeProjectileNullSoundFix>CE Projectile Null Sound Fix</KebabTweaks.Patch.CeProjectileNullSoundFix>
   <KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>Пропускает звук снаряда CE, если launcher или sound def отсутствует.</KebabTweaks.Patch.CeProjectileNullSoundFix.Tooltip>
 
+  <KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix>CE Extended Loadout Medicine Label Fix</KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix>
+  <KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix.Tooltip>При запуске Combat Extended Extended Loadout может показать ошибку, задавая названия медицинских наборов, и наборы не создаются. Фикс задаёт названия без этой ошибки.</KebabTweaks.Patch.CeExtendedLoadoutMedicineLabelFix.Tooltip>
+
   <KebabTweaks.Patch.FishTableTypeListFix>Fish Table Type List Fix</KebabTweaks.Patch.FishTableTypeListFix>
   <KebabTweaks.Patch.FishTableTypeListFix.Tooltip>Защита от порчи type-list Performance Fish ListerThings.</KebabTweaks.Patch.FishTableTypeListFix.Tooltip>
 
@@ -88,6 +91,9 @@
 
   <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log</KebabTweaks.Patch.RecipeProductDropLostLog>
   <KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>Ведёт учёт пропавших предметов при «could not drop recipe product» в KebabTweaks/RecipeProductDropLost.log.</KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>
+
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default</KebabTweaks.Patch.NumbersLoadDefaultFallback>
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>Во вкладке «Цифры» пункт «Шаблоны» → «Загрузить шаблон по умолчанию» восстанавливает набор колонок со старта игры, если для этого типа пешек ещё нет сохранённого шаблона по умолчанию. Если уже выбран «Установить текущий шаблон по умолчанию», загружается он.</KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>
 
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>Storage AllowedToAccept Fix</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>Защищает StorageSettings.AllowedToAccept при null filter/parent.</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>
