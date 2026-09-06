@@ -2,7 +2,7 @@
 <ModMetaData>
   <packageId>kebabebak.hsk.kebab.tweaks</packageId>
   <name>HSK kebab tweaks</name>
-  <modVersion>1.11</modVersion>
+  <modVersion>1.12</modVersion>
   <author>kebabebak</author>
   <supportedVersions>
     <li>1.5</li>
@@ -52,6 +52,7 @@ https://github.com/kebabebak/HSK-kebab-tweaks</description>
     <li>notfood.MendAndRecycle</li>
     <li>savestoragesettings.kv.rw.fishtmp</li>
     <li>UnlimitedHugs.AllowTool</li>
+    <li>keyz182.KeyzAllowUtilities</li>
     <li>Dubwise.DubsPerformanceAnalyzer.steam</li>
     <li>CETeam.CombatExtended</li>
     <li>pirateby.ce.extendedloadout</li>

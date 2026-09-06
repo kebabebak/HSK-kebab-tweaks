@@ -45,8 +45,15 @@
   <KebabTweaks.Patch.GetActiveRitualsFix>Get Active Rituals Fix</KebabTweaks.Patch.GetActiveRitualsFix>
   <KebabTweaks.Patch.GetActiveRitualsFix.Tooltip>Возвращает свежий список из IdeoManager.GetActiveRituals.</KebabTweaks.Patch.GetActiveRitualsFix.Tooltip>
 
-  <KebabTweaks.Patch.GrowerCutTrees>Grower Cut Trees</KebabTweaks.Patch.GrowerCutTrees>
+  <KebabTweaks.Patch.GrowerCutTrees>Grower Cut Trees Patch</KebabTweaks.Patch.GrowerCutTrees>
   <KebabTweaks.Patch.GrowerCutTrees.Tooltip>Отдельная фермерская под-работа: рубить деревья в зонах выращивания перед посевом.</KebabTweaks.Patch.GrowerCutTrees.Tooltip>
+
+  <KebabTweaks.Patch.StartingCorpsesNoHaul>Starting Corpses Patch</KebabTweaks.Patch.StartingCorpsesNoHaul>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.Tooltip>На карте новой колонии трупы на земле помечаются, чтобы колонисты не таскали их издалека. Один раз для новой колонии, не при загрузке сохранения. По умолчанию их просто не носят на склад.</KebabTweaks.Patch.StartingCorpsesNoHaul.Tooltip>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.Mode>Режим ограничения</KebabTweaks.Patch.StartingCorpsesNoHaul.Mode>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.Mode1.Tooltip>Вместо этого запретить трупы: колонисты не будут с ними взаимодействовать, пока вы их не разрешите.</KebabTweaks.Patch.StartingCorpsesNoHaul.Mode1.Tooltip>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.Mode2.Tooltip>И не носить на склад, и запретить.</KebabTweaks.Patch.StartingCorpsesNoHaul.Mode2.Tooltip>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.ModeX.Tooltip>Стандартное поведение</KebabTweaks.Patch.StartingCorpsesNoHaul.ModeX.Tooltip>
 
   <KebabTweaks.Patch.IdleErrorWanderFix>Idle Error Wander Fix</KebabTweaks.Patch.IdleErrorWanderFix>
   <KebabTweaks.Patch.IdleErrorWanderFix.Tooltip>Исправляет IdleError wait-job, когда wander под lord не находит цель.</KebabTweaks.Patch.IdleErrorWanderFix.Tooltip>
@@ -60,10 +67,10 @@
   <KebabTweaks.Patch.DebugLogSplitterDragFix>Debug Log Splitter Drag Fix</KebabTweaks.Patch.DebugLogSplitterDragFix>
   <KebabTweaks.Patch.DebugLogSplitterDragFix.Tooltip>Сбрасывает застрявший drag сплиттера стека Debug Log после Alt+Tab, если ЛКМ уже не зажата.</KebabTweaks.Patch.DebugLogSplitterDragFix.Tooltip>
 
-  <KebabTweaks.Patch.LowTpsPawnDump>Low TPS Pawn Dump</KebabTweaks.Patch.LowTpsPawnDump>
+  <KebabTweaks.Patch.LowTpsPawnDump>Low TPS Pawn Dump Patch</KebabTweaks.Patch.LowTpsPawnDump>
   <KebabTweaks.Patch.LowTpsPawnDump.Tooltip>Пишет в лог задачи пешек, когда экранный TPS HSK падает ниже порога.</KebabTweaks.Patch.LowTpsPawnDump.Tooltip>
 
-  <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown</KebabTweaks.Patch.IdleWorkSearchCooldown>
+  <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown Patch</KebabTweaks.Patch.IdleWorkSearchCooldown>
   <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>После неудачного поиска работы откладывает следующий полный JobGiver_Work scan на заданное число тиков (0–100000). Минимальный интервал после неудачного scan; vanilla wander (~125–200 тиков) всё равно задаёт частоту think tree. Снижает падение TPS от idle-пешек, которые снова и снова обходят все приоритеты Work tab.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
 
   <KebabTweaks.Patch.PtgMedicalCare>PTG Medical Care Fix</KebabTweaks.Patch.PtgMedicalCare>
@@ -83,16 +90,16 @@
   <KebabTweaks.Patch.CompressibleOverlapFix.EnableLogging>Включить логирование</KebabTweaks.Patch.CompressibleOverlapFix.EnableLogging>
   <KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>Записывать в Player.log, сколько пересекающихся объектов перенесено или удалено (префикс [CompressibleOverlapFix]).</KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>
 
-  <KebabTweaks.Patch.ApparelPolicyLoad>Apparel Policy Load</KebabTweaks.Patch.ApparelPolicyLoad>
+  <KebabTweaks.Patch.ApparelPolicyLoad>Apparel Policy Load Patch</KebabTweaks.Patch.ApparelPolicyLoad>
   <KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>При загрузке сохранённой политики одежды через Save Storage Settings создаёт новую политику с именем файла вместо перезаписи выбранной.</KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>
 
-  <KebabTweaks.Patch.BillRenamePrefill>Bill Rename Prefill</KebabTweaks.Patch.BillRenamePrefill>
+  <KebabTweaks.Patch.BillRenamePrefill>Bill Rename Prefill Patch</KebabTweaks.Patch.BillRenamePrefill>
   <KebabTweaks.Patch.BillRenamePrefill.Tooltip>Подставляет текущее имя работы в диалог переименования Better Workbench Management и выделяет весь текст.</KebabTweaks.Patch.BillRenamePrefill.Tooltip>
 
-  <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log</KebabTweaks.Patch.RecipeProductDropLostLog>
+  <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log Patch</KebabTweaks.Patch.RecipeProductDropLostLog>
   <KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>Ведёт учёт пропавших предметов при «could not drop recipe product» в KebabTweaks/RecipeProductDropLost.log.</KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>
 
-  <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default</KebabTweaks.Patch.NumbersLoadDefaultFallback>
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default Patch</KebabTweaks.Patch.NumbersLoadDefaultFallback>
   <KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>Во вкладке «Цифры» пункт «Шаблоны» → «Загрузить шаблон по умолчанию» восстанавливает набор колонок со старта игры, если для этого типа пешек ещё нет сохранённого шаблона по умолчанию. Если уже выбран «Установить текущий шаблон по умолчанию», загружается он.</KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>
 
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>Storage AllowedToAccept Fix</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>
@@ -113,6 +120,9 @@
 
   <KebabTweaks.Patch.StartingPawnChildAgeFix>Starting Pawn Child Age Fix</KebabTweaks.Patch.StartingPawnChildAgeFix>
   <KebabTweaks.Patch.StartingPawnChildAgeFix.Tooltip>Если на экране стартовых колонистов переключить взрослого на ребёнка, игра может не подобрать возраст и показать ошибку. Типы поселенцев заданы как взрослые, поэтому детский возраст не принимается. Фикс выбирает допустимый детский возраст, чтобы колониста можно было создать.</KebabTweaks.Patch.StartingPawnChildAgeFix.Tooltip>
+
+  <KebabTweaks.Patch.StartingPawnNameFix>Starting Pawn Name Fix</KebabTweaks.Patch.StartingPawnNameFix>
+  <KebabTweaks.Patch.StartingPawnNameFix.Tooltip>У стартового колониста может оказаться только прозвище. Игра не даст основать колонию, пока у каждого не будет имени и фамилии — в том числе у оставленных. Фикс заполняет пустые поля из прозвища при создании и перегенерации.</KebabTweaks.Patch.StartingPawnNameFix.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Убирает ложные Error точности Map Preview при плавающем vanilla RNG baseline HSK 1.6 Alpha и синхронизирует SkipIterations превью с измеренным значением.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>

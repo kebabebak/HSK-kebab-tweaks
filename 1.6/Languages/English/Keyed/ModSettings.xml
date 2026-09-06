@@ -45,8 +45,15 @@
   <KebabTweaks.Patch.GetActiveRitualsFix>Get Active Rituals Fix</KebabTweaks.Patch.GetActiveRitualsFix>
   <KebabTweaks.Patch.GetActiveRitualsFix.Tooltip>Returns a fresh list from IdeoManager.GetActiveRituals.</KebabTweaks.Patch.GetActiveRitualsFix.Tooltip>
 
-  <KebabTweaks.Patch.GrowerCutTrees>Grower Cut Trees</KebabTweaks.Patch.GrowerCutTrees>
+  <KebabTweaks.Patch.GrowerCutTrees>Grower Cut Trees Patch</KebabTweaks.Patch.GrowerCutTrees>
   <KebabTweaks.Patch.GrowerCutTrees.Tooltip>Adds farmer sub-work for cutting trees in growing zones before sowing.</KebabTweaks.Patch.GrowerCutTrees.Tooltip>
+
+  <KebabTweaks.Patch.StartingCorpsesNoHaul>Starting Corpses Patch</KebabTweaks.Patch.StartingCorpsesNoHaul>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.Tooltip>On a new colony map, corpses already on the ground are marked so colonists skip them instead of dragging them from far away. Once per new colony, not when you load a save. By default they are only skipped for hauling.</KebabTweaks.Patch.StartingCorpsesNoHaul.Tooltip>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.Mode>Restriction mode</KebabTweaks.Patch.StartingCorpsesNoHaul.Mode>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.Mode1.Tooltip>Colonists will not touch the corpses until you allow them, instead of only skipping hauling.</KebabTweaks.Patch.StartingCorpsesNoHaul.Mode1.Tooltip>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.Mode2.Tooltip>Skip hauling and also forbid the corpses.</KebabTweaks.Patch.StartingCorpsesNoHaul.Mode2.Tooltip>
+  <KebabTweaks.Patch.StartingCorpsesNoHaul.ModeX.Tooltip>Standard behavior</KebabTweaks.Patch.StartingCorpsesNoHaul.ModeX.Tooltip>
 
   <KebabTweaks.Patch.IdleErrorWanderFix>Idle Error Wander Fix</KebabTweaks.Patch.IdleErrorWanderFix>
   <KebabTweaks.Patch.IdleErrorWanderFix.Tooltip>Fixes IdleError wait-job errors when lord wander fails.</KebabTweaks.Patch.IdleErrorWanderFix.Tooltip>
@@ -60,10 +67,10 @@
   <KebabTweaks.Patch.DebugLogSplitterDragFix>Debug Log Splitter Drag Fix</KebabTweaks.Patch.DebugLogSplitterDragFix>
   <KebabTweaks.Patch.DebugLogSplitterDragFix.Tooltip>Clears a stuck Debug Log stack-trace splitter drag after Alt+Tab if the left mouse button is no longer held.</KebabTweaks.Patch.DebugLogSplitterDragFix.Tooltip>
 
-  <KebabTweaks.Patch.LowTpsPawnDump>Low TPS Pawn Dump</KebabTweaks.Patch.LowTpsPawnDump>
+  <KebabTweaks.Patch.LowTpsPawnDump>Low TPS Pawn Dump Patch</KebabTweaks.Patch.LowTpsPawnDump>
   <KebabTweaks.Patch.LowTpsPawnDump.Tooltip>Logs pawn jobs when the HSK on-screen TPS counter drops below a threshold.</KebabTweaks.Patch.LowTpsPawnDump.Tooltip>
 
-  <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown</KebabTweaks.Patch.IdleWorkSearchCooldown>
+  <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown Patch</KebabTweaks.Patch.IdleWorkSearchCooldown>
   <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>After a colonist finds no work, delays the next full JobGiver_Work scan for the configured tick count (0–100000). Minimum interval after a failed scan; vanilla wander timing (~125–200 ticks) still applies. Reduces TPS loss from idle pawns repeatedly scanning all work priorities.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
 
   <KebabTweaks.Patch.PtgMedicalCare>PTG Medical Care Fix</KebabTweaks.Patch.PtgMedicalCare>
@@ -83,16 +90,16 @@
   <KebabTweaks.Patch.CompressibleOverlapFix.EnableLogging>Enable logging</KebabTweaks.Patch.CompressibleOverlapFix.EnableLogging>
   <KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>Write how many overlapping objects were moved or removed to Player.log (prefix [CompressibleOverlapFix]).</KebabTweaks.Patch.CompressibleOverlapFix.EnableLoggingTooltip>
 
-  <KebabTweaks.Patch.ApparelPolicyLoad>Apparel Policy Load</KebabTweaks.Patch.ApparelPolicyLoad>
+  <KebabTweaks.Patch.ApparelPolicyLoad>Apparel Policy Load Patch</KebabTweaks.Patch.ApparelPolicyLoad>
   <KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>When loading a saved apparel policy via Save Storage Settings, create a new policy named after the save file instead of overwriting the selected one.</KebabTweaks.Patch.ApparelPolicyLoad.Tooltip>
 
-  <KebabTweaks.Patch.BillRenamePrefill>Bill Rename Prefill</KebabTweaks.Patch.BillRenamePrefill>
+  <KebabTweaks.Patch.BillRenamePrefill>Bill Rename Prefill Patch</KebabTweaks.Patch.BillRenamePrefill>
   <KebabTweaks.Patch.BillRenamePrefill.Tooltip>Prefills Better Workbench Management bill rename with the current label and selects all text.</KebabTweaks.Patch.BillRenamePrefill.Tooltip>
 
-  <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log</KebabTweaks.Patch.RecipeProductDropLostLog>
+  <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log Patch</KebabTweaks.Patch.RecipeProductDropLostLog>
   <KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>Tracks items lost to «could not drop recipe product» in KebabTweaks/RecipeProductDropLost.log.</KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>
 
-  <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default</KebabTweaks.Patch.NumbersLoadDefaultFallback>
+  <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default Patch</KebabTweaks.Patch.NumbersLoadDefaultFallback>
   <KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>In the Numbers tab, Presets → Load default view restores the column layout from game start when you have not saved a default for that pawn type. After you use Set current view as default, that saved layout is used instead.</KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>
 
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>Storage AllowedToAccept Fix</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix>
@@ -113,6 +120,9 @@
 
   <KebabTweaks.Patch.StartingPawnChildAgeFix>Starting Pawn Child Age Fix</KebabTweaks.Patch.StartingPawnChildAgeFix>
   <KebabTweaks.Patch.StartingPawnChildAgeFix.Tooltip>When you switch a starting colonist from adult to child, the game can fail to pick an age and show an error. Colonist types are set up as adults, so a child age is never accepted. The fix picks a valid child age so that colonist can be generated.</KebabTweaks.Patch.StartingPawnChildAgeFix.Tooltip>
+
+  <KebabTweaks.Patch.StartingPawnNameFix>Starting Pawn Name Fix</KebabTweaks.Patch.StartingPawnNameFix>
+  <KebabTweaks.Patch.StartingPawnNameFix.Tooltip>A starting colonist can spawn with only a nickname. The game will not let you found the colony until every person has a first and last name, including those left behind. The fix fills the empty fields from the nickname when colonists are created or rerolled.</KebabTweaks.Patch.StartingPawnNameFix.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Stops Map Preview false accuracy Errors when the HSK 1.6 Alpha vanilla RNG baseline drifts, and keeps preview SkipIterations in sync with the measured value.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
