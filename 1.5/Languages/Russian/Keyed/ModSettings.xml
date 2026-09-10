@@ -77,7 +77,7 @@
   <KebabTweaks.Patch.PtgMedicalCare.Tooltip>Исправляет IndexOutOfRange заголовка MedicalCare при расширенных категориях медицины.</KebabTweaks.Patch.PtgMedicalCare.Tooltip>
 
   <KebabTweaks.Patch.SeedsPleaseSowFix>SeedsPlease Sow Fix</KebabTweaks.Patch.SeedsPleaseSowFix>
-  <KebabTweaks.Patch.SeedsPleaseSowFix.Tooltip>Исправляет NRE TargetB в SeedsPlease и clamp toil SowWithSeeds.</KebabTweaks.Patch.SeedsPleaseSowFix.Tooltip>
+  <KebabTweaks.Patch.SeedsPleaseSowFix.Tooltip>Колонисты не сажают в зоне выращивания, если посев там выключен, даже когда рядом зона с той же культурой и включённым посевом. Также исправляет NRE TargetB в SeedsPlease и clamp toil SowWithSeeds.</KebabTweaks.Patch.SeedsPleaseSowFix.Tooltip>
 
   <KebabTweaks.Patch.TakeFromMending>Take From Mending Fix</KebabTweaks.Patch.TakeFromMending>
   <KebabTweaks.Patch.TakeFromMending.Tooltip>Исправляет кнопку Take from для MendAndRecycle / заданий.</KebabTweaks.Patch.TakeFromMending.Tooltip>
@@ -123,6 +123,9 @@
 
   <KebabTweaks.Patch.StartingPawnNameFix>Starting Pawn Name Fix</KebabTweaks.Patch.StartingPawnNameFix>
   <KebabTweaks.Patch.StartingPawnNameFix.Tooltip>У стартового колониста может оказаться только прозвище. Игра не даст основать колонию, пока у каждого не будет имени и фамилии — в том числе у оставленных. Фикс заполняет пустые поля из прозвища при создании и перегенерации.</KebabTweaks.Patch.StartingPawnNameFix.Tooltip>
+
+  <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
+  <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>В ярком или тёмном освещении колонисты получают эффект, который влияет на зрение - не действует на Андроидов. Этот патч позволяет Андроидам получать эффекты от освещения.\n\nОтключите, если считаете, что зрение у Андроидов должно отличаться от органических рас.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Убирает ложные Error точности Map Preview при плавающем vanilla RNG baseline HSK 1.6 Alpha и синхронизирует SkipIterations превью с измеренным значением.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
