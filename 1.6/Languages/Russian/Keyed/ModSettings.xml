@@ -2,7 +2,7 @@
 <LanguageData>
 
   <KebabTweaks.SettingsCategory>HSK kebab tweaks</KebabTweaks.SettingsCategory>
-  <KebabTweaks.RequiresRestartTooltip>Включение/выключение этого патча применяется только после перезапуска игры — отмечено желтым, если не применено.</KebabTweaks.RequiresRestartTooltip>
+  <KebabTweaks.RequiresRestartTooltip>Включение/выключение этого патча применяется только после перезапуска игры - отмечено желтым, если не применено.</KebabTweaks.RequiresRestartTooltip>
   <KebabTweaks.SupersededStandaloneTooltip>Эта фича тихо пропущена, потому что старый отдельный мод/патч всё ещё включён. Выключите его в списке модов и перезапустите игру.</KebabTweaks.SupersededStandaloneTooltip>
   <KebabTweaks.ResetAll>Полный сброс всех настроек</KebabTweaks.ResetAll>
   <KebabTweaks.ResetAllConfirm>Сбросить все настройки HSK kebab tweaks к значениям по умолчанию?</KebabTweaks.ResetAllConfirm>
@@ -19,7 +19,7 @@
   <KebabTweaks.EnableObsoleteFixesConfirm>Вы уверены? Настоятельно не рекомендуется включать устаревшие фиксы.\n\nНе включайте этот раздел, если не знаете, что делаете.</KebabTweaks.EnableObsoleteFixesConfirm>
   <KebabTweaks.DoNotResetObsoleteFixesOnReload>Не сбрасывать при перезагрузке</KebabTweaks.DoNotResetObsoleteFixesOnReload>
   <KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>Не отключать устаревшие фиксы после перезапуска игры. Без этого при старте игры они выключаются.</KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>
-  <KebabTweaks.RelevancePercentTooltip>Процент актуальности — это значение показывает насколько полезен фикс / сколько в фиксе решено проблем, которые не были закрыты в текущей сборке Hardcore SK.\n\nЧем меньше процент, тем больше шансов что проблему не получится воспроизвести по ранее описанному сценарию. Отсутствие значения подразумевает 100%. Если фикс не в разделе устаревших, то его включение безопасно.</KebabTweaks.RelevancePercentTooltip>
+  <KebabTweaks.RelevancePercentTooltip>Процент актуальности - это значение показывает насколько полезен фикс / сколько в фиксе решено проблем, которые не были закрыты в текущей сборке Hardcore SK.\n\nЧем меньше процент, тем больше шансов что проблему не получится воспроизвести по ранее описанному сценарию. Отсутствие значения подразумевает 100%. Если фикс не в разделе устаревших, то его включение безопасно.</KebabTweaks.RelevancePercentTooltip>
 
   <KebabTweaks.Patch.CatCrazyTime>Cat Crazy Time Fix</KebabTweaks.Patch.CatCrazyTime>
   <KebabTweaks.Patch.CatCrazyTime.Tooltip>Исправляет проблемы загрузки/возобновления toil CrazyTime у кошек.</KebabTweaks.Patch.CatCrazyTime.Tooltip>
@@ -106,14 +106,14 @@
   <KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>Защищает StorageSettings.AllowedToAccept при null filter/parent.</KebabTweaks.Patch.StorageSettingsAllowedToAcceptFix.Tooltip>
 
   <KebabTweaks.Patch.SaveSettingsLoadFix>Save Settings Load Fix</KebabTweaks.Patch.SaveSettingsLoadFix>
-  <KebabTweaks.Patch.SaveSettingsLoadFix.Tooltip>При загрузке сохранённого списка заданий через Save Storage Settings пешка может взять материалы у станка — и они пропадают, вместо того чтобы началась работа. В устаревшем файле часть рецептов может уже не существовать. Фикс оставляет загруженные задания рабочими у станка, пропускает исчезнувшие рецепты и предупреждает, если могли быть загружены не все настройки.</KebabTweaks.Patch.SaveSettingsLoadFix.Tooltip>
+  <KebabTweaks.Patch.SaveSettingsLoadFix.Tooltip>При загрузке сохранённого списка заданий через Save Storage Settings пешка может взять материалы у станка - и они пропадают, вместо того чтобы началась работа. В устаревшем файле часть рецептов может уже не существовать. Фикс оставляет загруженные задания рабочими у станка, пропускает исчезнувшие рецепты и предупреждает, если могли быть загружены не все настройки.</KebabTweaks.Patch.SaveSettingsLoadFix.Tooltip>
   <KebabTweaks.SaveSettingsLoad.PartialLoadWarning>Часть записей из этого файла пропущена. Могли быть загружены не все настройки.</KebabTweaks.SaveSettingsLoad.PartialLoadWarning>
 
   <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>Hospitality Guest Apparel Optimize Fix</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix>
   <KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>Исправляет NRE optimize guest apparel Hospitality при битых записях одежды.</KebabTweaks.Patch.HospitalityGuestApparelOptimizeFix.Tooltip>
 
   <KebabTweaks.Patch.TribalLeaderFix>Tribal Leader Fix</KebabTweaks.Patch.TribalLeaderFix>
-  <KebabTweaks.Patch.TribalLeaderFix.Tooltip>При создании мира у племенных фракций (особенно неандертальцев) может не появиться вождь — фракция ломается. Фикс не даёт требованиям Combat Extended к ближнему бою блокировать неандертальских вождей, не сажает пацифистские истории жизни на боевых вождей и повторяет создание вождя, если игра его всё равно не сделала.</KebabTweaks.Patch.TribalLeaderFix.Tooltip>
+  <KebabTweaks.Patch.TribalLeaderFix.Tooltip>При создании мира у племенных фракций (особенно неандертальцев) может не появиться вождь - фракция ломается. Фикс не даёт требованиям Combat Extended к ближнему бою блокировать неандертальских вождей, не сажает пацифистские истории жизни на боевых вождей и повторяет создание вождя, если игра его всё равно не сделала.</KebabTweaks.Patch.TribalLeaderFix.Tooltip>
 
   <KebabTweaks.Patch.CraftStuffFix>Craft Stuff Fix</KebabTweaks.Patch.CraftStuffFix>
   <KebabTweaks.Patch.CraftStuffFix.Tooltip>Если в рецепте нужен и материал изделия, и дополнительные ингредиенты, игра может взять дополнительный ингредиент как материал. Фикс всегда берёт материал, из которого изделие вообще можно сделать.</KebabTweaks.Patch.CraftStuffFix.Tooltip>
@@ -122,7 +122,13 @@
   <KebabTweaks.Patch.StartingPawnChildAgeFix.Tooltip>Если на экране стартовых колонистов переключить взрослого на ребёнка, игра может не подобрать возраст и показать ошибку. Типы поселенцев заданы как взрослые, поэтому детский возраст не принимается. Фикс выбирает допустимый детский возраст, чтобы колониста можно было создать.</KebabTweaks.Patch.StartingPawnChildAgeFix.Tooltip>
 
   <KebabTweaks.Patch.StartingPawnNameFix>Starting Pawn Name Fix</KebabTweaks.Patch.StartingPawnNameFix>
-  <KebabTweaks.Patch.StartingPawnNameFix.Tooltip>У стартового колониста может оказаться только прозвище. Игра не даст основать колонию, пока у каждого не будет имени и фамилии — в том числе у оставленных. Фикс заполняет пустые поля из прозвища при создании и перегенерации.</KebabTweaks.Patch.StartingPawnNameFix.Tooltip>
+  <KebabTweaks.Patch.StartingPawnNameFix.Tooltip>У стартового колониста может оказаться только прозвище. Игра не даст основать колонию, пока у каждого не будет имени и фамилии - в том числе у оставленных. Фикс заполняет пустые поля из прозвища при создании и перегенерации.</KebabTweaks.Patch.StartingPawnNameFix.Tooltip>
+
+  <KebabTweaks.Patch.AnomalyEspFleeFix>Anomaly Injured Fleeing Fix</KebabTweaks.Patch.AnomalyEspFleeFix>
+  <KebabTweaks.Patch.AnomalyEspFleeFix.Tooltip>Существа Anomaly, которые никогда не сбегают, все равно могут выводить сообщение о побеге. Фикс убирает это ложное уведомление.</KebabTweaks.Patch.AnomalyEspFleeFix.Tooltip>
+
+  <KebabTweaks.Patch.StratumSolarRoofEnergyTabFix>Stratum Solar Roof Energy Tab Fix</KebabTweaks.Patch.StratumSolarRoofEnergyTabFix>
+  <KebabTweaks.Patch.StratumSolarRoofEnergyTabFix.Tooltip>Вкладка энергии считает выработку только по зданиям. Солнечная крыша Stratum заряжает батареи, но это не учитывается в списке. Фикс добавляет крыши одной строкой выработки.</KebabTweaks.Patch.StratumSolarRoofEnergyTabFix.Tooltip>
 
   <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
   <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>В ярком или тёмном освещении колонисты получают эффект, который влияет на зрение - не действует на Андроидов. Этот патч позволяет Андроидам получать эффекты от освещения.\n\nОтключите, если считаете, что зрение у Андроидов должно отличаться от органических рас.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
@@ -149,13 +155,14 @@
   <KebabTweaks.Patch.RawFungusBillFix.Tooltip>Задания, которым нужны грибы («Получить дрожжи», грибные блюда), не берут обычные «Грибы», даже если справа в списке виден складской счёт. Другие виды грибов по-прежнему подходят. Фикс относит обычные грибы к той же группе, что и эти задания.</KebabTweaks.Patch.RawFungusBillFix.Tooltip>
 
   <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
-  <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Позволяет грузчикам (в том числе грузовому дрону) завершать загрузку ферментера, даже если они могут нести больше, чем нужно заданию. Если включено «Переносить только норму задания», лишнее остаётся в складе, откуда его взяли. Если выключено — лишнее остаётся на земле у ферментера. Без фикса грузчик подходит, ничего не делает и пробует снова.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>
+  <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Позволяет грузчикам (в том числе грузовому дрону) завершать загрузку ферментера, даже если они могут нести больше, чем нужно заданию. Если включено «Переносить только норму задания», лишнее остаётся в складе, откуда его взяли. Если выключено - лишнее остаётся на земле у ферментера. Без фикса грузчик подходит, ничего не делает и пробует снова.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>Включить логирование</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLogging>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>Записывать в Player.log ограничения забора при загрузке ферментера, очистку очереди остатков и обрезку положенного количества (префикс [UfFillExtraIngredientsFix]).</KebabTweaks.Patch.UfFillExtraIngredientsFix.EnableLoggingTooltip>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickup>Переносить только норму задания</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickup>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>Грузчик берёт только столько, сколько нужно заданию ферментера. Лишнее остаётся в складе, откуда его взяли. Выключите, чтобы по-прежнему брать полные стаки: после загрузки остаток ляжет на землю у ферментера.</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>
 
   <KebabSwitches.EnableLogging>Включить логирование</KebabSwitches.EnableLogging>
+  <KebabSwitches.Search.NoMatches>Не найдено</KebabSwitches.Search.NoMatches>
   <KebabSwitches.ScreenMessagesHeader>Сообщения (лента слева вверху)</KebabSwitches.ScreenMessagesHeader>
   <KebabSwitches.Ignore.FilledTheMap>Игнорировать «Карта заполнена»</KebabSwitches.Ignore.FilledTheMap>
   <KebabSwitches.Ignore.GaveBirth>Игнорировать «Поселенец родил»</KebabSwitches.Ignore.GaveBirth>
@@ -189,6 +196,7 @@
   <KebabSwitches.Ignore.RottedAwayInStorage>Игнорировать «Предмет сгнил на складе»</KebabSwitches.Ignore.RottedAwayInStorage>
   <KebabSwitches.Ignore.DeterioratedAway>Игнорировать «Предмет пришёл в негодность на складе»</KebabSwitches.Ignore.DeterioratedAway>
   <KebabSwitches.Ignore.WornApparelDeterioratedAway>Игнорировать «Одежда износилась и рассыпалась»</KebabSwitches.Ignore.WornApparelDeterioratedAway>
+  <KebabSwitches.Ignore.EspInjured>Игнорировать «Ранен и бежит»</KebabSwitches.Ignore.EspInjured>
   <KebabSwitches.LettersHeader>Оповещения (лента справа)</KebabSwitches.LettersHeader>
   <KebabSwitches.AlertsHeader>Оповещения (список справа на HUD)</KebabSwitches.AlertsHeader>
   <KebabSwitches.IgnoreAlert>Игнорировать «{QUOTE}»</KebabSwitches.IgnoreAlert>

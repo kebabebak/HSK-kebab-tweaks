@@ -2,7 +2,7 @@
 <LanguageData>
 
   <KebabTweaks.SettingsCategory>HSK kebab tweaks</KebabTweaks.SettingsCategory>
-  <KebabTweaks.RequiresRestartTooltip>Enabling/disabling this patch applies only after a game restart — marked yellow when not yet applied.</KebabTweaks.RequiresRestartTooltip>
+  <KebabTweaks.RequiresRestartTooltip>Enabling/disabling this patch applies only after a game restart - marked yellow when not yet applied.</KebabTweaks.RequiresRestartTooltip>
   <KebabTweaks.SupersededStandaloneTooltip>This feature is silent-skipped because the old standalone mod/patch is still enabled. Disable that mod in the mod list and restart.</KebabTweaks.SupersededStandaloneTooltip>
   <KebabTweaks.ResetAll>Full reset of all settings</KebabTweaks.ResetAll>
   <KebabTweaks.ResetAllConfirm>Reset all HSK kebab tweaks settings to their default values?</KebabTweaks.ResetAllConfirm>
@@ -125,7 +125,7 @@
   <KebabTweaks.Patch.StartingPawnNameFix.Tooltip>A starting colonist can spawn with only a nickname. The game will not let you found the colony until every person has a first and last name, including those left behind. The fix fills the empty fields from the nickname when colonists are created or rerolled.</KebabTweaks.Patch.StartingPawnNameFix.Tooltip>
 
   <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
-  <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>In bright or dark lighting, colonists get an effect that changes sight — it does not apply to Androids. This patch lets Androids receive lighting effects.\n\nTurn this off if you think Android sight should differ from organic races.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
+  <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>In bright or dark lighting, colonists get an effect that changes sight - it does not apply to Androids. This patch lets Androids receive lighting effects.\n\nTurn this off if you think Android sight should differ from organic races.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Stops Map Preview false accuracy Errors when the HSK 1.6 Alpha vanilla RNG baseline drifts, and keeps preview SkipIterations in sync with the measured value.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
@@ -147,6 +147,7 @@
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>The hauler picks up only as much as the fermenter bill needs. Extra stays in the stockpile it was taken from. Turn this off to keep taking full stacks; leftovers then stay on the ground by the fermenter after fill.</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>
 
   <KebabSwitches.EnableLogging>Enable logging</KebabSwitches.EnableLogging>
+  <KebabSwitches.Search.NoMatches>Not found</KebabSwitches.Search.NoMatches>
   <KebabSwitches.ScreenMessagesHeader>Messages (upper-left screen feed)</KebabSwitches.ScreenMessagesHeader>
   <KebabSwitches.Ignore.FilledTheMap>Ignore "Map filled"</KebabSwitches.Ignore.FilledTheMap>
   <KebabSwitches.Ignore.GaveBirth>Ignore "Colonist gave birth"</KebabSwitches.Ignore.GaveBirth>

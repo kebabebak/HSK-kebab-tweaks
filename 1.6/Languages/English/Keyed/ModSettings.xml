@@ -2,7 +2,7 @@
 <LanguageData>
 
   <KebabTweaks.SettingsCategory>HSK kebab tweaks</KebabTweaks.SettingsCategory>
-  <KebabTweaks.RequiresRestartTooltip>Enabling/disabling this patch applies only after a game restart — marked yellow when not yet applied.</KebabTweaks.RequiresRestartTooltip>
+  <KebabTweaks.RequiresRestartTooltip>Enabling/disabling this patch applies only after a game restart - marked yellow when not yet applied.</KebabTweaks.RequiresRestartTooltip>
   <KebabTweaks.SupersededStandaloneTooltip>This feature is silent-skipped because the old standalone mod/patch is still enabled. Disable that mod in the mod list and restart.</KebabTweaks.SupersededStandaloneTooltip>
   <KebabTweaks.ResetAll>Full reset of all settings</KebabTweaks.ResetAll>
   <KebabTweaks.ResetAllConfirm>Reset all HSK kebab tweaks settings to their default values?</KebabTweaks.ResetAllConfirm>
@@ -124,8 +124,14 @@
   <KebabTweaks.Patch.StartingPawnNameFix>Starting Pawn Name Fix</KebabTweaks.Patch.StartingPawnNameFix>
   <KebabTweaks.Patch.StartingPawnNameFix.Tooltip>A starting colonist can spawn with only a nickname. The game will not let you found the colony until every person has a first and last name, including those left behind. The fix fills the empty fields from the nickname when colonists are created or rerolled.</KebabTweaks.Patch.StartingPawnNameFix.Tooltip>
 
+  <KebabTweaks.Patch.AnomalyEspFleeFix>Anomaly Injured Fleeing Fix</KebabTweaks.Patch.AnomalyEspFleeFix>
+  <KebabTweaks.Patch.AnomalyEspFleeFix.Tooltip>Anomaly creatures that never flee can still show a flee message. The fix removes that false notice.</KebabTweaks.Patch.AnomalyEspFleeFix.Tooltip>
+
+  <KebabTweaks.Patch.StratumSolarRoofEnergyTabFix>Stratum Solar Roof Energy Tab Fix</KebabTweaks.Patch.StratumSolarRoofEnergyTabFix>
+  <KebabTweaks.Patch.StratumSolarRoofEnergyTabFix.Tooltip>The Energy tab lists generation from buildings only. Stratum solar roof charges batteries, but that is not counted in the list. This fix adds the roofs as one generation row.</KebabTweaks.Patch.StratumSolarRoofEnergyTabFix.Tooltip>
+
   <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
-  <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>In bright or dark lighting, colonists get an effect that changes sight — it does not apply to Androids. This patch lets Androids receive lighting effects.\n\nTurn this off if you think Android sight should differ from organic races.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
+  <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>In bright or dark lighting, colonists get an effect that changes sight - it does not apply to Androids. This patch lets Androids receive lighting effects.\n\nTurn this off if you think Android sight should differ from organic races.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Stops Map Preview false accuracy Errors when the HSK 1.6 Alpha vanilla RNG baseline drifts, and keeps preview SkipIterations in sync with the measured value.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
@@ -156,6 +162,7 @@
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>The hauler picks up only as much as the fermenter bill needs. Extra stays in the stockpile it was taken from. Turn this off to keep taking full stacks; leftovers then stay on the ground by the fermenter after fill.</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>
 
   <KebabSwitches.EnableLogging>Enable logging</KebabSwitches.EnableLogging>
+  <KebabSwitches.Search.NoMatches>Not found</KebabSwitches.Search.NoMatches>
   <KebabSwitches.ScreenMessagesHeader>Messages (upper-left screen feed)</KebabSwitches.ScreenMessagesHeader>
   <KebabSwitches.Ignore.FilledTheMap>Ignore "Map filled"</KebabSwitches.Ignore.FilledTheMap>
   <KebabSwitches.Ignore.GaveBirth>Ignore "Colonist gave birth"</KebabSwitches.Ignore.GaveBirth>
@@ -189,6 +196,7 @@
   <KebabSwitches.Ignore.RottedAwayInStorage>Ignore "Item rotted in storage"</KebabSwitches.Ignore.RottedAwayInStorage>
   <KebabSwitches.Ignore.DeterioratedAway>Ignore "Item deteriorated in storage"</KebabSwitches.Ignore.DeterioratedAway>
   <KebabSwitches.Ignore.WornApparelDeterioratedAway>Ignore "Worn apparel deteriorated away"</KebabSwitches.Ignore.WornApparelDeterioratedAway>
+  <KebabSwitches.Ignore.EspInjured>Ignore "Injured and fleeing"</KebabSwitches.Ignore.EspInjured>
   <KebabSwitches.LettersHeader>Notifications (right-side envelope feed)</KebabSwitches.LettersHeader>
   <KebabSwitches.AlertsHeader>Alerts (right-side HUD list)</KebabSwitches.AlertsHeader>
   <KebabSwitches.IgnoreAlert>Ignore "{QUOTE}"</KebabSwitches.IgnoreAlert>

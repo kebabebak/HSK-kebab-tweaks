@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef>
+    <defName>KebabTweaks_StratumSolarRoof</defName>
+    <label>solar roof</label>
+    <description>Photovoltaic roof tiles that feed the colony power grid.</description>
+    <thingClass>Thing</thingClass>
+    <category>Ethereal</category>
+    <selectable>false</selectable>
+    <destroyable>false</destroyable>
+    <useHitPoints>false</useHitPoints>
+    <drawerType>None</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Power/SolarCollector</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/Power/SolarCollector</uiIconPath>
+  </ThingDef>
+
+</Defs>
