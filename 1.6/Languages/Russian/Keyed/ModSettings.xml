@@ -73,6 +73,9 @@
   <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown Patch</KebabTweaks.Patch.IdleWorkSearchCooldown>
   <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>После неудачного поиска работы откладывает следующий полный JobGiver_Work scan на заданное число тиков (0–100000). Минимальный интервал после неудачного scan; vanilla wander (~125–200 тиков) всё равно задаёт частоту think tree. Снижает падение TPS от idle-пешек, которые снова и снова обходят все приоритеты Work tab.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
 
+  <KebabTweaks.Patch.DrillLimit>Drill Limit Patch</KebabTweaks.Patch.DrillLimit>
+  <KebabTweaks.Patch.DrillLimit.Tooltip>Позволяет задать предмет в «{0}» отдельно от «{1}» в буровых установках.</KebabTweaks.Patch.DrillLimit.Tooltip>
+
   <KebabTweaks.Patch.PtgMedicalCare>PTG Medical Care Fix</KebabTweaks.Patch.PtgMedicalCare>
   <KebabTweaks.Patch.PtgMedicalCare.Tooltip>Исправляет IndexOutOfRange заголовка MedicalCare при расширенных категориях медицины.</KebabTweaks.Patch.PtgMedicalCare.Tooltip>
 
@@ -84,6 +87,12 @@
 
   <KebabTweaks.Patch.TradeCaravanLordFix>Trade Caravan Lord Fix</KebabTweaks.Patch.TradeCaravanLordFix>
   <KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>Исправляет NRE TradeWithColony / FindTrader / гигиену stamp.</KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>
+
+  <KebabTweaks.Patch.TraderCaravanStayFix>Trader Caravan Stay Fix</KebabTweaks.Patch.TraderCaravanStayFix>
+  <KebabTweaks.Patch.TraderCaravanStayFix.Tooltip>Если торговому каравану негде подождать у поселения, он остаётся на карте там, где появился, и не уходит за край сразу.</KebabTweaks.Patch.TraderCaravanStayFix.Tooltip>
+
+  <KebabTweaks.Patch.RatkinMercenaryAgeFix>Ratkin Mercenary Age Fix</KebabTweaks.Patch.RatkinMercenaryAgeFix>
+  <KebabTweaks.Patch.RatkinMercenaryAgeFix.Tooltip>Наёмники в караване крысиного отряда приходят взрослыми. Пропадают красные ошибки про их возраст и про одежду, которую им нельзя надеть.</KebabTweaks.Patch.RatkinMercenaryAgeFix.Tooltip>
 
   <KebabTweaks.Patch.CompressibleOverlapFix>Overlapping Save Objects Fix</KebabTweaks.Patch.CompressibleOverlapFix>
   <KebabTweaks.Patch.CompressibleOverlapFix.Tooltip>Если несколько окаменелостей, камней или похожих объектов занимают одну клетку, при каждом сохранении в лог пишется ошибка. На новых картах такие объекты больше не ставятся друг на друга. В уже созданном поселении лишние переносятся на свободную клетку рядом или удаляются, если места нет.</KebabTweaks.Patch.CompressibleOverlapFix.Tooltip>
@@ -132,6 +141,13 @@
 
   <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
   <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>В ярком или тёмном освещении колонисты получают эффект, который влияет на зрение - не действует на Андроидов. Этот патч позволяет Андроидам получать эффекты от освещения.\n\nОтключите, если считаете, что зрение у Андроидов должно отличаться от органических рас.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
+
+  <KebabTweaks.CompatibilityPatches>Патчи совместимости</KebabTweaks.CompatibilityPatches>
+  <KebabTweaks.Patch.WikiRim>ComP: [O21] WikiRim (Continued)</KebabTweaks.Patch.WikiRim>
+  <KebabTweaks.Patch.WikiRim.PackageSuffix>Mlie.WikiRim</KebabTweaks.Patch.WikiRim.PackageSuffix>
+  <KebabTweaks.Patch.WikiRim.PackageSuffixTooltip>Патч применяется исключительно к этому моду по соответствию в ModsConfig.xml.</KebabTweaks.Patch.WikiRim.PackageSuffixTooltip>
+  <KebabTweaks.WikiRim.MultilingualSearch>Включить мультиязыковой поиск</KebabTweaks.WikiRim.MultilingualSearch>
+  <KebabTweaks.WikiRim.MultilingualSearch.Tooltip>Поле поиска WikiRim находит элемент и по английскому, и по русскому символу.</KebabTweaks.WikiRim.MultilingualSearch.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Убирает ложные Error точности Map Preview при плавающем vanilla RNG baseline HSK 1.6 Alpha и синхронизирует SkipIterations превью с измеренным значением.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
@@ -422,6 +438,18 @@
   <IdleWorkSearchCooldown.EnableLogging>Включить логирование</IdleWorkSearchCooldown.EnableLogging>
   <IdleWorkSearchCooldown.EnableLoggingTooltip>Записывать в лог, когда полный поиск работы пропущен из‑за активного cooldown idle work search.</IdleWorkSearchCooldown.EnableLoggingTooltip>
   <IdleWorkSearchCooldown.CooldownTicks>Задержка поиска работы (в тиках)</IdleWorkSearchCooldown.CooldownTicks>
+
+  <DrillLimit.ValueField>Заменить значение на поле ввода</DrillLimit.ValueField>
+  <DrillLimit.ValueFieldTooltip>В строке текущего лимита появляется небольшое поле. Введённое число сдвигает ползунок.</DrillLimit.ValueFieldTooltip>
+  <DrillLimit.Max>Максимальное значение лимита буровой установки</DrillLimit.Max>
+  <DrillLimit.AnyResource>Позволить выбрать любой ресурс как индикатор лимита</DrillLimit.AnyResource>
+  <DrillLimit.AnyResourceTooltip>Позволяет назначить любой предмет для лимита буровой установки.</DrillLimit.AnyResourceTooltip>
+  <KebabTweaks.DrillLimit.CurrentLimit>Текущий лимит: {0}</KebabTweaks.DrillLimit.CurrentLimit>
+  <KebabTweaks.DrillLimit.CurrentLimitTooltip>При -1 лимит на ресурс у этой буровой установки отключается. Верхний лимит можно увеличить в разделе {0} настроек HSK kebab tweaks.</KebabTweaks.DrillLimit.CurrentLimitTooltip>
+  <KebabTweaks.DrillLimit.SetLimit>Задать лимит</KebabTweaks.DrillLimit.SetLimit>
+  <KebabTweaks.DrillLimit.SetLimitDesc>Задать лимит для «{0}»: {1}</KebabTweaks.DrillLimit.SetLimitDesc>
+  <KebabTweaks.DrillLimit.CannotDrill>Невозможно бурить, используя {0}. Лимит был достигнут: {1} {2}</KebabTweaks.DrillLimit.CannotDrill>
+  <KebabTweaks.DrillLimit.DrillResource>Ресурс буровой установки: {0}</KebabTweaks.DrillLimit.DrillResource>
 
   <TakeFromMendingPatch.EnableLogging>Включить логирование</TakeFromMendingPatch.EnableLogging>
   <TakeFromMendingPatch.EnableLoggingTooltip>Записывать в Player.log подробности поиска ингредиентов (префикс [TakeFromMendingPatch]).</TakeFromMendingPatch.EnableLoggingTooltip>

@@ -70,6 +70,9 @@
   <KebabTweaks.Patch.LowTpsPawnDump>Low TPS Pawn Dump Patch</KebabTweaks.Patch.LowTpsPawnDump>
   <KebabTweaks.Patch.LowTpsPawnDump.Tooltip>Logs pawn jobs when the HSK on-screen TPS counter drops below a threshold.</KebabTweaks.Patch.LowTpsPawnDump.Tooltip>
 
+  <KebabTweaks.Patch.DrillLimit>Drill Limit Patch</KebabTweaks.Patch.DrillLimit>
+  <KebabTweaks.Patch.DrillLimit.Tooltip>Lets you set an item in “{0}” separately from “{1}” on deep drills.</KebabTweaks.Patch.DrillLimit.Tooltip>
+
   <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown Patch</KebabTweaks.Patch.IdleWorkSearchCooldown>
   <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>After a colonist finds no work, delays the next full JobGiver_Work scan for the configured tick count (0–100000). Minimum interval after a failed scan; vanilla wander timing (~125–200 ticks) still applies. Reduces TPS loss from idle pawns repeatedly scanning all work priorities.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
 
@@ -84,6 +87,12 @@
 
   <KebabTweaks.Patch.TradeCaravanLordFix>Trade Caravan Lord Fix</KebabTweaks.Patch.TradeCaravanLordFix>
   <KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>Fixes TradeWithColony NRE / FindTrader / stamp hygiene.</KebabTweaks.Patch.TradeCaravanLordFix.Tooltip>
+
+  <KebabTweaks.Patch.TraderCaravanStayFix>Trader Caravan Stay Fix</KebabTweaks.Patch.TraderCaravanStayFix>
+  <KebabTweaks.Patch.TraderCaravanStayFix.Tooltip>When a trader caravan cannot find a place to wait outside the colony, it stays on the map where it arrived instead of walking off right away.</KebabTweaks.Patch.TraderCaravanStayFix.Tooltip>
+
+  <KebabTweaks.Patch.RatkinMercenaryAgeFix>Ratkin Mercenary Age Fix</KebabTweaks.Patch.RatkinMercenaryAgeFix>
+  <KebabTweaks.Patch.RatkinMercenaryAgeFix.Tooltip>Mercenaries in a ratkin free company arrive as adults. The red errors about their age, and clothes they are not allowed to wear, stop.</KebabTweaks.Patch.RatkinMercenaryAgeFix.Tooltip>
 
   <KebabTweaks.Patch.CompressibleOverlapFix>Overlapping Save Objects Fix</KebabTweaks.Patch.CompressibleOverlapFix>
   <KebabTweaks.Patch.CompressibleOverlapFix.Tooltip>When several fossils, rock chunks, or similar objects occupy the same cell, every save prints an error. New maps will not stack those objects. On an existing save they are moved to a free nearby cell, or removed if no cell is free.</KebabTweaks.Patch.CompressibleOverlapFix.Tooltip>
@@ -132,6 +141,13 @@
 
   <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
   <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>In bright or dark lighting, colonists get an effect that changes sight - it does not apply to Androids. This patch lets Androids receive lighting effects.\n\nTurn this off if you think Android sight should differ from organic races.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
+
+  <KebabTweaks.CompatibilityPatches>Compatibility patches</KebabTweaks.CompatibilityPatches>
+  <KebabTweaks.Patch.WikiRim>ComP: [O21] WikiRim (Continued)</KebabTweaks.Patch.WikiRim>
+  <KebabTweaks.Patch.WikiRim.PackageSuffix>Mlie.WikiRim</KebabTweaks.Patch.WikiRim.PackageSuffix>
+  <KebabTweaks.Patch.WikiRim.PackageSuffixTooltip>This patch applies only to this mod, matched in ModsConfig.xml.</KebabTweaks.Patch.WikiRim.PackageSuffixTooltip>
+  <KebabTweaks.WikiRim.MultilingualSearch>Enable multilingual search</KebabTweaks.WikiRim.MultilingualSearch>
+  <KebabTweaks.WikiRim.MultilingualSearch.Tooltip>The WikiRim search field finds the element by both an English and a Russian character.</KebabTweaks.WikiRim.MultilingualSearch.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Stops Map Preview false accuracy Errors when the HSK 1.6 Alpha vanilla RNG baseline drifts, and keeps preview SkipIterations in sync with the measured value.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
@@ -422,6 +438,18 @@
   <IdleWorkSearchCooldown.EnableLogging>Enable logging</IdleWorkSearchCooldown.EnableLogging>
   <IdleWorkSearchCooldown.EnableLoggingTooltip>Log when a full work scan is skipped because the idle work-search cooldown is active.</IdleWorkSearchCooldown.EnableLoggingTooltip>
   <IdleWorkSearchCooldown.CooldownTicks>Work-search cooldown (in ticks)</IdleWorkSearchCooldown.CooldownTicks>
+
+  <DrillLimit.ValueField>Replace the value with an input field</DrillLimit.ValueField>
+  <DrillLimit.ValueFieldTooltip>The current limit line shows a small box. The number you type there moves the slider.</DrillLimit.ValueFieldTooltip>
+  <DrillLimit.Max>Maximum deep drill limit</DrillLimit.Max>
+  <DrillLimit.AnyResource>Allow any resource as the limit indicator</DrillLimit.AnyResource>
+  <DrillLimit.AnyResourceTooltip>Lets you assign any item for a deep drill's limit.</DrillLimit.AnyResourceTooltip>
+  <KebabTweaks.DrillLimit.CurrentLimit>Current Limit: {0}</KebabTweaks.DrillLimit.CurrentLimit>
+  <KebabTweaks.DrillLimit.CurrentLimitTooltip>At -1, the resource limit on this deep drill is turned off. The upper limit can be raised in the {0} section of HSK kebab tweaks settings.</KebabTweaks.DrillLimit.CurrentLimitTooltip>
+  <KebabTweaks.DrillLimit.SetLimit>Set Limit</KebabTweaks.DrillLimit.SetLimit>
+  <KebabTweaks.DrillLimit.SetLimitDesc>Set limit for “{0}”: {1}</KebabTweaks.DrillLimit.SetLimitDesc>
+  <KebabTweaks.DrillLimit.CannotDrill>Cannot drill using {0}. Limit reached: {1} {2}</KebabTweaks.DrillLimit.CannotDrill>
+  <KebabTweaks.DrillLimit.DrillResource>Drill resource: {0}</KebabTweaks.DrillLimit.DrillResource>
 
   <TakeFromMendingPatch.EnableLogging>Enable logging</TakeFromMendingPatch.EnableLogging>
   <TakeFromMendingPatch.EnableLoggingTooltip>Log detailed ingredient-search decisions to Player.log (prefix [TakeFromMendingPatch]).</TakeFromMendingPatch.EnableLoggingTooltip>
