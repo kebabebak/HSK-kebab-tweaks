@@ -4,6 +4,7 @@
   <KebabTweaks.SettingsCategory>HSK kebab tweaks</KebabTweaks.SettingsCategory>
   <KebabTweaks.RequiresRestartTooltip>Enabling/disabling this patch applies only after a game restart - marked yellow when not yet applied.</KebabTweaks.RequiresRestartTooltip>
   <KebabTweaks.SupersededStandaloneTooltip>This feature is silent-skipped because the old standalone mod/patch is still enabled. Disable that mod in the mod list and restart.</KebabTweaks.SupersededStandaloneTooltip>
+  <KebabTweaks.MissingDependenciesTooltip>*This part is disabled because of missing dependencies. Details are in the log.</KebabTweaks.MissingDependenciesTooltip>
   <KebabTweaks.ResetAll>Full reset of all settings</KebabTweaks.ResetAll>
   <KebabTweaks.ResetAllConfirm>Reset all HSK kebab tweaks settings to their default values?</KebabTweaks.ResetAllConfirm>
   <KebabTweaks.ResetFeature>Reset</KebabTweaks.ResetFeature>
@@ -20,6 +21,7 @@
   <KebabTweaks.DoNotResetObsoleteFixesOnReload>Do not reset on reload</KebabTweaks.DoNotResetObsoleteFixesOnReload>
   <KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>Do not turn off obsolete fixes after the game restarts. Without this, they turn off when the game starts.</KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>
   <KebabTweaks.RelevancePercentTooltip>The relevance percentage shows how useful this fix still is / how many of its problems were not already closed in the current Hardcore SK build.\n\nThe lower the percentage, the more likely the problem cannot be reproduced in the scenario described earlier. No value means 100%. If the fix is not in the Obsolete section, turning it on is safe.</KebabTweaks.RelevancePercentTooltip>
+  <KebabTweaks.HeaderSuffix.Only15>(1.5 only)</KebabTweaks.HeaderSuffix.Only15>
 
   <KebabTweaks.Patch.CatCrazyTime>Cat Crazy Time Fix</KebabTweaks.Patch.CatCrazyTime>
   <KebabTweaks.Patch.CatCrazyTime.Tooltip>Fixes CrazyTime toil load/resume issues for cats.</KebabTweaks.Patch.CatCrazyTime.Tooltip>
@@ -178,6 +180,10 @@
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>The hauler picks up only as much as the fermenter bill needs. Extra stays in the stockpile it was taken from. Turn this off to keep taking full stacks; leftovers then stay on the ground by the fermenter after fill.</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>
 
   <KebabSwitches.EnableLogging>Enable logging</KebabSwitches.EnableLogging>
+  <KebabSwitches.IgnoreAll>Ignore all</KebabSwitches.IgnoreAll>
+  <KebabSwitches.IgnoreAll.ConfirmOn>Enable all items</KebabSwitches.IgnoreAll.ConfirmOn>
+  <KebabSwitches.IgnoreAll.ConfirmOff>Disable all items</KebabSwitches.IgnoreAll.ConfirmOff>
+  <KebabSwitches.SectionMaster.Tooltip>Turn every item in this list on or off.</KebabSwitches.SectionMaster.Tooltip>
   <KebabSwitches.Search.NoMatches>Not found</KebabSwitches.Search.NoMatches>
   <KebabSwitches.ScreenMessagesHeader>Messages (upper-left screen feed)</KebabSwitches.ScreenMessagesHeader>
   <KebabSwitches.Ignore.FilledTheMap>Ignore "Map filled"</KebabSwitches.Ignore.FilledTheMap>
@@ -189,6 +195,33 @@
   <KebabSwitches.Ignore.BillComplete>Ignore "Bill complete"</KebabSwitches.Ignore.BillComplete>
   <KebabSwitches.Ignore.FullyHealed>Ignore "Colonist fully healed"</KebabSwitches.Ignore.FullyHealed>
   <KebabSwitches.Ignore.SocialFight>Ignore "Social fight"</KebabSwitches.Ignore.SocialFight>
+  <KebabSwitches.Ignore.ShipChunkDrop>Ignore "Spacecraft chunks"</KebabSwitches.Ignore.ShipChunkDrop>
+  <KebabSwitches.Ignore.StruckMineable>Ignore "We have struck"</KebabSwitches.Ignore.StruckMineable>
+  <KebabSwitches.Ignore.BedLostAssignment>Ignore "No longer assigned"</KebabSwitches.Ignore.BedLostAssignment>
+  <KebabSwitches.Ignore.BedDestroyed>Ignore "Assigned was destroyed"</KebabSwitches.Ignore.BedDestroyed>
+  <KebabSwitches.Ignore.SleepingPawnsWokenUp>Ignore "Have woken up"</KebabSwitches.Ignore.SleepingPawnsWokenUp>
+  <KebabSwitches.Ignore.NoLongerSocialFighting>Ignore "Social fight ended"</KebabSwitches.Ignore.NoLongerSocialFighting>
+  <KebabSwitches.Ignore.NoLongerTargetedInsult>Ignore "No longer insulting"</KebabSwitches.Ignore.NoLongerTargetedInsult>
+  <KebabSwitches.Ignore.InsultingSpreeEnded>Ignore "No longer insulting everyone"</KebabSwitches.Ignore.InsultingSpreeEnded>
+  <KebabSwitches.Ignore.TargetedInsultStreamEnded>Ignore "Insult stream ended"</KebabSwitches.Ignore.TargetedInsultStreamEnded>
+  <KebabSwitches.Ignore.FoodBingeEnded>Ignore "Stopped overeating"</KebabSwitches.Ignore.FoodBingeEnded>
+  <KebabSwitches.Ignore.NoLongerBingingOnDrug>Ignore "Stopped drug binge"</KebabSwitches.Ignore.NoLongerBingingOnDrug>
+  <KebabSwitches.Ignore.BerserkEnded>Ignore "Berserk ended"</KebabSwitches.Ignore.BerserkEnded>
+  <KebabSwitches.Ignore.FireStartingEnded>Ignore "Stopped starting fires"</KebabSwitches.Ignore.FireStartingEnded>
+  <KebabSwitches.Ignore.JailbreakerEnded>Ignore "Stopped inciting escape"</KebabSwitches.Ignore.JailbreakerEnded>
+  <KebabSwitches.Ignore.SlaughtererEnded>Ignore "Stopped killing animals"</KebabSwitches.Ignore.SlaughtererEnded>
+  <KebabSwitches.Ignore.MurderousRageEnded>Ignore "Murderous rage ended"</KebabSwitches.Ignore.MurderousRageEnded>
+  <KebabSwitches.Ignore.GiveUpReturned>Ignore "Coming back"</KebabSwitches.Ignore.GiveUpReturned>
+  <KebabSwitches.Ignore.TantrumEnded>Ignore "Tantrum ended"</KebabSwitches.Ignore.TantrumEnded>
+  <KebabSwitches.Ignore.RedirectedAnger>Ignore "Redirects anger"</KebabSwitches.Ignore.RedirectedAnger>
+  <KebabSwitches.Ignore.SadisticRageEnded>Ignore "Stopped tormenting prisoners"</KebabSwitches.Ignore.SadisticRageEnded>
+  <KebabSwitches.Ignore.CorpseObsessionEnded>Ignore "Stopped disturbing graves"</KebabSwitches.Ignore.CorpseObsessionEnded>
+  <KebabSwitches.Ignore.WanderSadEnded>Ignore "No longer sad"</KebabSwitches.Ignore.WanderSadEnded>
+  <KebabSwitches.Ignore.HideInRoomEnded>Ignore "Left their room"</KebabSwitches.Ignore.HideInRoomEnded>
+  <KebabSwitches.Ignore.PsychoticWanderEnded>Ignore "No longer dazed"</KebabSwitches.Ignore.PsychoticWanderEnded>
+  <KebabSwitches.Ignore.ConfusedEnded>Ignore "No longer confused"</KebabSwitches.Ignore.ConfusedEnded>
+  <KebabSwitches.Ignore.PanicFleeEnded>Ignore "Panic ended"</KebabSwitches.Ignore.PanicFleeEnded>
+  <KebabSwitches.Ignore.ManhunterEnded>Ignore "Manhunter calmed"</KebabSwitches.Ignore.ManhunterEnded>
   <KebabSwitches.Ignore.NewBondRelation>Ignore "New bond formed"</KebabSwitches.Ignore.NewBondRelation>
   <KebabSwitches.Ignore.NewBondRelationNewName>Ignore "New bond formed (with name)"</KebabSwitches.Ignore.NewBondRelationNewName>
   <KebabSwitches.Ignore.FoodPoisoning>Ignore "Food poisoning"</KebabSwitches.Ignore.FoodPoisoning>

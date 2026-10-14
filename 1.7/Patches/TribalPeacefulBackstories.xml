@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Pacifist Tribal backstories (SoleSurvivor21, ShamanOfShadows47, and extras such as
+       Cybranian Backstories+) disable Violent. Tribal chiefs require Violent, so leader
+       generation can return null. Move those stories out of Tribal; PlayerTribe still uses them. -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/BackstoryDef[spawnCategories/li[text()="Tribal"] and (workDisables/li[text()="Violent"] or workDisables[text()="Violent"])]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BackstoryDef[spawnCategories/li[text()="Tribal"] and (workDisables/li[text()="Violent"] or workDisables[text()="Violent"])]/spawnCategories/li[text()="Tribal"]</xpath>
+      <value>
+        <li>TribalPeaceful</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/FactionDef[defName="PlayerTribe"]/backstoryFilters/li/categories</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/FactionDef[defName="PlayerTribe"]/backstoryFilters/li/categories</xpath>
+      <value>
+        <li>TribalPeaceful</li>
+      </value>
+    </match>
+  </Operation>
+
+</Patch>

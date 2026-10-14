@@ -4,6 +4,7 @@
   <KebabTweaks.SettingsCategory>HSK kebab tweaks</KebabTweaks.SettingsCategory>
   <KebabTweaks.RequiresRestartTooltip>Включение/выключение этого патча применяется только после перезапуска игры - отмечено желтым, если не применено.</KebabTweaks.RequiresRestartTooltip>
   <KebabTweaks.SupersededStandaloneTooltip>Эта фича тихо пропущена, потому что старый отдельный мод/патч всё ещё включён. Выключите его в списке модов и перезапустите игру.</KebabTweaks.SupersededStandaloneTooltip>
+  <KebabTweaks.MissingDependenciesTooltip>*Эта часть отключена из-за недостающих зависимостей, подробнее в логе.</KebabTweaks.MissingDependenciesTooltip>
   <KebabTweaks.ResetAll>Полный сброс всех настроек</KebabTweaks.ResetAll>
   <KebabTweaks.ResetAllConfirm>Сбросить все настройки HSK kebab tweaks к значениям по умолчанию?</KebabTweaks.ResetAllConfirm>
   <KebabTweaks.ResetFeature>Сброс</KebabTweaks.ResetFeature>
@@ -20,6 +21,7 @@
   <KebabTweaks.DoNotResetObsoleteFixesOnReload>Не сбрасывать при перезагрузке</KebabTweaks.DoNotResetObsoleteFixesOnReload>
   <KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>Не отключать устаревшие фиксы после перезапуска игры. Без этого при старте игры они выключаются.</KebabTweaks.DoNotResetObsoleteFixesOnReload.Tooltip>
   <KebabTweaks.RelevancePercentTooltip>Процент актуальности - это значение показывает насколько полезен фикс / сколько в фиксе решено проблем, которые не были закрыты в текущей сборке Hardcore SK.\n\nЧем меньше процент, тем больше шансов что проблему не получится воспроизвести по ранее описанному сценарию. Отсутствие значения подразумевает 100%. Если фикс не в разделе устаревших, то его включение безопасно.</KebabTweaks.RelevancePercentTooltip>
+  <KebabTweaks.HeaderSuffix.Only15>(только 1.5)</KebabTweaks.HeaderSuffix.Only15>
 
   <KebabTweaks.Patch.CatCrazyTime>Cat Crazy Time Fix</KebabTweaks.Patch.CatCrazyTime>
   <KebabTweaks.Patch.CatCrazyTime.Tooltip>Исправляет проблемы загрузки/возобновления toil CrazyTime у кошек.</KebabTweaks.Patch.CatCrazyTime.Tooltip>
@@ -163,6 +165,10 @@
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>Грузчик берёт только столько, сколько нужно заданию ферментера. Лишнее остаётся в складе, откуда его взяли. Выключите, чтобы по-прежнему брать полные стаки: после загрузки остаток ляжет на землю у ферментера.</KebabTweaks.Patch.UfFillExtraIngredientsFix.CapPickupTooltip>
 
   <KebabSwitches.EnableLogging>Включить логирование</KebabSwitches.EnableLogging>
+  <KebabSwitches.IgnoreAll>Игнорировать все</KebabSwitches.IgnoreAll>
+  <KebabSwitches.IgnoreAll.ConfirmOn>Включить все пункты</KebabSwitches.IgnoreAll.ConfirmOn>
+  <KebabSwitches.IgnoreAll.ConfirmOff>Отключить все пункты</KebabSwitches.IgnoreAll.ConfirmOff>
+  <KebabSwitches.SectionMaster.Tooltip>Включает или выключает все пункты этого списка.</KebabSwitches.SectionMaster.Tooltip>
   <KebabSwitches.Search.NoMatches>Не найдено</KebabSwitches.Search.NoMatches>
   <KebabSwitches.ScreenMessagesHeader>Сообщения (лента слева вверху)</KebabSwitches.ScreenMessagesHeader>
   <KebabSwitches.Ignore.FilledTheMap>Игнорировать «Карта заполнена»</KebabSwitches.Ignore.FilledTheMap>
@@ -174,6 +180,33 @@
   <KebabSwitches.Ignore.BillComplete>Игнорировать «Задача завершена»</KebabSwitches.Ignore.BillComplete>
   <KebabSwitches.Ignore.FullyHealed>Игнорировать «Поселенец полностью здоров»</KebabSwitches.Ignore.FullyHealed>
   <KebabSwitches.Ignore.SocialFight>Игнорировать «Социальная драка»</KebabSwitches.Ignore.SocialFight>
+  <KebabSwitches.Ignore.ShipChunkDrop>Игнорировать «Обломки корабля»</KebabSwitches.Ignore.ShipChunkDrop>
+  <KebabSwitches.Ignore.StruckMineable>Игнорировать «Мы обнаружили»</KebabSwitches.Ignore.StruckMineable>
+  <KebabSwitches.Ignore.BedLostAssignment>Игнорировать «Более не назначена»</KebabSwitches.Ignore.BedLostAssignment>
+  <KebabSwitches.Ignore.BedDestroyed>Игнорировать «Назначенная уничтожена»</KebabSwitches.Ignore.BedDestroyed>
+  <KebabSwitches.Ignore.SleepingPawnsWokenUp>Игнорировать «Пробудились»</KebabSwitches.Ignore.SleepingPawnsWokenUp>
+  <KebabSwitches.Ignore.NoLongerSocialFighting>Игнорировать «Прекратили драку»</KebabSwitches.Ignore.NoLongerSocialFighting>
+  <KebabSwitches.Ignore.NoLongerTargetedInsult>Игнорировать «Больше не оскорбляет»</KebabSwitches.Ignore.NoLongerTargetedInsult>
+  <KebabSwitches.Ignore.InsultingSpreeEnded>Игнорировать «Больше не оскорбляет всех»</KebabSwitches.Ignore.InsultingSpreeEnded>
+  <KebabSwitches.Ignore.TargetedInsultStreamEnded>Игнорировать «Прекращает поток оскорблений»</KebabSwitches.Ignore.TargetedInsultStreamEnded>
+  <KebabSwitches.Ignore.FoodBingeEnded>Игнорировать «Перестаёт объедаться»</KebabSwitches.Ignore.FoodBingeEnded>
+  <KebabSwitches.Ignore.NoLongerBingingOnDrug>Игнорировать «Прекратил употреблять»</KebabSwitches.Ignore.NoLongerBingingOnDrug>
+  <KebabSwitches.Ignore.BerserkEnded>Игнорировать «Ярость прошла»</KebabSwitches.Ignore.BerserkEnded>
+  <KebabSwitches.Ignore.FireStartingEnded>Игнорировать «Больше не поджигает»</KebabSwitches.Ignore.FireStartingEnded>
+  <KebabSwitches.Ignore.JailbreakerEnded>Игнорировать «Больше не подстрекает к побегу»</KebabSwitches.Ignore.JailbreakerEnded>
+  <KebabSwitches.Ignore.SlaughtererEnded>Игнорировать «Больше не убивает животных»</KebabSwitches.Ignore.SlaughtererEnded>
+  <KebabSwitches.Ignore.MurderousRageEnded>Игнорировать «Больше не испытывает гнев»</KebabSwitches.Ignore.MurderousRageEnded>
+  <KebabSwitches.Ignore.GiveUpReturned>Игнорировать «Возвращается в поселение»</KebabSwitches.Ignore.GiveUpReturned>
+  <KebabSwitches.Ignore.TantrumEnded>Игнорировать «Больше не бьётся в истерике»</KebabSwitches.Ignore.TantrumEnded>
+  <KebabSwitches.Ignore.RedirectedAnger>Игнорировать «Направляет свою ярость»</KebabSwitches.Ignore.RedirectedAnger>
+  <KebabSwitches.Ignore.SadisticRageEnded>Игнорировать «Прекращает издеваться»</KebabSwitches.Ignore.SadisticRageEnded>
+  <KebabSwitches.Ignore.CorpseObsessionEnded>Игнорировать «Больше не разоряет могилы»</KebabSwitches.Ignore.CorpseObsessionEnded>
+  <KebabSwitches.Ignore.WanderSadEnded>Игнорировать «Больше не грустит»</KebabSwitches.Ignore.WanderSadEnded>
+  <KebabSwitches.Ignore.HideInRoomEnded>Игнорировать «Больше не прячется в комнате»</KebabSwitches.Ignore.HideInRoomEnded>
+  <KebabSwitches.Ignore.PsychoticWanderEnded>Игнорировать «Больше не растерян»</KebabSwitches.Ignore.PsychoticWanderEnded>
+  <KebabSwitches.Ignore.ConfusedEnded>Игнорировать «Оправляется и возвращается»</KebabSwitches.Ignore.ConfusedEnded>
+  <KebabSwitches.Ignore.PanicFleeEnded>Игнорировать «Больше не паникует»</KebabSwitches.Ignore.PanicFleeEnded>
+  <KebabSwitches.Ignore.ManhunterEnded>Игнорировать «Агрессия проходит»</KebabSwitches.Ignore.ManhunterEnded>
   <KebabSwitches.Ignore.NewBondRelation>Игнорировать «Новая привязанность»</KebabSwitches.Ignore.NewBondRelation>
   <KebabSwitches.Ignore.NewBondRelationNewName>Игнорировать «Новая привязанность (с именем)»</KebabSwitches.Ignore.NewBondRelationNewName>
   <KebabSwitches.Ignore.FoodPoisoning>Игнорировать «Пищевое отравление»</KebabSwitches.Ignore.FoodPoisoning>

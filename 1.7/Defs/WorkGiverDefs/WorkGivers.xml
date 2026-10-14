@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>GrowerCutPlants</defName>
+    <label>fell trees</label>
+    <giverClass>HSK.KebabTweaks.WorkGiver_GrowerCutPlants</giverClass>
+    <workType>Growing</workType>
+    <priorityInType>110</priorityInType>
+    <verb>fell</verb>
+    <gerund>felling</gerund>
+    <scanThings>false</scanThings>
+    <scanCells>true</scanCells>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+</Defs>
