@@ -2,14 +2,14 @@
 <ModMetaData>
   <packageId>kebabebak.hsk.kebab.tweaks</packageId>
   <name>HSK kebab tweaks</name>
-  <modVersion>1.17</modVersion>
+  <modVersion>1.18</modVersion>
   <author>kebabebak</author>
   <supportedVersions>
     <li>1.5</li>
     <li>1.6</li>
     <li>1.7</li>
   </supportedVersions>
-  <description>Full support for the latest version of HSK 1.6 Alpha. Disabling this mod will not cause any problems to your save.
+  <description>Full support for the latest version of HSK 1.6 Alpha & vanilla 1.5 / 1.6 / 1.7. Disabling this mod will not cause any problems to your save.
 
 A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
   - Each feature can be turned off in mod settings
@@ -19,7 +19,7 @@ A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
   - Idle colonists look for work less often, so the game stays smoother
   and other...
   
-Полная поддержка последней версии HSK 1.6 Alpha. Отключение этого мода не вызовет проблем с вашим сохранением.
+Полная поддержка последней версии HSK 1.6 Alpha & vanilla 1.5 / 1.6 / 1.7. Отключение этого мода не вызовет проблем с вашим сохранением.
   
 Сборник функций/патчей/исправлений от kebabebak для RimWorld HSK:
   - Каждую функцию можно отключить в настройках мода
@@ -82,6 +82,7 @@ https://github.com/kebabebak/HSK-kebab-tweaks</description>
     <li>skyarkhangel.skynet</li>
     <li>SolarWeb.Stratum</li>
     <li>glucocorticoid.energytab</li>
+    <li>Owlchemist.ToggleableReadouts</li>
   </loadAfter>
   <incompatibleWith>
     <li>kebabebak.HSKKebabSwitches</li>

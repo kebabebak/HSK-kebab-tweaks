@@ -75,6 +75,13 @@
   <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown Patch</KebabTweaks.Patch.IdleWorkSearchCooldown>
   <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>После неудачного поиска работы откладывает следующий полный JobGiver_Work scan на заданное число тиков (0–100000). Минимальный интервал после неудачного scan; vanilla wander (~125–200 тиков) всё равно задаёт частоту think tree. Снижает падение TPS от idle-пешек, которые снова и снова обходят все приоритеты Work tab.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
 
+  <KebabTweaks.Patch.ParanoidPerfectionist>Paranoid Perfectionist Patch</KebabTweaks.Patch.ParanoidPerfectionist>
+  <KebabTweaks.Patch.ParanoidPerfectionist.Tooltip>Когда одна и та же ошибка повторяется снова и снова, мод, из-за которого она возникает, выключается к следующему запуску. Текущая сессия продолжается. В лог пишется жёлтое предупреждение. Базовая игра, её дополнения, Core SK, Combat Extended, Harmony и HugsLib остаются включены. Одна ошибка или много разных ошибок мод не выключают.</KebabTweaks.Patch.ParanoidPerfectionist.Tooltip>
+  <ParanoidPerfectionist.CatchCritical>Отлавливать и отключать критические несовместимости</ParanoidPerfectionist.CatchCritical>
+  <ParanoidPerfectionist.CatchCriticalTooltip>После 20 одинаковых исключений подряд этот мод выключается к следующему запуску.</ParanoidPerfectionist.CatchCriticalTooltip>
+  <ParanoidPerfectionist.CatchAny>Отлавливать и отключать любой мод, вызывающий ошибку</ParanoidPerfectionist.CatchAny>
+  <ParanoidPerfectionist.CatchAnyTooltip>После 8 одинаковых ошибок подряд этот мод выключается к следующему запуску. Одна ошибка мод не выключает.</ParanoidPerfectionist.CatchAnyTooltip>
+
   <KebabTweaks.Patch.DrillLimit>Drill Limit Patch</KebabTweaks.Patch.DrillLimit>
   <KebabTweaks.Patch.DrillLimit.Tooltip>Позволяет задать предмет в «{0}» отдельно от «{1}» в буровых установках.</KebabTweaks.Patch.DrillLimit.Tooltip>
 
@@ -162,6 +169,9 @@
 
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix>Rimatomics Guidance Panel Fix</KebabTweaks.Patch.RimatomicsGuidancePanelFix>
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>Исправляет панель исследований Rimatomics для проектов без иконок разблокировок (Guidance System): рисуются шаги и кнопки, прекращается спам BeginScrollView/EndScrollView.</KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>
+
+  <KebabTweaks.Patch.ToggleableReadoutsGuiFix>Фикс списка ресурсов</KebabTweaks.Patch.ToggleableReadoutsGuiFix>
+  <KebabTweaks.Patch.ToggleableReadoutsGuiFix.Tooltip>На RimWorld 1.7 список ресурсов справа на карте перестаёт рисоваться каждый кадр, и остальной интерфейс этого кадра не дорисовывается. Фикс снова рисует список, его иконки и кнопки категорий.</KebabTweaks.Patch.ToggleableReadoutsGuiFix.Tooltip>
 
   <KebabTweaks.Patch.BurnWeaponBillFix>Burn Weapon Bill Fix</KebabTweaks.Patch.BurnWeaponBillFix>
   <KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>Задания «сжечь оружие», «сжечь одежду» и «сжечь наркотики» на горне, крематории, костре или яме для сжигания могут висеть без работы, даже если вещи на складе и радиус поиска задан. Фильтр эти вещи всё равно показывает. Красное число ингредиентов рядом с объёмом работ считает складские материалы и не учитывает оружие; из‑за него задание не считается пустым. Фикс даёт колонистам, которые уже работают на этих постройках, брать задания на сжигание.</KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>

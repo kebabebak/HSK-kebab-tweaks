@@ -78,6 +78,13 @@
   <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown Patch</KebabTweaks.Patch.IdleWorkSearchCooldown>
   <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>After a colonist finds no work, delays the next full JobGiver_Work scan for the configured tick count (0–100000). Minimum interval after a failed scan; vanilla wander timing (~125–200 ticks) still applies. Reduces TPS loss from idle pawns repeatedly scanning all work priorities.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
 
+  <KebabTweaks.Patch.ParanoidPerfectionist>Paranoid Perfectionist Patch</KebabTweaks.Patch.ParanoidPerfectionist>
+  <KebabTweaks.Patch.ParanoidPerfectionist.Tooltip>When the same error is reported again and again, the mod behind it is switched off for the next launch. This session keeps going. A yellow warning is written to the log. The base game, its expansions, Core SK, Combat Extended, Harmony, and HugsLib stay on. A single error, or many different errors, does not switch a mod off.</KebabTweaks.Patch.ParanoidPerfectionist.Tooltip>
+  <ParanoidPerfectionist.CatchCritical>Catch and disable critical incompatibilities</ParanoidPerfectionist.CatchCritical>
+  <ParanoidPerfectionist.CatchCriticalTooltip>After the same exception is reported 20 times in a row, that mod is switched off for the next launch.</ParanoidPerfectionist.CatchCriticalTooltip>
+  <ParanoidPerfectionist.CatchAny>Catch and disable any mod that causes an error</ParanoidPerfectionist.CatchAny>
+  <ParanoidPerfectionist.CatchAnyTooltip>After the same error is reported 8 times in a row, that mod is switched off for the next launch. One error leaves the mod on.</ParanoidPerfectionist.CatchAnyTooltip>
+
   <KebabTweaks.Patch.PtgMedicalCare>PTG Medical Care Fix</KebabTweaks.Patch.PtgMedicalCare>
   <KebabTweaks.Patch.PtgMedicalCare.Tooltip>Fixes MedicalCare header IndexOutOfRange with extended medicine.</KebabTweaks.Patch.PtgMedicalCare.Tooltip>
 
@@ -162,6 +169,9 @@
 
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix>Rimatomics Guidance Panel Fix</KebabTweaks.Patch.RimatomicsGuidancePanelFix>
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>Fixes the Rimatomics research panel when a project has no unlock icons (Guidance System), so the panel draws steps and buttons and stops BeginScrollView/EndScrollView errors.</KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>
+
+  <KebabTweaks.Patch.ToggleableReadoutsGuiFix>Resource Readout Fix</KebabTweaks.Patch.ToggleableReadoutsGuiFix>
+  <KebabTweaks.Patch.ToggleableReadoutsGuiFix.Tooltip>On RimWorld 1.7 the resource list on the right side of the map stops drawing every frame, so the rest of that frame does not finish. The fix draws the list, its icons, and its category buttons again.</KebabTweaks.Patch.ToggleableReadoutsGuiFix.Tooltip>
 
   <KebabTweaks.Patch.BurnWeaponBillFix>Burn Weapon Bill Fix</KebabTweaks.Patch.BurnWeaponBillFix>
   <KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>Burn weapon, burn apparel, and burn drugs bills on a kiln, crematorium, campfire, or burn pit can sit unused even when the items are in storage and the search radius is set. The filter still lists those items. A red ingredient number next to work amount counts warehouse materials and ignores weapons; it does not mean the job cannot start. The fix lets the colonists who already work those buildings take the burn jobs.</KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>
