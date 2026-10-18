@@ -480,4 +480,7 @@
   <TradeCaravanLordFixPatch.EnableLogging>Enable logging</TradeCaravanLordFixPatch.EnableLogging>
   <TradeCaravanLordFixPatch.EnableLoggingTooltip>Write detailed diagnostics to Player.log (prefix [TradeCaravanLordFixPatch]).</TradeCaravanLordFixPatch.EnableLoggingTooltip>
 
+  <KebabTweaks.Patch.ArchitectInfoBoxFpsFix>Architect Info Box Frame Rate Fix</KebabTweaks.Patch.ArchitectInfoBoxFpsFix>
+  <KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>Selecting a building with a long description can make the game draw fewer frames while that building stays selected. The shortened description stays the same.</KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>
+
 </LanguageData>

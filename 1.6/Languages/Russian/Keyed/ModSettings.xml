@@ -148,6 +148,9 @@
   <KebabTweaks.Patch.StratumSolarRoofEnergyTabFix>Stratum Solar Roof Energy Tab Fix</KebabTweaks.Patch.StratumSolarRoofEnergyTabFix>
   <KebabTweaks.Patch.StratumSolarRoofEnergyTabFix.Tooltip>Вкладка энергии считает выработку только по зданиям. Солнечная крыша Stratum заряжает батареи, но это не учитывается в списке. Фикс добавляет крыши одной строкой выработки.</KebabTweaks.Patch.StratumSolarRoofEnergyTabFix.Tooltip>
 
+  <KebabTweaks.Patch.ArchitectInfoBoxFpsFix>Architect Info Box Frame Rate Fix</KebabTweaks.Patch.ArchitectInfoBoxFpsFix>
+  <KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>Выбор постройки с длинным описанием может снизить число кадров, пока эта постройка выбрана. Укороченное описание остаётся тем же.</KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>
+
   <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
   <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>В ярком или тёмном освещении колонисты получают эффект, который влияет на зрение - не действует на Андроидов. Этот патч позволяет Андроидам получать эффекты от освещения.\n\nОтключите, если считаете, что зрение у Андроидов должно отличаться от органических рас.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
 

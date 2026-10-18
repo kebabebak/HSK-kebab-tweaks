@@ -148,6 +148,9 @@
   <KebabTweaks.Patch.StratumSolarRoofEnergyTabFix>Stratum Solar Roof Energy Tab Fix</KebabTweaks.Patch.StratumSolarRoofEnergyTabFix>
   <KebabTweaks.Patch.StratumSolarRoofEnergyTabFix.Tooltip>The Energy tab lists generation from buildings only. Stratum solar roof charges batteries, but that is not counted in the list. This fix adds the roofs as one generation row.</KebabTweaks.Patch.StratumSolarRoofEnergyTabFix.Tooltip>
 
+  <KebabTweaks.Patch.ArchitectInfoBoxFpsFix>Architect Info Box Frame Rate Fix</KebabTweaks.Patch.ArchitectInfoBoxFpsFix>
+  <KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>Selecting a building with a long description can make the game draw fewer frames while that building stays selected. The shortened description stays the same.</KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>
+
   <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
   <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>In bright or dark lighting, colonists get an effect that changes sight - it does not apply to Androids. This patch lets Androids receive lighting effects.\n\nTurn this off if you think Android sight should differ from organic races.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
 

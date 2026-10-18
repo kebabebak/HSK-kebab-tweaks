@@ -480,4 +480,7 @@
   <TradeCaravanLordFixPatch.EnableLogging>Включить логирование</TradeCaravanLordFixPatch.EnableLogging>
   <TradeCaravanLordFixPatch.EnableLoggingTooltip>Записывать подробную диагностику в Player.log (префикс [TradeCaravanLordFixPatch]).</TradeCaravanLordFixPatch.EnableLoggingTooltip>
 
+  <KebabTweaks.Patch.ArchitectInfoBoxFpsFix>Architect Info Box Frame Rate Fix</KebabTweaks.Patch.ArchitectInfoBoxFpsFix>
+  <KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>Выбор постройки с длинным описанием может снизить число кадров, пока эта постройка выбрана. Укороченное описание остаётся тем же.</KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>
+
 </LanguageData>
