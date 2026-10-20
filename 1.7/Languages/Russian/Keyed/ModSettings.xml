@@ -151,8 +151,17 @@
   <KebabTweaks.Patch.ArchitectInfoBoxFpsFix>Architect Info Box Frame Rate Fix</KebabTweaks.Patch.ArchitectInfoBoxFpsFix>
   <KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>Выбор постройки с длинным описанием может снизить число кадров, пока эта постройка выбрана. Укороченное описание остаётся тем же.</KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>
 
+  <KebabTweaks.Patch.RimatomicsHelFpsFix>High-Energy Laser Frame Rate Fix</KebabTweaks.Patch.RimatomicsHelFpsFix>
+  <KebabTweaks.Patch.RimatomicsHelFpsFix.Tooltip>Включённый высокоэнергетический лазер может оставлять колонию медленной, даже когда небо пустое. Миномётные снаряды, метеоры и стальной дождь он по-прежнему сбивает.</KebabTweaks.Patch.RimatomicsHelFpsFix.Tooltip>
+
   <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
   <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>В ярком или тёмном освещении колонисты получают эффект, который влияет на зрение - не действует на Андроидов. Этот патч позволяет Андроидам получать эффекты от освещения.\n\nОтключите, если считаете, что зрение у Андроидов должно отличаться от органических рас.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
+
+  <KebabTweaks.Patch.ArchitectSearchResearch>Architect Search Patch</KebabTweaks.Patch.ArchitectSearchResearch>
+  <KebabTweaks.Patch.ArchitectSearchResearch.Tooltip>Поиск архитектора подсвечивает вкладку только если в ней есть проект, который вы видите. Проект не находится поиском, пока его исследование не закрыто. В режиме разработчика и в режиме бога находятся все проекты.</KebabTweaks.Patch.ArchitectSearchResearch.Tooltip>
+
+  <KebabTweaks.Patch.MonumentMaterialOnMap>Monument Material Patch</KebabTweaks.Patch.MonumentMaterialOnMap>
+  <KebabTweaks.Patch.MonumentMaterialOnMap.Tooltip>При выборе материалов монумента пол или материал скрывается, если каждого нужного предмета на карте нет совсем. Если есть хотя бы один из нужных предметов, вариант остаётся в списке, даже когда этого не хватает на одну клетку.</KebabTweaks.Patch.MonumentMaterialOnMap.Tooltip>
 
   <KebabTweaks.CompatibilityPatches>Патчи совместимости</KebabTweaks.CompatibilityPatches>
   <KebabTweaks.Patch.WikiRim>ComP: [O21] WikiRim (Continued)</KebabTweaks.Patch.WikiRim>
@@ -173,8 +182,17 @@
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix>Rimatomics Guidance Panel Fix</KebabTweaks.Patch.RimatomicsGuidancePanelFix>
   <KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>Исправляет панель исследований Rimatomics для проектов без иконок разблокировок (Guidance System): рисуются шаги и кнопки, прекращается спам BeginScrollView/EndScrollView.</KebabTweaks.Patch.RimatomicsGuidancePanelFix.Tooltip>
 
-  <KebabTweaks.Patch.ToggleableReadoutsGuiFix>Фикс списка ресурсов</KebabTweaks.Patch.ToggleableReadoutsGuiFix>
+  <KebabTweaks.Patch.ToggleableReadoutsGuiFix>Resource Readout Fix</KebabTweaks.Patch.ToggleableReadoutsGuiFix>
   <KebabTweaks.Patch.ToggleableReadoutsGuiFix.Tooltip>На RimWorld 1.7 список ресурсов справа на карте перестаёт рисоваться каждый кадр, и остальной интерфейс этого кадра не дорисовывается. Фикс снова рисует список, его иконки и кнопки категорий.</KebabTweaks.Patch.ToggleableReadoutsGuiFix.Tooltip>
+
+  <KebabTweaks.Patch.DiseaseComplicationFix>Disease Complication Fix</KebabTweaks.Patch.DiseaseComplicationFix>
+  <KebabTweaks.Patch.DiseaseComplicationFix.Tooltip>Тяжёлый грипп, чума, малярия, сонная болезнь или раневая инфекция не переходят в пневмонию, сепсис и отёк лёгких. Фикс позволяет этим осложнениям появиться, когда болезнь уже достаточно сильная.</KebabTweaks.Patch.DiseaseComplicationFix.Tooltip>
+
+  <KebabTweaks.Patch.TraitGainFix>Trait Gain Fix</KebabTweaks.Patch.TraitGainFix>
+  <KebabTweaks.Patch.TraitGainFix.Tooltip>Человеческое мясо не делало поселенца каннибалом, долгое хорошее или плохое настроение не меняло характер, и случайная черта не появлялась. С этим фиксом такие черты снова могут появиться, и колония получает письмо, когда это случается.</KebabTweaks.Patch.TraitGainFix.Tooltip>
+
+  <KebabTweaks.Patch.SoldPawnExitGoodwillFix>Sold Prisoner Relations Fix</KebabTweaks.Patch.SoldPawnExitGoodwillFix>
+  <KebabTweaks.Patch.SoldPawnExitGoodwillFix.Tooltip>Вылеченный пленник, проданный торговцу, всё ещё повышает отношения с фракцией торговца, когда этот караван уходит с карты. Сборщик подати по-прежнему даёт честь за пленника. Этот фикс убирает эту лишнюю прибавку к отношениям. Отпуск пленника по-прежнему повышает отношения с фракцией пленника.</KebabTweaks.Patch.SoldPawnExitGoodwillFix.Tooltip>
 
   <KebabTweaks.Patch.BurnWeaponBillFix>Burn Weapon Bill Fix</KebabTweaks.Patch.BurnWeaponBillFix>
   <KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>Задания «сжечь оружие», «сжечь одежду» и «сжечь наркотики» на горне, крематории, костре или яме для сжигания могут висеть без работы, даже если вещи на складе и радиус поиска задан. Фильтр эти вещи всё равно показывает. Красное число ингредиентов рядом с объёмом работ считает складские материалы и не учитывает оружие; из‑за него задание не считается пустым. Фикс даёт колонистам, которые уже работают на этих постройках, брать задания на сжигание.</KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>

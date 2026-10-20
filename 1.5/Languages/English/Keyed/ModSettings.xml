@@ -145,6 +145,12 @@
   <KebabTweaks.Patch.AndroidEnlightenFix>Android Lighting Environment Patch</KebabTweaks.Patch.AndroidEnlightenFix>
   <KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>In bright or dark lighting, colonists get an effect that changes sight - it does not apply to Androids. This patch lets Androids receive lighting effects.\n\nTurn this off if you think Android sight should differ from organic races.</KebabTweaks.Patch.AndroidEnlightenFix.Tooltip>
 
+  <KebabTweaks.Patch.ArchitectSearchResearch>Architect Search Patch</KebabTweaks.Patch.ArchitectSearchResearch>
+  <KebabTweaks.Patch.ArchitectSearchResearch.Tooltip>Architect search highlights a category only when a project you can see is in it. A project stays out of the search until its research is finished. Developer mode and god mode still find every project.</KebabTweaks.Patch.ArchitectSearchResearch.Tooltip>
+
+  <KebabTweaks.Patch.MonumentMaterialOnMap>Monument Material Patch</KebabTweaks.Patch.MonumentMaterialOnMap>
+  <KebabTweaks.Patch.MonumentMaterialOnMap.Tooltip>When you choose materials for a monument, a floor or material is hidden if every item it needs is missing from the map. If you have at least one of any required item, it stays in the list, even when that is not enough to finish one tile.</KebabTweaks.Patch.MonumentMaterialOnMap.Tooltip>
+
   <KebabTweaks.CompatibilityPatches>Compatibility patches</KebabTweaks.CompatibilityPatches>
   <KebabTweaks.Patch.WikiRim>ComP: [O21] WikiRim (Continued)</KebabTweaks.Patch.WikiRim>
   <KebabTweaks.Patch.WikiRim.PackageSuffix>Mlie.WikiRim</KebabTweaks.Patch.WikiRim.PackageSuffix>
@@ -166,6 +172,15 @@
 
   <KebabTweaks.Patch.ToggleableReadoutsGuiFix>Resource Readout Fix</KebabTweaks.Patch.ToggleableReadoutsGuiFix>
   <KebabTweaks.Patch.ToggleableReadoutsGuiFix.Tooltip>On RimWorld 1.7 the resource list on the right side of the map stops drawing every frame, so the rest of that frame does not finish. The fix draws the list, its icons, and its category buttons again.</KebabTweaks.Patch.ToggleableReadoutsGuiFix.Tooltip>
+
+  <KebabTweaks.Patch.DiseaseComplicationFix>Disease Complication Fix</KebabTweaks.Patch.DiseaseComplicationFix>
+  <KebabTweaks.Patch.DiseaseComplicationFix.Tooltip>A bad case of flu, plague, malaria, sleeping sickness, or wound infection never develops its later complications, such as pneumonia, sepsis, or fluid in the lungs. The fix lets those complications appear once the disease is severe enough.</KebabTweaks.Patch.DiseaseComplicationFix.Tooltip>
+
+  <KebabTweaks.Patch.TraitGainFix>Trait Gain Fix</KebabTweaks.Patch.TraitGainFix>
+  <KebabTweaks.Patch.TraitGainFix.Tooltip>Eating human meat never made a colonist a cannibal, a long good or bad mood never changed temperament, and a random trait never showed up. With this on, those traits can appear again, and the colony gets a letter when one does.</KebabTweaks.Patch.TraitGainFix.Tooltip>
+
+  <KebabTweaks.Patch.SoldPawnExitGoodwillFix>Sold Prisoner Relations Fix</KebabTweaks.Patch.SoldPawnExitGoodwillFix>
+  <KebabTweaks.Patch.SoldPawnExitGoodwillFix.Tooltip>A treated prisoner sold to a trader still improves relations with the trader's faction when that caravan leaves the map. The tribute collector still pays honor for the prisoner. This fix stops that extra relations gain. Releasing a prisoner still improves relations with the prisoner's faction.</KebabTweaks.Patch.SoldPawnExitGoodwillFix.Tooltip>
 
   <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Lets haulers (including cargo drones) finish fermenter fills when they can carry more than the bill needs. With Carry only the bill amount on, extra stays in the stockpile it was taken from. With it off, extra is left on the ground by the fermenter. Without the fix the hauler walks up, does nothing, and tries again.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>
@@ -482,5 +497,8 @@
 
   <KebabTweaks.Patch.ArchitectInfoBoxFpsFix>Architect Info Box Frame Rate Fix</KebabTweaks.Patch.ArchitectInfoBoxFpsFix>
   <KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>Selecting a building with a long description can make the game draw fewer frames while that building stays selected. The shortened description stays the same.</KebabTweaks.Patch.ArchitectInfoBoxFpsFix.Tooltip>
+
+  <KebabTweaks.Patch.RimatomicsHelFpsFix>High-Energy Laser Frame Rate Fix</KebabTweaks.Patch.RimatomicsHelFpsFix>
+  <KebabTweaks.Patch.RimatomicsHelFpsFix.Tooltip>A powered high-energy laser can leave the colony slow even when the sky is empty. It still shoots down mortar shells, meteors, and razor rain.</KebabTweaks.Patch.RimatomicsHelFpsFix.Tooltip>
 
 </LanguageData>
