@@ -158,6 +158,13 @@
   <KebabTweaks.WikiRim.MultilingualSearch>Enable multilingual search</KebabTweaks.WikiRim.MultilingualSearch>
   <KebabTweaks.WikiRim.MultilingualSearch.Tooltip>The WikiRim search field finds the element by both an English and a Russian character.</KebabTweaks.WikiRim.MultilingualSearch.Tooltip>
 
+  <KebabTweaks.Patch.CombatExtended>Leave Idle Gun Patch</KebabTweaks.Patch.CombatExtended>
+  <KebabTweaks.Patch.CombatExtended.Tooltip>If a colonist is given the order "Man" on a gun, they do not leave it until that order is cancelled. If this patch is on, the colonist can leave on their own when all of these are true:
+1. The gun finds no target by the end of the delay.
+2. The colonist is not drafted.
+3. Hold fire is not active on the gun.</KebabTweaks.Patch.CombatExtended.Tooltip>
+  <KebabTweaks.CombatExtended.LeaveGun>Delay before leaving</KebabTweaks.CombatExtended.LeaveGun>
+
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Stops Map Preview false accuracy Errors when the HSK 1.6 Alpha vanilla RNG baseline drifts, and keeps preview SkipIterations in sync with the measured value.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
 
@@ -181,6 +188,11 @@
 
   <KebabTweaks.Patch.SoldPawnExitGoodwillFix>Sold Prisoner Relations Fix</KebabTweaks.Patch.SoldPawnExitGoodwillFix>
   <KebabTweaks.Patch.SoldPawnExitGoodwillFix.Tooltip>A treated prisoner sold to a trader still improves relations with the trader's faction when that caravan leaves the map. The tribute collector still pays honor for the prisoner. This fix stops that extra relations gain. Releasing a prisoner still improves relations with the prisoner's faction.</KebabTweaks.Patch.SoldPawnExitGoodwillFix.Tooltip>
+
+  <KebabTweaks.Patch.FactionBombardmentOneSideFix>Faction Bombardment One Side</KebabTweaks.Patch.FactionBombardmentOneSideFix>
+  <KebabTweaks.Patch.FactionBombardmentOneSideFix.Tooltip>A faction shelling site or a faction fight site can start with only one side. That side then clears the field and leaves. With this on, an empty side is filled from another group that can still spawn, and a site that still has only one side is removed. A camp held by one faction is unchanged.</KebabTweaks.Patch.FactionBombardmentOneSideFix.Tooltip>
+  <KebabTweaks.Patch.TurretUndraftLastShotFix>Turret Undraft Last Shot Fix</KebabTweaks.Patch.TurretUndraftLastShotFix>
+  <KebabTweaks.Patch.TurretUndraftLastShotFix.Tooltip>A manned gun that is already aiming does not release that shot when the colonist stops manning it or when Hold fire is on. While someone is still manning the gun, the shot still happens. A gun with nobody manning it is unchanged.</KebabTweaks.Patch.TurretUndraftLastShotFix.Tooltip>
 
   <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Lets haulers (including cargo drones) finish fermenter fills when they can carry more than the bill needs. With Carry only the bill amount on, extra stays in the stockpile it was taken from. With it off, extra is left on the ground by the fermenter. Without the fix the hauler walks up, does nothing, and tries again.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>
@@ -257,6 +269,7 @@
   <KebabSwitches.LettersHeader>Notifications (right-side envelope feed)</KebabSwitches.LettersHeader>
   <KebabSwitches.AlertsHeader>Alerts (right-side HUD list)</KebabSwitches.AlertsHeader>
   <KebabSwitches.IgnoreAlert>Ignore "{QUOTE}"</KebabSwitches.IgnoreAlert>
+  <KebabSwitches.ToolNeed.Tooltip>This work does not count toward "Colonists lack tools". The alert still appears when a tool you did not ignore is missing.</KebabSwitches.ToolNeed.Tooltip>
   <KebabSwitches.IgnoreLetter>Ignore "{QUOTE}"</KebabSwitches.IgnoreLetter>
   <KebabSwitches.SurgeryFailedLetterQuote>Surgery failed</KebabSwitches.SurgeryFailedLetterQuote>
   <KebabSwitches.LetterQuote.BladelinkWeaponBondedLabel>Bladelink weapon bond</KebabSwitches.LetterQuote.BladelinkWeaponBondedLabel>
@@ -450,6 +463,9 @@
   <KebabSwitches.LetterQuote.RevenantSeenLabel>Revenant seen</KebabSwitches.LetterQuote.RevenantSeenLabel>
   <KebabSwitches.LetterQuote.SurgicallyInspectedLabel>Surgical inspection results</KebabSwitches.LetterQuote.SurgicallyInspectedLabel>
   <KebabSwitches.LetterQuote.UnnaturalHealingLabel>Unnatural healing</KebabSwitches.LetterQuote.UnnaturalHealingLabel>
+  <KebabSwitches.LetterQuote.Accident>Accident</KebabSwitches.LetterQuote.Accident>
+  <KebabSwitches.LetterQuote.FallenMonolith>Fallen monolith</KebabSwitches.LetterQuote.FallenMonolith>
+  <KebabSwitches.LetterQuote.StorytellerFrenzy>{0} frenzy</KebabSwitches.LetterQuote.StorytellerFrenzy>
 
 
   <CatCrazyTimePatch.EnableLogging>Enable logging</CatCrazyTimePatch.EnableLogging>

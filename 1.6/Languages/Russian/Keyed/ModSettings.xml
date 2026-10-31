@@ -170,6 +170,13 @@
   <KebabTweaks.WikiRim.MultilingualSearch>Включить мультиязыковой поиск</KebabTweaks.WikiRim.MultilingualSearch>
   <KebabTweaks.WikiRim.MultilingualSearch.Tooltip>Поле поиска WikiRim находит элемент и по английскому, и по русскому символу.</KebabTweaks.WikiRim.MultilingualSearch.Tooltip>
 
+  <KebabTweaks.Patch.CombatExtended>Leave Idle Gun Patch</KebabTweaks.Patch.CombatExtended>
+  <KebabTweaks.Patch.CombatExtended.Tooltip>Если колонисту назначен приказ «Занять» на орудие, то он не уходит с него без обратного приказа. Если этот патч включён, тогда колонист может уйти самостоятельно, если следующие условия выполнены:
+1. Орудие не находит цель по истечении задержки.
+2. Колонист не в режиме призыва игроком.
+3. На орудии не активен приказ «Остановить огонь».</KebabTweaks.Patch.CombatExtended.Tooltip>
+  <KebabTweaks.CombatExtended.LeaveGun>Задержка перед уходом</KebabTweaks.CombatExtended.LeaveGun>
+
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Убирает ложные Error точности Map Preview при плавающем vanilla RNG baseline HSK 1.6 Alpha и синхронизирует SkipIterations превью с измеренным значением.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
 
@@ -193,6 +200,11 @@
 
   <KebabTweaks.Patch.SoldPawnExitGoodwillFix>Sold Prisoner Relations Fix</KebabTweaks.Patch.SoldPawnExitGoodwillFix>
   <KebabTweaks.Patch.SoldPawnExitGoodwillFix.Tooltip>Вылеченный пленник, проданный торговцу, всё ещё повышает отношения с фракцией торговца, когда этот караван уходит с карты. Сборщик подати по-прежнему даёт честь за пленника. Этот фикс убирает эту лишнюю прибавку к отношениям. Отпуск пленника по-прежнему повышает отношения с фракцией пленника.</KebabTweaks.Patch.SoldPawnExitGoodwillFix.Tooltip>
+
+  <KebabTweaks.Patch.FactionBombardmentOneSideFix>Faction Bombardment One Side</KebabTweaks.Patch.FactionBombardmentOneSideFix>
+  <KebabTweaks.Patch.FactionBombardmentOneSideFix.Tooltip>Точка обстрела фракций или точка их боя может начаться только с одной стороны. Эта сторона зачищает поле и уходит. С этим фиксом пустая сторона добирается из другой группы, которая ещё может появиться, а точка, где сторона всё равно одна, убирается. Лагерь одной фракции не меняется.</KebabTweaks.Patch.FactionBombardmentOneSideFix.Tooltip>
+  <KebabTweaks.Patch.TurretUndraftLastShotFix>Turret Undraft Last Shot Fix</KebabTweaks.Patch.TurretUndraftLastShotFix>
+  <KebabTweaks.Patch.TurretUndraftLastShotFix.Tooltip>Обитаемое орудие, которое уже целится, не выпускает этот выстрел, когда колонист перестаёт его обслуживать или когда включена «Остановить огонь». Пока за орудием кто-то ещё сидит, выстрел всё равно происходит. Орудие без расчёта не меняется.</KebabTweaks.Patch.TurretUndraftLastShotFix.Tooltip>
 
   <KebabTweaks.Patch.BurnWeaponBillFix>Burn Weapon Bill Fix</KebabTweaks.Patch.BurnWeaponBillFix>
   <KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>Задания «сжечь оружие», «сжечь одежду» и «сжечь наркотики» на горне, крематории, костре или яме для сжигания могут висеть без работы, даже если вещи на складе и радиус поиска задан. Фильтр эти вещи всё равно показывает. Красное число ингредиентов рядом с объёмом работ считает складские материалы и не учитывает оружие; из‑за него задание не считается пустым. Фикс даёт колонистам, которые уже работают на этих постройках, брать задания на сжигание.</KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>
@@ -280,6 +292,7 @@
   <KebabSwitches.LettersHeader>Оповещения (лента справа)</KebabSwitches.LettersHeader>
   <KebabSwitches.AlertsHeader>Оповещения (список справа на HUD)</KebabSwitches.AlertsHeader>
   <KebabSwitches.IgnoreAlert>Игнорировать «{QUOTE}»</KebabSwitches.IgnoreAlert>
+  <KebabSwitches.ToolNeed.Tooltip>Эта работа не учитывается в «Поселенцы нуждаются в инструменте». Оповещение остаётся, если не хватает инструмента, который не отмечен.</KebabSwitches.ToolNeed.Tooltip>
   <KebabSwitches.IgnoreLetter>Игнорировать "{QUOTE}"</KebabSwitches.IgnoreLetter>
   <KebabSwitches.SurgeryFailedLetterQuote>Провал операции</KebabSwitches.SurgeryFailedLetterQuote>
   <KebabSwitches.LetterQuote.BladelinkWeaponBondedLabel>Связь с клинковым оружием</KebabSwitches.LetterQuote.BladelinkWeaponBondedLabel>
@@ -473,6 +486,9 @@
   <KebabSwitches.LetterQuote.RevenantSeenLabel>Revenant seen</KebabSwitches.LetterQuote.RevenantSeenLabel>
   <KebabSwitches.LetterQuote.SurgicallyInspectedLabel>Surgical inspection results</KebabSwitches.LetterQuote.SurgicallyInspectedLabel>
   <KebabSwitches.LetterQuote.UnnaturalHealingLabel>Неестественное исцеление</KebabSwitches.LetterQuote.UnnaturalHealingLabel>
+  <KebabSwitches.LetterQuote.Accident>Инцидент</KebabSwitches.LetterQuote.Accident>
+  <KebabSwitches.LetterQuote.FallenMonolith>Упавший монолит</KebabSwitches.LetterQuote.FallenMonolith>
+  <KebabSwitches.LetterQuote.StorytellerFrenzy>{0} в ярости</KebabSwitches.LetterQuote.StorytellerFrenzy>
   <KebabSwitches.LetterQuote.AncientGravEngineDiscoveredLabel>Древний гравидвигатель</KebabSwitches.LetterQuote.AncientGravEngineDiscoveredLabel>
   <KebabSwitches.LetterQuote.OdysseyTurretDisabled>Турель отключена</KebabSwitches.LetterQuote.OdysseyTurretDisabled>
   <KebabSwitches.LetterQuote.OdysseyBlastDoorOpened>Бронированная дверь открыта</KebabSwitches.LetterQuote.OdysseyBlastDoorOpened>
