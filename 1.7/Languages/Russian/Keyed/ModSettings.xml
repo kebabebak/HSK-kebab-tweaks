@@ -73,7 +73,7 @@
   <KebabTweaks.Patch.LowTpsPawnDump.Tooltip>Пишет в лог задачи пешек, когда экранный TPS HSK падает ниже порога.</KebabTweaks.Patch.LowTpsPawnDump.Tooltip>
 
   <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown Patch</KebabTweaks.Patch.IdleWorkSearchCooldown>
-  <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>После неудачного поиска работы откладывает следующий полный JobGiver_Work scan на заданное число тиков (0–100000). Минимальный интервал после неудачного scan; vanilla wander (~125–200 тиков) всё равно задаёт частоту think tree. Снижает падение TPS от idle-пешек, которые снова и снова обходят все приоритеты Work tab.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
+  <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>Незанятые пешки снова и снова ищут, чем заняться. Если им нечего делать, игра из-за этого начинает тормозить. Патч заставляет их подождать заданное число тиков (0-100000) и только потом искать снова. Пока они ждут, они ходят по карте. Чем больше число, тем реже такие поиски и тем ровнее идёт игра.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
 
   <KebabTweaks.Patch.ParanoidPerfectionist>Paranoid Perfectionist Patch</KebabTweaks.Patch.ParanoidPerfectionist>
   <KebabTweaks.Patch.ParanoidPerfectionist.Tooltip>Когда одна и та же ошибка повторяется снова и снова, мод, из-за которого она возникает, выключается к следующему запуску. Текущая сессия продолжается. В лог пишется жёлтое предупреждение. Базовая игра, её дополнения, Core SK, Combat Extended, Harmony и HugsLib остаются включены. Одна ошибка или много разных ошибок мод не выключают.</KebabTweaks.Patch.ParanoidPerfectionist.Tooltip>
@@ -113,9 +113,6 @@
 
   <KebabTweaks.Patch.BillRenamePrefill>Bill Rename Prefill Patch</KebabTweaks.Patch.BillRenamePrefill>
   <KebabTweaks.Patch.BillRenamePrefill.Tooltip>Подставляет текущее имя работы в диалог переименования Better Workbench Management и выделяет весь текст.</KebabTweaks.Patch.BillRenamePrefill.Tooltip>
-
-  <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log Patch</KebabTweaks.Patch.RecipeProductDropLostLog>
-  <KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>Ведёт учёт пропавших предметов при «could not drop recipe product» в KebabTweaks/RecipeProductDropLost.log.</KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>
 
   <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default Patch</KebabTweaks.Patch.NumbersLoadDefaultFallback>
   <KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>Во вкладке «Цифры» пункт «Шаблоны» → «Загрузить шаблон по умолчанию» восстанавливает набор колонок со старта игры, если для этого типа пешек ещё нет сохранённого шаблона по умолчанию. Если уже выбран «Установить текущий шаблон по умолчанию», загружается он.</KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>
@@ -171,11 +168,15 @@
   <KebabTweaks.WikiRim.MultilingualSearch.Tooltip>Поле поиска WikiRim находит элемент и по английскому, и по русскому символу.</KebabTweaks.WikiRim.MultilingualSearch.Tooltip>
 
   <KebabTweaks.Patch.CombatExtended>Leave Idle Gun Patch</KebabTweaks.Patch.CombatExtended>
-  <KebabTweaks.Patch.CombatExtended.Tooltip>Если колонисту назначен приказ «Занять» на орудие, то он не уходит с него без обратного приказа. Если этот патч включён, тогда колонист может уйти самостоятельно, если следующие условия выполнены:
+  <KebabTweaks.Patch.CombatExtended.Tooltip>Ванильное поведение: Если колонисту назначен приказ «Занять» на орудие, то он не уходит с него без обратного приказа.
+
+Если этот патч включён, тогда колонист может уйти самостоятельно, если следующие условия выполнены:
 1. Орудие не находит цель по истечении задержки.
 2. Колонист не в режиме призыва игроком.
 3. На орудии не активен приказ «Остановить огонь».</KebabTweaks.Patch.CombatExtended.Tooltip>
   <KebabTweaks.CombatExtended.LeaveGun>Задержка перед уходом</KebabTweaks.CombatExtended.LeaveGun>
+  <KebabTweaks.CombatExtended.IgnoreHoldFire>Игнорировать «Остановить огонь»</KebabTweaks.CombatExtended.IgnoreHoldFire>
+  <KebabTweaks.CombatExtended.IgnoreHoldFire.Tooltip>Отключает условие "3. На орудии не активен приказ «Остановить огонь»"</KebabTweaks.CombatExtended.IgnoreHoldFire.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Убирает ложные Error точности Map Preview при плавающем vanilla RNG baseline HSK 1.6 Alpha и синхронизирует SkipIterations превью с измеренным значением.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
@@ -205,6 +206,9 @@
   <KebabTweaks.Patch.FactionBombardmentOneSideFix.Tooltip>Точка обстрела фракций или точка их боя может начаться только с одной стороны. Эта сторона зачищает поле и уходит. С этим фиксом пустая сторона добирается из другой группы, которая ещё может появиться, а точка, где сторона всё равно одна, убирается. Лагерь одной фракции не меняется.</KebabTweaks.Patch.FactionBombardmentOneSideFix.Tooltip>
   <KebabTweaks.Patch.TurretUndraftLastShotFix>Turret Undraft Last Shot Fix</KebabTweaks.Patch.TurretUndraftLastShotFix>
   <KebabTweaks.Patch.TurretUndraftLastShotFix.Tooltip>Обитаемое орудие, которое уже целится, не выпускает этот выстрел, когда колонист перестаёт его обслуживать или когда включена «Остановить огонь». Пока за орудием кто-то ещё сидит, выстрел всё равно происходит. Орудие без расчёта не меняется.</KebabTweaks.Patch.TurretUndraftLastShotFix.Tooltip>
+
+  <KebabTweaks.Patch.HugsLibLogPathFix>Log Copy Fix</KebabTweaks.Patch.HugsLibLogPathFix>
+  <KebabTweaks.Patch.HugsLibLogPathFix.Tooltip>Копирование лога игры сообщает, что файл лога не найден, и в буфер ничего не попадает. Фикс копирует лог этой сессии.</KebabTweaks.Patch.HugsLibLogPathFix.Tooltip>
 
   <KebabTweaks.Patch.BurnWeaponBillFix>Burn Weapon Bill Fix</KebabTweaks.Patch.BurnWeaponBillFix>
   <KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>Задания «сжечь оружие», «сжечь одежду» и «сжечь наркотики» на горне, крематории, костре или яме для сжигания могут висеть без работы, даже если вещи на складе и радиус поиска задан. Фильтр эти вещи всё равно показывает. Красное число ингредиентов рядом с объёмом работ считает складские материалы и не учитывает оружие; из‑за него задание не считается пустым. Фикс даёт колонистам, которые уже работают на этих постройках, брать задания на сжигание.</KebabTweaks.Patch.BurnWeaponBillFix.Tooltip>

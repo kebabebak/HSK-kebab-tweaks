@@ -76,7 +76,7 @@
   <KebabTweaks.Patch.DrillLimit.Tooltip>Lets you set an item in “{0}” separately from “{1}” on deep drills.</KebabTweaks.Patch.DrillLimit.Tooltip>
 
   <KebabTweaks.Patch.IdleWorkSearchCooldown>Idle Work Search Cooldown Patch</KebabTweaks.Patch.IdleWorkSearchCooldown>
-  <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>After a colonist finds no work, delays the next full JobGiver_Work scan for the configured tick count (0–100000). Minimum interval after a failed scan; vanilla wander timing (~125–200 ticks) still applies. Reduces TPS loss from idle pawns repeatedly scanning all work priorities.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
+  <KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>Unoccupied pawns keep looking for something to do. When there is nothing for them to do, the game starts to stutter. The patch makes them wait the set number of ticks (0-100000) before they look again. While they wait, they still walk around the map. A longer wait means fewer of these searches and a smoother game.</KebabTweaks.Patch.IdleWorkSearchCooldown.Tooltip>
 
   <KebabTweaks.Patch.ParanoidPerfectionist>Paranoid Perfectionist Patch</KebabTweaks.Patch.ParanoidPerfectionist>
   <KebabTweaks.Patch.ParanoidPerfectionist.Tooltip>When the same error is reported again and again, the mod behind it is switched off for the next launch. This session keeps going. A yellow warning is written to the log. The base game, its expansions, Core SK, Combat Extended, Harmony, and HugsLib stay on. A single error, or many different errors, does not switch a mod off.</KebabTweaks.Patch.ParanoidPerfectionist.Tooltip>
@@ -113,9 +113,6 @@
 
   <KebabTweaks.Patch.BillRenamePrefill>Bill Rename Prefill Patch</KebabTweaks.Patch.BillRenamePrefill>
   <KebabTweaks.Patch.BillRenamePrefill.Tooltip>Prefills Better Workbench Management bill rename with the current label and selects all text.</KebabTweaks.Patch.BillRenamePrefill.Tooltip>
-
-  <KebabTweaks.Patch.RecipeProductDropLostLog>Recipe Drop Lost Log Patch</KebabTweaks.Patch.RecipeProductDropLostLog>
-  <KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>Tracks items lost to «could not drop recipe product» in KebabTweaks/RecipeProductDropLost.log.</KebabTweaks.Patch.RecipeProductDropLostLog.Tooltip>
 
   <KebabTweaks.Patch.NumbersLoadDefaultFallback>Numbers Load Default Patch</KebabTweaks.Patch.NumbersLoadDefaultFallback>
   <KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>In the Numbers tab, Presets → Load default view restores the column layout from game start when you have not saved a default for that pawn type. After you use Set current view as default, that saved layout is used instead.</KebabTweaks.Patch.NumbersLoadDefaultFallback.Tooltip>
@@ -159,11 +156,15 @@
   <KebabTweaks.WikiRim.MultilingualSearch.Tooltip>The WikiRim search field finds the element by both an English and a Russian character.</KebabTweaks.WikiRim.MultilingualSearch.Tooltip>
 
   <KebabTweaks.Patch.CombatExtended>Leave Idle Gun Patch</KebabTweaks.Patch.CombatExtended>
-  <KebabTweaks.Patch.CombatExtended.Tooltip>If a colonist is given the order "Man" on a gun, they do not leave it until that order is cancelled. If this patch is on, the colonist can leave on their own when all of these are true:
+  <KebabTweaks.Patch.CombatExtended.Tooltip>Vanilla behavior: If a colonist is given the order "Man" on a gun, they do not leave it until that order is cancelled.
+
+If this patch is on, the colonist can leave on their own when all of these are true:
 1. The gun finds no target by the end of the delay.
 2. The colonist is not drafted.
 3. Hold fire is not active on the gun.</KebabTweaks.Patch.CombatExtended.Tooltip>
   <KebabTweaks.CombatExtended.LeaveGun>Delay before leaving</KebabTweaks.CombatExtended.LeaveGun>
+  <KebabTweaks.CombatExtended.IgnoreHoldFire>Ignore "Hold fire"</KebabTweaks.CombatExtended.IgnoreHoldFire>
+  <KebabTweaks.CombatExtended.IgnoreHoldFire.Tooltip>Disables condition "3. Hold fire is not active on the gun".</KebabTweaks.CombatExtended.IgnoreHoldFire.Tooltip>
 
   <KebabTweaks.Patch.MapPreviewRngBaselineFix>Map Preview RNG Baseline Fix</KebabTweaks.Patch.MapPreviewRngBaselineFix>
   <KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>Stops Map Preview false accuracy Errors when the HSK 1.6 Alpha vanilla RNG baseline drifts, and keeps preview SkipIterations in sync with the measured value.</KebabTweaks.Patch.MapPreviewRngBaselineFix.Tooltip>
@@ -193,6 +194,9 @@
   <KebabTweaks.Patch.FactionBombardmentOneSideFix.Tooltip>A faction shelling site or a faction fight site can start with only one side. That side then clears the field and leaves. With this on, an empty side is filled from another group that can still spawn, and a site that still has only one side is removed. A camp held by one faction is unchanged.</KebabTweaks.Patch.FactionBombardmentOneSideFix.Tooltip>
   <KebabTweaks.Patch.TurretUndraftLastShotFix>Turret Undraft Last Shot Fix</KebabTweaks.Patch.TurretUndraftLastShotFix>
   <KebabTweaks.Patch.TurretUndraftLastShotFix.Tooltip>A manned gun that is already aiming does not release that shot when the colonist stops manning it or when Hold fire is on. While someone is still manning the gun, the shot still happens. A gun with nobody manning it is unchanged.</KebabTweaks.Patch.TurretUndraftLastShotFix.Tooltip>
+
+  <KebabTweaks.Patch.HugsLibLogPathFix>Log Copy Fix</KebabTweaks.Patch.HugsLibLogPathFix>
+  <KebabTweaks.Patch.HugsLibLogPathFix.Tooltip>Copying the game log says the log file is missing, and the clipboard stays empty. The fix copies the log from this session.</KebabTweaks.Patch.HugsLibLogPathFix.Tooltip>
 
   <KebabTweaks.Patch.UfFillExtraIngredientsFix>Fermenter Fill Amounts Fix</KebabTweaks.Patch.UfFillExtraIngredientsFix>
   <KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>Lets haulers (including cargo drones) finish fermenter fills when they can carry more than the bill needs. With Carry only the bill amount on, extra stays in the stockpile it was taken from. With it off, extra is left on the ground by the fermenter. Without the fix the hauler walks up, does nothing, and tries again.</KebabTweaks.Patch.UfFillExtraIngredientsFix.Tooltip>
